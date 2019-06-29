@@ -26,7 +26,7 @@ hr{
   top: 0;
   left: 0;
   background-color: white;
-  position: fixed;
+  position: fixed !important;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   z-index: 100;
@@ -47,6 +47,7 @@ hr{
   width: 100px;
   float: right;
   margin: 0px;
+  height: 100%;
 }
 
 .navbar button:hover{
@@ -65,20 +66,8 @@ nav{
   height: 100%;
 }
 
-#welcome-text{
-  position: relative;
-  color: white;
-  top: 42vh;
-  float: right;
-  font-weight: 700;
-}
-
-#welcome-text h2{
-  float: right;
-}
-
 .section{
-  height: 100vh;
+  height: 95vh;
 }
 
 .btn:focus,.btn:active {
@@ -92,72 +81,37 @@ nav{
   background-color: black;
 }
 
-#info img{
-  position: relative;
-  top: 20vh;
-  width: 100%;
+#carousel-section .item {
+  height: 100vh;
 }
 
-
-.img-hover img {
-    -webkit-transition: all .3s ease;
-  	-moz-transition: all .3s ease;
-  	-o-transition: all .3s ease;
-  	-ms-transition: all .3s ease;
-  	transition: all .3s ease;
-}
-
-.img-hover img:hover {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform:translateZ(0) scale(1.10);
-    -moz-transform:scale(1.10);
-    -ms-transform:scale(1.10);
-    -o-transform:translatZ(0) scale(1.20);
-    transform:translatZ(0) scale(1.20);
-}
-
-#map-section{
-  background:  #eceff2;
-  padding-top: 86px;
-  padding-bottom: 5vh;
-}
-
-#map-section button{
-  border-radius: 0px;
-  margin: 0px;
-  background-color: #252839;
-  color: #eceff2;
-  margin-bottom: 10px;
-  width: 100%;
-  height: 50px;
-}
-
-#college-button{
-  background-color: #f2b632;
-}
-
-#map-section button:hover{
-  color: white;
-}
-
-#map{
-  overflow: hidden;
-  width: 100%;
-  height: 80vh;
-}
-
-#map-markers-info{
-  border: 5px solid #252839;
-  padding: 10px;
+#carousel-section .item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
 
 footer{
-  background-color: #252839;
+  background-color: #E6E6E6;
   padding-bottom: 20px;
-  color: white;
-  text-align: center;
+  color: #666666;
 }
+
+#footer-second-column{
+  text-align: right;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  background-image: url("images/pidginbw.png");
+}
+
+.icon:hover{
+  background-image: url("images/pidgin_hover.png");
+}
+
 
 @media (max-width: 1015px){
   h1{
