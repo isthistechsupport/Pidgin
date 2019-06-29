@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+.container{
+  max-width: 1920px;
+  width: 80%;
+  min-width: 500px;
+}
+
+h1{
+  font-size: 500%;
+}
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid white;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar{
+  top: 0;
+  left: 0;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 100;
+  padding: 0px;
+  height: 11.2vh;
+}
+
+.navbar .container{
+  padding: 0px !important;
+  height: 100%;
+}
+
+.navbar button{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #666666;
+  background-color: white;
+  width: 100px;
+  float: right;
+  margin: 0px;
+}
+
+.navbar button:hover{
+  color: #0095E6;
+}
+
+#home-button{
+  display: block;
+  height: 100%;
+  width: auto;
+  float: left;
+}
+
+nav{
+  width: 100%;
+  height: 100%;
+}
+
+#welcome-text{
+  position: relative;
+  color: white;
+  top: 42vh;
+  float: right;
+  font-weight: 700;
+}
+
+#welcome-text h2{
+  float: right;
+}
+
+.section{
+  height: 100vh;
+}
+
+.btn:focus,.btn:active {
+  box-shadow: none;
+  outline-color: white !important;
+  background-color: white;
+  color: #0095E6;
+}
+
+#carousel-section{
+  background-color: black;
+}
+
+#info img{
+  position: relative;
+  top: 20vh;
+  width: 100%;
+}
+
+
+.img-hover img {
+    -webkit-transition: all .3s ease;
+  	-moz-transition: all .3s ease;
+  	-o-transition: all .3s ease;
+  	-ms-transition: all .3s ease;
+  	transition: all .3s ease;
+}
+
+.img-hover img:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:translatZ(0) scale(1.20);
+    transform:translatZ(0) scale(1.20);
+}
+
+#map-section{
+  background:  #eceff2;
+  padding-top: 86px;
+  padding-bottom: 5vh;
+}
+
+#map-section button{
+  border-radius: 0px;
+  margin: 0px;
+  background-color: #252839;
+  color: #eceff2;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+#college-button{
+  background-color: #f2b632;
+}
+
+#map-section button:hover{
+  color: white;
+}
+
+#map{
+  overflow: hidden;
+  width: 100%;
+  height: 80vh;
+}
+
+#map-markers-info{
+  border: 5px solid #252839;
+  padding: 10px;
+}
+
+footer{
+  background-color: #252839;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 1015px){
+  h1{
+    font-size: 300%;
+  }
+
+  h2{
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 800px){
+  .navbar nav{
+    display: none;
+  }
+
+  #info{
+    height: 1100px;
+  }
+
+   #map-section{
+    height: 800px;
+   }
+
+  #info img{
+    margin-top: 50px;
+  }
+
+  #map-section button{
+    margin-top: 10px;
+  }
+}
