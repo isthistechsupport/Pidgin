@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700&display=swap');
 
 button:focus {
   outline: 0 !important;
   box-shadow: none !important;
+}
+
+body{
+  background-color: #FAFAFA;
+}
+
+.white-space{
+  height: 11.2vh;
+  background-color: #FAFAFA;
 }
 
 .container{
@@ -45,12 +54,13 @@ h6{
 
 .navbar button{
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   color: #666666;
   background-color: white;
   width: 100px;
   float: right;
   height: 100%;
+  margin-left: 5vw;
 }
 
 .navbar button:hover{
@@ -70,7 +80,7 @@ nav{
 }
 
 .section{
-  height: 100vh;
+  height: 89vh;
 }
 
 #carousel-section{
@@ -88,11 +98,75 @@ nav{
     min-height: 300px;
 }
 
+#services-section{
+  background-color: #FAFAFA !important;
+  text-align: center;
+}
+
+#services-section h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #0095E6;
+}
+
+
+#services-section h3{
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #808080;
+}
+
+#service-card-1 .card-body{
+  background-color: #002940 ;
+}
+
+#service-card-2 .card-body{
+  background-color: #007ABA ;
+}
+
+#service-card-3 .card-body{
+  background-color: #00A6FF ;
+}
+
+.card{
+  color: white;
+  text-align: left;
+}
+
+.card h5{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.card p{
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.card a{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+}
+
+.card a:hover{
+  color: white;
+}
+
+.card .card-header{
+  background-color: black;
+  height: 17vh;
+}
+
+.card .card-body{
+  padding-top: 5vh;
+}
+
 footer{
   background-color: #E6E6E6;
   padding: 1rem;
   color: #666666;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 #footer-second-column{
