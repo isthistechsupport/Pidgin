@@ -14,6 +14,11 @@ body{
   background-color: #FAFAFA;
 }
 
+.dark-space{
+  height: 11.2vh;
+  background-color: black;
+}
+
 .container{
   max-width: 70vw !important;
 }
@@ -45,6 +50,11 @@ h6{
   z-index: 100;
   padding: 0px;
   height: 11.2vh;
+}
+
+.card{
+  box-shadow: 12px 11px 24px -6px rgba(0,0,0,0.82);
+  border-color: #E6E6E6 !important;
 }
 
 .navbar .container{
@@ -116,50 +126,92 @@ nav{
   color: #808080;
 }
 
-#service-card-1 .card-body{
-  background-color: #002940 ;
-}
-
-#service-card-2 .card-body{
-  background-color: #007ABA ;
-}
-
-#service-card-3 .card-body{
-  background-color: #00A6FF ;
-}
-
-.card{
-  color: white;
+#services-section .card{
   text-align: left;
 }
 
-.card h5{
-  font-family: "Montserrat";
-  font-weight: 700;
+#service-card-1{
+  border-color: #002940 !important;
 }
 
-.card p{
+#service-card-2{
+  border-color: #007ABA !important;
+}
+
+#service-card-3{
+  border-color: #00A6FF !important;
+}
+
+#service-card-1 .card-body{
+  background-color: #002940;
+  border-color: #002940 !important;
+}
+
+#service-card-2 .card-body{
+  background-color: #007ABA;
+  border-color: #007ABA !important;
+}
+
+#service-card-3 .card-body{
+  background-color: #00A6FF;
+  border-color: #00A6FF !important;
+}
+
+#services-section .card h5{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+}
+
+#services-section .card p{
   font-family: "Roboto";
   font-weight: 300;
+  color: white;
 }
 
-.card a{
+#services-section .card a{
   font-family: "Montserrat";
   font-weight: 700;
   color: white;
 }
 
-.card a:hover{
+#services-section .card a:hover{
   color: white;
 }
 
-.card .card-header{
+#services-section .card .card-header{
   background-color: black;
   height: 17vh;
+  border-color: black !important;
 }
 
-.card .card-body{
+#services-section .card .card-body{
   padding-top: 5vh;
+}
+
+#call-section{
+  text-align: center;
+  background-color: black !important;
+}
+
+#call-section h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+}
+
+#contact-section{
+  background-color: #FAFAFA;
+}
+
+#contact-section h2{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #808080;
+}
+
+#contact-section button{
+
 }
 
 footer{
@@ -231,6 +283,7 @@ footer button:hover{
 #icons{
   display: table;
 }
+
 
 @media (max-width: 1015px){
   h1{
