@@ -271,17 +271,56 @@ footer button:hover{
   background-image: url("images/pidgin_hover.svg");
 }
 
-.fb{
-  width: 10px;
-  height: 10px;
-  background-image: url("images/pidginbw.svg");
+#facebook{
+  width: 18px;
+  height: 18px;
+  margin: 3px !important;
+  background-image: url("images/facebook_iconbw.svg");
   background-size: 100%;
-  margin: 0px !important;
-  display: table-cell;
 }
 
-#icons{
-  display: table;
+#facebook:hover{
+  background-image: url("images/facebook_icon.svg");
+}
+
+#instagram{
+  width: 18px;
+  height: 18px;
+  margin: 3px !important;
+  background-image: url("images/instagram_iconbw.svg");
+  background-size: 100%;
+}
+
+#instagram:hover{
+  background-image: url("images/instagram_icon.svg");
+}
+
+#linkedin{
+  width: 18px;
+  height: 18px;
+  margin: 3px !important;
+  background-image: url("images/linkedin_iconbw.svg");
+  background-size: 100%;
+}
+
+#linkedin:hover{
+  background-image: url("images/linkedin_icon.svg");
+}
+
+#twitter{
+  width: 18px;
+  height: 15px;
+  margin: 3px !important;
+  background-image: url("images/twitter_iconbw.svg");
+  background-size: 100%;
+}
+
+#twitter:hover{
+  background-image: url("images/twitter_icon.svg");
+}
+
+#footer-sn-icons{
+  text-align: right;
 }
 
 
