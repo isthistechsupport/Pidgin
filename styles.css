@@ -204,6 +204,10 @@ nav{
   background-color: #FAFAFA;
 }
 
+#contact-section .card-body{
+  background-color: #E6E6E6;
+}
+
 #contact-section h2{
   font-family: "Montserrat";
   font-weight: 700;
