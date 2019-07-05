@@ -53,7 +53,7 @@ h6{
 }
 
 .card{
-  box-shadow: 12px 11px 24px -6px rgba(0,0,0,0.82);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.40);
   border-color: #E6E6E6 !important;
 }
 
@@ -346,6 +346,54 @@ footer button:hover{
 
 #contact-page-section .card-body{
   background-color: #E6E6E6;
+}
+
+#facebook-contact{
+  width: 28px;
+  height: 28px;
+  margin: 5px !important;
+  background-image: url("images/facebook_iconbw.svg");
+  background-size: 100%;
+}
+
+#facebook-contact:hover{
+  background-image: url("images/facebook_icon.svg");
+}
+
+#instagram-contact{
+  width: 28px;
+  height: 28px;
+  margin: 5px !important;
+  background-image: url("images/instagram_iconbw.svg");
+  background-size: 100%;
+}
+
+#instagram-contact:hover{
+  background-image: url("images/instagram_icon.svg");
+}
+
+#linkedin-contact{
+  width: 28px;
+  height: 28px;
+  margin: 5px !important;
+  background-image: url("images/linkedin_iconbw.svg");
+  background-size: 100%;
+}
+
+#linkedin-contact:hover{
+  background-image: url("images/linkedin_icon.svg");
+}
+
+#twitter-contact{
+  width: 28px;
+  height: 23px;
+  margin: 5px !important;
+  background-image: url("images/twitter_iconbw.svg");
+  background-size: 100%;
+}
+
+#twitter-contact:hover{
+  background-image: url("images/twitter_icon.svg");
 }
 
 
