@@ -323,6 +323,31 @@ footer button:hover{
   text-align: right;
 }
 
+.page-title{
+  background-color: #005380;
+  color: white;
+  height: 22vh;
+  font-family: "Montserrat";
+
+}
+
+.page-title .container{
+  padding-top: 3vh;
+}
+
+.page-title h1{
+  font-weight: 700 !important;
+  vertical-align: center;
+}
+
+#contact-page-section{
+  color: #808080;
+}
+
+#contact-page-section .card-body{
+  background-color: #E6E6E6;
+}
+
 
 @media (max-width: 1015px){
   h1{
