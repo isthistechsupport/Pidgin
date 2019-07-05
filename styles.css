@@ -400,6 +400,25 @@ footer button:hover{
   background-image: url("images/twitter_icon.svg");
 }
 
+#check-container{
+  max-width: 250px;
+}
+
+#check-container label{
+  font-size: 10px;
+}
+
+#submit-container{
+  text-align: right;
+}
+
+.main-button{
+  background-color: #007ABA !important;
+}
+
+.main-button{
+  background-color: #007ABA !important;
+}
 
 @media (max-width: 1015px){
   h1{
