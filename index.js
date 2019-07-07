@@ -27,8 +27,9 @@ button.addEventListener("click", function(event) {
 		alert("Número de teléfono no válido");
 	} else if (!validateEmail(String(document.getElementById("email").value))) {
 		alert("Correo electrónico no válido");
+	} else if (document.getElementById("check").checked == false) {
+		alert("Debes aceptar los términos y condiciones para continuar")
 	} else {
-		
 		data = {subject: String(document.getElementById("subject").value),
 		name: String(document.getElementById("name").value), 
 		company: String(document.getElementById("company").value),
@@ -45,4 +46,5 @@ button.addEventListener("click", function(event) {
 			alert("Gracias por ponerse en contacto con nosotros, " + String(data.name) + ".")
 		});
 	}
+	return false;
 });

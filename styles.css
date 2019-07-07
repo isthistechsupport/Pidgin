@@ -191,7 +191,9 @@ nav{
 
 #call-section{
   text-align: center;
-  background-color: black !important;
+  background-image: url("images/CTA.png");
+  background-size: 100%;
+  padding: 2em;
 }
 
 #call-section h2{
@@ -401,7 +403,7 @@ footer button:hover{
 }
 
 #check-container{
-  max-width: 250px;
+  max-width: 350px;
 }
 
 #check-container label{
@@ -410,6 +412,14 @@ footer button:hover{
 
 #submit-container{
   text-align: right;
+}
+
+.form-check-input{
+  margin-left: 0px !important;
+}
+
+.form-check-label{
+  margin-left: 2em !important;
 }
 
 .main-button{
