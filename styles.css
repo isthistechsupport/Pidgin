@@ -435,6 +435,42 @@ footer button:hover{
   font-size: 1em;
 }
 
+.nav{
+  margin-bottom: 0px !important;
+}
+
+#solutions-page-section .card{
+  border-top: none;
+  border-top-left-radius: 0px;
+}
+
+#solutions-page-section .nav-link{
+   background-color: #002940;
+   color: white;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+}
+
+#solutions-page-section .active{
+   background-color: #00A6FF;
+}
+
+#solutions-card1{
+  padding: 2em;
+  background-color: #00A6FF;
+  border-color: #00A6FF !important;
+}
+
+#solutions-button1 .active{
+  background-color: #00A6FF;
+}
+
+#solutions-card2{
+  padding: 2em;
+  background-color: #00A6FF;
+  border-color: #00A6FF !important;
+}
+
 @media (max-width: 1015px){
   h1{
     font-size: 300%;
