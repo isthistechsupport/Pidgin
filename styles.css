@@ -440,6 +440,12 @@ footer button:hover{
   width: 100%;
 }
 
+#solutions-page-section h5{
+  font-weight: 700;
+  font-family: "Montserrat";
+  color: #007ABA;
+}
+
 #solutions-card1{
   border-top: none;
   border-top-left-radius: 0px;
@@ -447,6 +453,7 @@ footer button:hover{
 }
 
 #solutions-card2{
+  color: 
   border-top: none;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
