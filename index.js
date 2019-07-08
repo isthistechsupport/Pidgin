@@ -54,7 +54,7 @@ button.addEventListener("click", function(event) {
 		};
 		console.log(data);
 
-		fetch("http://someurl.com", {
+		fetch("https://pidgin.com.co/api/v1/contactSubmit", {
 			method: "POST",
 			body: JSON.stringify(data)
 		}).then(res => {
