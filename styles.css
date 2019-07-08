@@ -440,7 +440,13 @@ footer button:hover{
   width: 100%;
 }
 
-#solutions-page-section .card{
+#solutions-card1{
+  border-top: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#solutions-card2{
   border-top: none;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
