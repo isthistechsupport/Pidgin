@@ -54,11 +54,14 @@ button.addEventListener("click", function(event) {
 		};
 		console.log(data);
 
-		fetch("https://pidgin.com.co/api/v1/contactSubmit", {
+		fetch("/api/v1/contactSubmit", {
 			method: "POST",
 			body: JSON.stringify(data)
-		}).then(res => {
-			alert("Gracias por ponerse en contacto con nosotros, " + String(data.name) + ".")
+		}).then(_ => {
+			alert("Gracias por contactarnos! Hemos enviado un correo de confirmación a " + String(data.email) + " y nos pondremos en contacto contigo lo antes posible.");
+		}).catch(err => {
+			console.log(err);
+			alert("Ha ocurrido un error: vuelve a intentar responder el reCAPTCHA o intenta más tarde.");
 		});
 	}
 	return false;
