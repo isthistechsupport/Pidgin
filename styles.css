@@ -459,6 +459,13 @@ footer button:hover{
   border-top-right-radius: 0px;
 }
 
+#solutions-card3{
+  color: 
+  border-top: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
 #solutions-page-section .nav-link{
   background-color: #002940;
   color: white;
@@ -481,6 +488,42 @@ footer button:hover{
   background-color: #00A6FF;
   border-color: #00A6FF !important;
 }
+
+#solutions-card3{
+  padding: 2em;
+  background-color: #00A6FF;
+  border-color: #00A6FF !important;
+}
+
+#solutions-card1 .card-body{
+  position: relative;
+  padding-bottom: 0px;
+}
+
+fade {
+    position: absolute;
+    bottom: 0px;
+
+    display: block;
+  
+    width: 95%;
+    height: 5em;
+  
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 80%);
+}
+
+.modal-title{
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #007ABA;
+}
+
+.body2{
+  margin-top: -1em;
+  padding-top: 0px;
+  padding-bottom: 1em !important;
+}
+
 
 @media (max-width: 1015px){
   h1{
