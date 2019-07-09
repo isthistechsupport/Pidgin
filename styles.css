@@ -467,10 +467,16 @@ footer button:hover{
 }
 
 #solutions-page-section .nav-link{
+  transition: 0.3s;
   background-color: #002940;
   color: white;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+}
+
+#solutions-page-section .nav-link:hover{
+  transition: 0.3s;
+  background-color: #0095E6;
 }
 
 #solutions-page-section .nav-link.active{
@@ -522,6 +528,14 @@ fade {
   margin-top: -1em;
   padding-top: 0px;
   padding-bottom: 1em !important;
+}
+
+.btn-primary{
+  background-color: #007ABA !important;
+}
+
+.btn-primary:hover{
+  background-color: #0095E6 !important;
 }
 
 
