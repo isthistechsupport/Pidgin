@@ -68,6 +68,3 @@ button.addEventListener("click", function(event) {
 	}
 	return false;
 });
-
-var username="kkk";
-alert(username);

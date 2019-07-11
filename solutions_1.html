@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pidgin - Contact Solutions</title>
+  <link rel="shortcut icon" type="image/png" href="favicon/favicon64x64.png"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <a name="start"></a>
+  <div class="navbar">
+    <div class="container">
+      <nav id="desktop-menu">
+        <a href="index.html"><img src="images/logo.svg" alt="" id="home-button"></a>
+        <a href="contact.html"><button class="btn" type="button">Contacto</button></a>
+        <a href="solutions.html"><button class="btn" type="button">Soluciones</button></a>
+      </nav>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal1-label">Modalidad</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5>Site-centric</h5>
+          ​<p>Explota la robustez del modelo clásico de contact center, especial para negocios que requieren privacidad y control.</p>
+          <br>
+          <h5>Work-at-Home</h5>
+          <p>Potencializa el crecimiento de tu negocio con un modelo de contacto de crecimiento dinámico para negocios que requieren flexibilidad​.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal2-label">Dirección</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5>Inbound</h5>
+          ​<p>Ideal para negocios que requieren solución al primer contacto y adaptación a patrones cambiantes de volumen.</p>
+          <br>
+          <h5>Outbound</h5>
+          <p>​Solución adecuada para iniciativas de negocio que requieren seguimiento a los canales de contacto y optimización de los recursos​​.</p>
+          <br>
+          <h5>Mixta</h5>
+          <p>​​Perfecto para administración de cuentas en negocios que buscan agregar valor a sus clientes priorizando las relaciones sobre las transacciones​​​.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal3-label">​Canal de contacto​</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5>Llamadas</h5>
+          ​<p>El canal de comunicación personal por excelencia; garantizamos una experiencia satisfactoria para los clientes a través de procesos de calidad.</p>
+          <br>
+          <h5>Chats</h5>
+          <p>Para contactos que requieren velocidad y flexibilidad en el manejo del tiempo, hacemos uso de las plataformas tecnológicas de mensajería instantánea para garantizar satisfacción al primer contacto​.</p>
+          <br>
+          <h5>Chatbot</h5>
+          <p>​Optimizamos la gestión del recurso humano asignando las tareas y preguntas más recurrentes a agentes automatizados de chat​​.</p>
+          <br>
+          <h5>​Tickets/email​</h5>
+          <p>​Realizamos seguimientos efectivos a los casos de backoffice de su negocio y trazabilidad continua​​.</p>
+          <br>
+          <h5>​Social media contact solution​</h5>
+          <p>​Atendemos de manera personalizada y con experiencia de clase mundial sus contactos a través de las redes sociales​​.</p>
+          <br>
+          <h5>Social media content management</h5>
+          <p>​Potencializamos el alcance de tu marca a través de la publicación optimizada del contenido corporativo en distintas redes sociales​​.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal4-label">Tipología</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5>​Customer Service​</h5>
+          ​<p>Confía en nosotros para la gestión de las solicitudes generales de tus clientes y usuarios a través de una experiencia de cliente dirigida para garantizar satisfacción.</p>
+          <br>
+          <h5>Account Management</h5>
+          <p>Conoce el servicio de clase mundial que damos a la administración de cuentas mediante el conocimiento cada vez más profundo de las necesidades de tus clientes​.</p>
+          <br>
+          <h5>Sales</h5>
+          <p>​​Potencializa tu proceso de ventas mediante nuestro servicio de generación de demanda​​.</p>
+          <br>
+          <h5>​Collections</h5>
+          <p>​​Permítenos ayudarte en el proceso de recuperación de cartera a través de nuestro servicio de contacto preventivo y correctivo y nuestros modelos de diagnóstico​​.</p>
+          <br>
+          <h5>​Surveys​</h5>
+          <p>​​Equipa tu negocio con orden y pulcritud en los datos a través de nuestros servicios de consecución de información estadística acertada​​​.</p>
+          <br>
+          <h5>​Technical Support​</h5>
+          <p>​​Ofrece garantía de soporte permanente a tus clientes en la gestión y el uso de tus productos a través del soporte que tenemos para ofrecerte con personal capacitado.</p>
+          <br>
+          <h5>​Profiling</h5>
+          <p>​​​Obtén información de primera mano sobre las compañías que desees incluir para tus campañas comerciales y de ventas​.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="white-space"></div>
+  <div class="page-title">
+    <div class="container">
+      <h1>Soluciones</h1>
+    </div>
+  </div>
+  <div class="white-space"></div>
+  <div class="section" id="solutions-page-section">
+    <div class="container">
+      <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+        <li class="nav-item" id="solutions-button1">
+          <a class="nav-link active" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">Contact Center</a>
+        </li>
+        <li class="nav-item" id="solutions-button2">
+          <a class="nav-link" id="pills-2-tab" data-toggle="pill" href="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">Consultoría</a>
+        </li>
+        <li class="nav-item" id="solutions-button2">
+          <a class="nav-link" id="pills-3-tab" data-toggle="pill" href="#pills-3" role="tab" aria-controls="pills-3" aria-selected="false">Analytics</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+          <div class="card" id="solutions-card1">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Modalidad</h5>
+                  <p class="card-text">Site-centric:<br>Explota la robustez del modelo clásico de contact center, especial para negocios que requieren privacidad y control.</p>
+                  <fade/>
+                </div>
+                <div class="card-body body2">
+                  <a href="" data-toggle="modal" data-target="#modal1">Ver más</a>
+                </div>
+                
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Dirección</h5>
+                  <p class="card-text">Inbound: <br> Ideal para negocios que requieren solución al primer contacto y adaptación a patrones cambiantes de volumen.</p>
+                  <fade/>
+                </div>
+                <div class="card-body body2">
+                  <a href="" data-toggle="modal" data-target="#modal2">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Canal de contacto</h5>
+                  <p class="card-text">Llamadas: <br> El canal de comunicación personal por excelencia; garantizamos una experiencia satisfactoria para los clientes a través de procesos de calidad.</p>
+                  <fade/>
+                </div> 
+                <div class="card-body body2">
+                  <a href="" data-toggle="modal" data-target="#modal3">Ver más</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Tipología</h5>
+                  <p class="card-text">Customer Service: <br> Confía en nosotros para la gestión de las solicitudes generales de tus clientes y usuarios a través de una experiencia de cliente dirigida para garantizar satisfacción.</p>
+                  <fade/>
+                </div>
+                <div class="card-body body2">
+                  <a href="" data-toggle="modal" data-target="#modal4">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane " id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+          <a name="consultancy"></a>
+          <div class="card" id="solutions-card2">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Construcción</h5>
+                  <p class="card-text">Inicia tu operación omnicanal apalancado en nuestras múltiples soluciones modulares garantizando control completo sobre tu marca, tus operaciones y tu privacidad.</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Consolidación</h5>
+                  <p class="card-text">Incrementa el impacto y la efectividad de tu operación a través de nuestros procesos de clase mundial para la mejoría de la calidad y eficiencia de tus actividades de experiencia del cliente.</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Expansión</h5>
+                  <p class="card-text">Reduce la incertidumbre y optimiza los costos asociados a la expansión de tu operación mediante una asesoría especializada en analítica con acceso a tecnología de punta y procesos garantizados.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane " id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+          <div class="card" id="solutions-card3">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Tier 0: Business Intelligence </h5>
+                  <p class="card-text">​Obtén reportes confiables y centralizados de tu operación que permitan decisiones efectivas de negocio​.</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">​Tier 1: Descriptive Analytics​</h5>
+                  <p class="card-text">Implementa modelos complejos de datos sobre información histórica que te permitan conocer tendencias, patrones y comportamiento agrupado de tus variables de negocio​.</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">​Tier 2: Diagnostic Analytics</h5>
+                  <p class="card-text">​Consigue entender y accionar tu negocio a través del uso de herramientas como minería de datos, transcripción de llamadas, minería de texto y segmentación de contactos​.</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Tier 3: Predictive Analytics</h5>
+                  <p class="card-text">Empodera tus canales de acción; operaciones, ventas, marketing y finanzas mediante analítica avanzada que te permita la optimización de recursos en función de tus necesidades específicas incluso antes de que estas se manifiesten.</p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Tier 4: Prescriptive Analytics</h5>
+                  <p class="card-text">​​Alcanza el nivel más avanzado de monetización de tu información de clientes a través del uso de Inteligencia Artificial y Aprendizaje Automático enfocados en el incremento de ingresos, optimización de costos y reducción del riesgo​.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="white-space"></div>
+</div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        <div class="icon"></div>
+      </div>
+      <div class="col-3" id="footer-first-column">
+        <a href="#start"><h6 id="footer-inicio">Inicio</h6></a>
+        <a href="#start"><h6>Soluciones</h6></a>
+        <a href="#start"><h6>Contacto</h6></a>
+        <a href=""><button class="btn btn-primary" type="button">Trabaje con nosotros</button></a>
+      </div>
+      <div class="col" id="footer-second-column">
+        <h6>info@pidgin.com.co</h6>
+        <h6>+57  316 530 3918<br>+57  319 707 1326</h6>
+      </div>
+    </div>
+    <hr/>
+    <div class="row" id="footer-footer">
+      <div class="col-6">
+        <h6>© Copyright - Pidgin 2019 | All rights reserved</h6>
+      </div>
+      <div class="col">
+        <a href="#start"><h6>Política de privacidad</h6></a>
+      </div>
+      <div class="col">
+        <a href="#start"><h6>Términos y condiciones</h6></a>
+      </div>
+      <div class="col">
+        <a href="#start"><h6>Cookies</h6></a>
+      </div>
+      <div class="col-2" id="footer-sn-icons">
+        <div >
+          <div class="d-inline-block">
+            <a href="https://www.facebook.com/pidgin.cs" class="footer-sn-icon"><div id="facebook"></div></a>
+          </div>
+          <div class="d-inline-block">
+            <a href="https://www.instagram.com/pidgin_cs/" class="footer-sn-icon"><div id="instagram"></div></a>
+          </div>
+          <div class="d-inline-block">
+            <a href="https://www.linkedin.com/company/pidgin-contact-solutions/about" class="footer-sn-icon"><div id="linkedin"></div></a>
+          </div>
+          <div class="d-inline-block">
+            <a href="https://twitter.com/pidgin_cs" class="footer-sn-icon"><div id="twitter"></div></a>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
