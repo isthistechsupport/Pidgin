@@ -7,9 +7,11 @@ $('a[href^="#"]').click(function () {
 
 function validateEmail(mail) {
 	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)){
-		return (true)
+		return(true);
+	}else{
+		return(false);	
 	}
-	return (false)
+	
 }
 
 var data = {
@@ -66,3 +68,6 @@ button.addEventListener("click", function(event) {
 	}
 	return false;
 });
+
+var username="kkk";
+alert(username);

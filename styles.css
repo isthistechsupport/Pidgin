@@ -512,7 +512,7 @@ fade {
 
     display: block;
   
-    width: 95%;
+    width: 30em;
     height: 5em;
   
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 80%);
