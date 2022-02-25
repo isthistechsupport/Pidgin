@@ -28,6 +28,10 @@ main {
   padding: 15px 20px;
 }
 
+.navbar-logo__img {
+  height: 60px;
+}
+
 .contact__link {
   text-decoration: none;
 }
@@ -38,9 +42,10 @@ main {
   border: 1px solid #298fc5;
   color: #298fc5;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   padding: 10px 0;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-out;
   width: 112px;
 }
 
@@ -55,7 +60,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 38px;
+  margin: 38px auto 0;
   padding: 0 48px;
 }
 
@@ -109,6 +114,7 @@ main {
   border: none;
   color: white;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: bold;
   padding: 10px 20px;
@@ -116,11 +122,18 @@ main {
 
 .linkedin__button:hover {
   box-shadow: 0 4px 8px 0 #e4e4e4;
+  transition: all 0.2s ease-out;
 }
 
 @media (max-width: 480px) {
+  main {
+    display: flex;
+    align-items: center;
+    height: calc(99vh - 94px);
+  }
+
   .hero__container {
-    margin-top: 100px;
+    margin-top: 0;
   }
 
   .pidgin-image__img {
