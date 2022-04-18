@@ -59,3 +59,13 @@ typings/
 
 # next.js build output
 .next
+
+# Nuxt dev/build outputs
+.output
+.nuxt
+
+# Node dependencies
+node_modules
+
+# System files
+*.log

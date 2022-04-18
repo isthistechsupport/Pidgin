@@ -1,0 +1,198 @@
+{
+  "navbar_items": [
+    {
+      "id": 0,
+      "label": "Services",
+      "link": "#"
+    },
+    {
+      "id": 1,
+      "label": "About us",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "label": "Careers",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "label": "Blog",
+      "link": "#"
+    }
+  ],
+  "contact_button": {
+    "label": "Contact",
+    "link": "#"
+  },
+  "hero": {
+    "title_hero": "We connect companies",
+    "title_connector": "with",
+    "title_hero_animated_text": [
+      "opportunities",
+      "challenges",
+      "growth",
+      "business",
+      "the future"
+    ],
+    "hero_paragraph": "We are a dynamic firm focused on providing tailored solutions for every need of your business, connecting you with dynamic, energetic and extremely talented developers.",
+    "hero_button": {
+      "label": "Find out how",
+      "link": "#"
+    }
+  },
+  "benefits": {
+    "benefits_title": "Access qualified ",
+    "benefits_title_highlighted": "talent",
+    "benefits_paragraph": "Our team is made up of people who love what they do and know no limits. We evaluate your product needs to provide you agile solutions.",
+    "benefits_cards": [
+      {
+        "id": 0,
+        "benefit_card_img": "/svg/card-feature-1.svg",
+        "benefit_card_title": "The Pidgin way",
+        "benefit_card_text_1": "We propose solutions and start projects with less paperwork, starting from ",
+        "benefit_card_text_highlighted": "agile and focused ",
+        "benefit_card_text_2": "processes.",
+        "benefit_card_link_label": "Tell me more",
+        "benefit_card_link_url": "#"
+      },
+      {
+        "id": 1,
+        "benefit_card_img": "/svg/card-feature-2.svg",
+        "benefit_card_title": "Globals",
+        "benefit_card_text_1": "Borders do not exist for us. We work ",
+        "benefit_card_text_highlighted": "100% remotely",
+        "benefit_card_text_2": ", wherever you are you will see a nest with our flag on it.",
+        "benefit_card_link_label": "Tell me more",
+        "benefit_card_link_url": "#"
+      },
+      {
+        "id": 2,
+        "benefit_card_img": "/svg/card-feature-3.svg",
+        "benefit_card_title": "Successful",
+        "benefit_card_text_1": "We establish ",
+        "benefit_card_text_highlighted": "clear and feasible objectives",
+        "benefit_card_text_2": ", with specific work routes to meet needs, and generate growth and continuity for businesses.",
+        "benefit_card_link_label": "Tell me more",
+        "benefit_card_link_url": "#"
+      },
+      {
+        "id": 3,
+        "benefit_card_img": "/svg/card-feature-4.svg",
+        "benefit_card_title": "On-demand",
+        "benefit_card_text_1": "We offer flexible and reliable models to hire developers in projects where timely ",
+        "benefit_card_text_highlighted": "intervention and solution are needed",
+        "benefit_card_text_2": ".",
+        "benefit_card_link_label": "Tell me more",
+        "benefit_card_link_url": "#"
+      }
+    ]
+  },
+  "first_step": {
+    "first_step_title": "Take the first step towards your star hiring",
+    "first_step_text_1_1": "We are an ",
+    "first_step_text_1_highlighted": "on-demand",
+    "first_step_text_1_2": " software developer firm at the forefront of recruitment.",
+    "first_step_text_2_1": "With our method we get our clients to find developers up to ",
+    "first_step_text_2_highlighted": "4 times faster",
+    "first_step_text_2_2": " and with a 100% satisfaction rate.",
+    "first_step_button": {
+      "label": "Schedule with us",
+      "link": "#"
+    }
+  },
+  "members": {
+    "members_title": "We're ",
+    "members_title_highlighted": "avant-garde",
+    "members_paragraph": "Our co-founders have 15 years of combined experience in the big-data and development industry. We connect the best developers with the best companies, following a precise selection process.",
+    "members_cards": [
+      {
+        "id": 0,
+        "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+        "member_card_name": "Nicole Mora",
+        "member_card_job_title": "Chief Executive Officer",
+        "member_card_description_1": "I am a woman with a passion for learning. I learn so that I can teach and motivate others. Having been a teacher, this comes naturally to me.  I came to Pidgin looking to spread that passion to others.",
+        "member_card_description_2": "I believe that relationships in a company should always be reciprocal. When you work hard for your team, wonderful things are achieved."
+      },
+      {
+        "id": 1,
+        "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+        "member_card_name": "Camilo Ospina",
+        "member_card_job_title": "Chief Administrative Officer",
+        "member_card_description_1": "I consider myself a leader who goes hand in hand with the goals and ideals of Pidgin. I have knowledge in personnel management and in the development of processes for the improvement of activities in the required areas.",
+        "member_card_description_2": "I advocate working like clockwork in the delivery and provision of services to our Pigeons."
+      },
+      {
+        "id": 2,
+        "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
+        "member_card_name": "Lenin Dorado",
+        "member_card_job_title": "Chief Commercial Officer",
+        "member_card_description_1": "I characterize myself as a born leader, because I always seek to develop the potential of the people I work with in order to achieve goals.",
+        "member_card_description_2": "I enjoy working with the Pigeons. I am part of the sales team; an amazing group of professionals and one of the most energetic and dynamic sales departments I have ever been a part of."
+      }
+    ],
+    "members_button": {
+      "label": "Know us",
+      "link": "#"
+    }
+  },
+  "contact_section": {
+    "contact_section_title": "Leave us a message!",
+    "contact_section_text_1": "The developer you need may be in our nest.",
+    "contact_section_text_2": "Write us, we don't bite.",
+    "contact_section_button": {
+      "label": "Write us",
+      "link": "#"
+    }
+  },
+  "footer": {
+    "title_newsletter": "Stay up to date with what happens in",
+    "title_newsletter_underlined": "our nest",
+    "newsletter_title": "Enter your e-mail",
+    "newsletter_send_button_label": "Send",
+    "newsletter_consent": "I give my consent for Pidgin to store the information submitted.",
+    "social_subtitle": "Find us",
+    "social_media": [
+      {
+        "id": 0,
+        "label": "Facebook",
+        "link": "https://www.facebook.com/pidgin.cs"
+      },
+      {
+        "id": 1,
+        "label": "Instagram",
+        "link": "https://www.instagram.com/pidgin_cs"
+      },
+      {
+        "id": 2,
+        "label": "LinkedIn",
+        "link": "https://www.linkedin.com/company/pidgin-contactsolutions"
+      }
+    ],
+    "legal_docs": [
+      {
+        "id": 0,
+        "label": "Personal data processing policy",
+        "link": "/data-policy"
+      },
+      {
+        "id": 1,
+        "label": "Authorization for the Processing of Personal Data",
+        "link": "/data-authorization"
+      },
+      {
+        "id": 2,
+        "label": "Terms and Conditions",
+        "link": "/terms"
+      },
+      {
+        "id": 3,
+        "label": "Notice of Privacy",
+        "link": "/privacy"
+      }
+    ],
+    "credits_1": "This site has been designed by ",
+    "credits_2": " and developed by ",
+    "bottom_info": "© 2022 PIDGIN - Contact Solutions"
+  }
+}

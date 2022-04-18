@@ -1,0 +1,198 @@
+{
+  "navbar_items": [
+    {
+      "id": 0,
+      "label": "Servicios",
+      "link": "#"
+    },
+    {
+      "id": 1,
+      "label": "Nosotros",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "label": "Carreras",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "label": "Blog",
+      "link": "#"
+    }
+  ],
+  "contact_button": {
+    "label": "Contacto",
+    "link": "#"
+  },
+  "hero": {
+    "title_hero": "Conectamos empresas",
+    "title_connector": "con",
+    "title_hero_animated_text": [
+      "oportunidades",
+      "desafíos",
+      "crecimiento",
+      "negocios",
+      "el futuro"
+    ],
+    "hero_paragraph": "Somos una firma dinámica enfocada en brindar soluciones a la medida para cada necesidad de tu negocio, conectándolo con desarrolladores dinámicos, energéticos y extremadamente talentosos.",
+    "hero_button": {
+      "label": "Entérate cómo",
+      "link": "#"
+    }
+  },
+  "benefits": {
+    "benefits_title": "Accede a talento ",
+    "benefits_title_highlighted": "cualificado",
+    "benefits_paragraph": "Nuestro equipo está integrado por gente que ama lo que hace y no conoce límites. Evaluamos tus necesidades de producto para brindarle soluciones ágiles.",
+    "benefits_cards": [
+      {
+        "id": 0,
+        "benefit_card_img": "/svg/card-feature-1.svg",
+        "benefit_card_title": "Estilo Pidgin",
+        "benefit_card_text_1": "Proponemos soluciones y ponemos en marcha los proyectos con menos papeleo, partiendo de ",
+        "benefit_card_text_highlighted": "procesos ágiles y focalizados",
+        "benefit_card_text_2": ".",
+        "benefit_card_link_label": "Cuéntame más",
+        "benefit_card_link_url": "#"
+      },
+      {
+        "id": 1,
+        "benefit_card_img": "/svg/card-feature-2.svg",
+        "benefit_card_title": "Globales",
+        "benefit_card_text_1": "Las fronteras no existen para nosotros. Trabajamos de manera ",
+        "benefit_card_text_highlighted": "100% remota",
+        "benefit_card_text_2": ", en cualquier lugar podrás ver un nido con nuestra bandera en él.",
+        "benefit_card_link_label": "Cuéntame más",
+        "benefit_card_link_url": "#"
+      },
+      {
+        "id": 2,
+        "benefit_card_img": "/svg/card-feature-3.svg",
+        "benefit_card_title": "Acertados",
+        "benefit_card_text_1": "Establecemos ",
+        "benefit_card_text_highlighted": "objetivos claros y viables",
+        "benefit_card_text_2": ", con rutas de trabajo puntuales para suplir necesidades, y generar crecimiento y continuidad a negocios.",
+        "benefit_card_link_label": "Cuéntame más",
+        "benefit_card_link_url": "#"
+      },
+      {
+        "id": 3,
+        "benefit_card_img": "/svg/card-feature-4.svg",
+        "benefit_card_title": "Bajo demanda",
+        "benefit_card_text_1": "Ofrecemos modelos flexibles y confiables para contratar desarrolladores en proyectos donde se necesite ",
+        "benefit_card_text_highlighted": "intervención y solución oportuna",
+        "benefit_card_text_2": ".",
+        "benefit_card_link_label": "Cuéntame más",
+        "benefit_card_link_url": "#"
+      }
+    ]
+  },
+  "first_step": {
+    "first_step_title": "Da el primer paso hacia tu contratación estrella",
+    "first_step_text_1_1": "Somos una firma de desarrolladores de software ",
+    "first_step_text_1_highlighted": "on demand",
+    "first_step_text_1_2": " a la vanguardia de la contratación.",
+    "first_step_text_2_1": "Con nuestro método logramos que nuestros clientes encuentren desarrolladores hasta ",
+    "first_step_text_2_highlighted": "4 veces más rápido",
+    "first_step_text_2_2": " y con una tasa de satisfacción del 100%.",
+    "first_step_button": {
+      "label": "Agéndate con nosotros",
+      "link": "#"
+    }
+  },
+  "members": {
+    "members_title": "Somos ",
+    "members_title_highlighted": "vanguardistas",
+    "members_paragraph": "Nuestros cofundadores tienen 15 años de experiencia combinada en el sector del desarrollo y big-data. Conectamos a los mejores desarrolladores con las mejores empresas, luego de un proceso de selección preciso.",
+    "members_cards": [
+      {
+        "id": 0,
+        "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+        "member_card_name": "Nicole Mora",
+        "member_card_job_title": "Directora General",
+        "member_card_description_1": "Soy una mujer a la que le apasiona aprender para poder enseñar y motivar a otros. Eso es natural para mí, ya que fui docente. Llegué a Pidgin buscando contagiar esa pasión a otros.",
+        "member_card_description_2": "Soy abanderada de que las relaciones en una compañía deben ser recíprocas. Cuando le cumples a tu equipo se logran cosas maravillosas."
+      },
+      {
+        "id": 1,
+        "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+        "member_card_name": "Camilo Ospina",
+        "member_card_job_title": "Jefe Administrativo",
+        "member_card_description_1": "Me considero un líder que va de la mano con los objetivos y los ideales de Pidgin. Tengo conocimiento en el manejo de personal y en el desarrollo de procesos para la mejora de actividades en las áreas requeridas.",
+        "member_card_description_2": "Abogo por trabajar como un reloj en la entrega y prestación de los servicios a nuestros Pigeons."
+      },
+      {
+        "id": 2,
+        "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
+        "member_card_name": "Lenin Dorado",
+        "member_card_job_title": "Jefe Comercial",
+        "member_card_description_1": "Me caracterizo por ser un líder nato, pues siempre busco desarrollar el potencial de las personas con las que trabajo para, con ello, lograr objetivos.",
+        "member_card_description_2": "Disfruto trabajar con los Pigeons. Hago parte del equipo de ventas; un grupo increíble de profesionales y uno de los departamentos de ventas más enérgicos y dinámicos de los que he formado parte."
+      }
+    ],
+    "members_button": {
+      "label": "Conócenos",
+      "link": "#"
+    }
+  },
+  "contact_section": {
+    "contact_section_title": "¡Déjanos un mensaje!",
+    "contact_section_text_1": "El desarrollador que necesitas puede estar en nuestro nido.",
+    "contact_section_text_2": "Escríbenos, no picamos.",
+    "contact_section_button": {
+      "label": "Escríbenos",
+      "link": "#"
+    }
+  },
+  "footer": {
+    "title_newsletter": "Mantente al tanto de lo que ocurre en",
+    "title_newsletter_underlined": "nuestro nido",
+    "newsletter_title": "Escribe tu correo electrónico",
+    "newsletter_send_button_label": "Enviar",
+    "newsletter_consent": "Doy mi consentimiento para que Pidgin almacene la información enviada.",
+    "social_subtitle": "Encuéntranos",
+    "social_media": [
+      {
+        "id": 0,
+        "label": "Facebook",
+        "link": "https://www.facebook.com/pidgin.cs"
+      },
+      {
+        "id": 1,
+        "label": "Instagram",
+        "link": "https://www.instagram.com/pidgin_cs"
+      },
+      {
+        "id": 2,
+        "label": "LinkedIn",
+        "link": "https://www.linkedin.com/company/pidgin-contactsolutions"
+      }
+    ],
+    "legal_docs": [
+      {
+        "id": 0,
+        "label": "Política de Tratamiento de Datos Personales",
+        "link": "/data-policy"
+      },
+      {
+        "id": 1,
+        "label": "Autorización de Tratamiento de Datos Personales",
+        "link": "/data-authorization"
+      },
+      {
+        "id": 2,
+        "label": "Términos y Condiciones",
+        "link": "/terms"
+      },
+      {
+        "id": 3,
+        "label": "Aviso de privacidad",
+        "link": "/privacy"
+      }
+    ],
+    "credits_1": "Este sitio ha sido diseñado por ",
+    "credits_2": " y desarrollado por ",
+    "bottom_info": "© 2022 PIDGIN - Contact Solutions"
+  }
+}

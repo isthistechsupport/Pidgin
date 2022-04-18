@@ -1,0 +1,68 @@
+// Colors
+$black: #000000;
+$black-a75: rgba(#000000, 0.75);
+$blue-primary: #007cba;
+$blue-light-1: #61a2ca;
+$blue-light-2: #7aaed1;
+$blue-light-3: #90bad8;
+$blue-light-4: #bcd6e8;
+$blue-light-5: #d1e3ee;
+$blue-light-6: #e6eff5;
+$blue-dark-1: #000c13;
+$blue-dark-2: #181a2d;
+$blue-dark-3: #005684;
+$blue-dark-4: #006faa;
+$gray-1: #4f4f4f;
+$gray-2: #6d6d6d;
+$green-primary: #74e0c1;
+$pink-primary: #ff7276;
+$white: #ffffff;
+$white-secondary: #fafafa;
+$yellow-primary: #f6e948;
+
+// Font families
+$montserrat: "Montserrat", sans-serif;
+$lora: "Lora", serif;
+
+// Breakpoints
+$mobile: 480px;
+$tablet: 900px;
+$laptop: 1200px;
+$desktop: 1600px;
+$desktop-xl: 1920px;
+
+// Gradients
+@mixin effect-gradient-1 {
+  background: linear-gradient($blue-primary 20%, $blue-dark-4);
+}
+@mixin effect-gradient-2 {
+  background: linear-gradient($white 50%, $blue-light-6);
+}
+@mixin effect-gradient-2--inverted {
+  background: linear-gradient($blue-light-6 50%, $white);
+}
+@mixin effect-gradient-3 {
+  background: linear-gradient(to left, $blue-dark-2, transparent);
+}
+@mixin effect-gradient-4 {
+  background: linear-gradient(to top, $blue-dark-2, transparent);
+}
+
+// Shadows
+@mixin effect-button-shadow {
+  box-shadow: 0px 2px 2px rgba($black, 0.25);
+}
+@mixin effect-cards-shadow {
+  box-shadow: 0px 4px 8px rgba($black, 0.15);
+}
+@mixin effect-modal-shadow {
+  box-shadow: 0px 0px 10px rgba($black, 0.15);
+}
+
+// Transition
+@mixin transition-ease-02 {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
