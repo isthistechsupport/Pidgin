@@ -169,6 +169,10 @@ export default {};
       text-align: center;
     }
 
+    &__name {
+      text-align: left;
+    }
+
     &__job-title {
       text-align: left;
     }

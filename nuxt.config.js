@@ -19,11 +19,11 @@ export default {
       {
         hid: "description",
         name: "description",
-
         content:
           "Somos una firma de developers on demand especializada en conectar a los mejores desarrolladores con las mejores empresas.",
       },
-      { hid: "robots", name: "robots", content: "noindex" },
+
+      { hid: "robots", name: "robots", content: "index, follow" },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [
