@@ -1,7 +1,7 @@
 <template>
-  <NuxtLink class="primary-button" :to="buttonLink">
+  <a class="primary-button" :href="buttonLink">
     {{ buttonLabel }}
-  </NuxtLink>
+  </a>
 </template>
 
 <script>

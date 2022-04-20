@@ -1,4 +1,5 @@
 {
+  "navbar_logo_alt": "Pidgin Logo",
   "navbar_items": [
     {
       "id": 0,
@@ -42,8 +43,9 @@
     }
   },
   "benefits": {
-    "benefits_title": "Access qualified ",
-    "benefits_title_highlighted": "talent",
+    "benefits_title_1": "Access ",
+    "benefits_title_highlighted": "qualified",
+    "benefits_title_2": " talent",
     "benefits_paragraph": "Our team is made up of people who love what they do and know no limits. We evaluate your product needs to provide you agile solutions.",
     "benefits_cards": [
       {
@@ -91,6 +93,7 @@
   "first_step": {
     "first_step_title": "Take the first step towards your star hiring",
     "first_step_text_1_1": "We are an ",
+    "first_step_image_alt": "developer in black t-shirt using laptop computer",
     "first_step_text_1_highlighted": "on-demand",
     "first_step_text_1_2": " software developer firm at the forefront of recruitment.",
     "first_step_text_2_1": "With our method we get our clients to find developers up to ",
@@ -109,6 +112,7 @@
       {
         "id": 0,
         "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+        "member_card_alt": "nicole mora profile pic",
         "member_card_name": "Nicole Mora",
         "member_card_job_title": "Chief Executive Officer",
         "member_card_description_1": "I am a woman with a passion for learning. I learn so that I can teach and motivate others. Having been a teacher, this comes naturally to me.  I came to Pidgin looking to spread that passion to others.",
@@ -117,6 +121,7 @@
       {
         "id": 1,
         "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+        "member_card_alt": "camilo ospina profile pic",
         "member_card_name": "Camilo Ospina",
         "member_card_job_title": "Chief Administrative Officer",
         "member_card_description_1": "I consider myself a leader who goes hand in hand with the goals and ideals of Pidgin. I have knowledge in personnel management and in the development of processes for the improvement of activities in the required areas.",
@@ -125,6 +130,7 @@
       {
         "id": 2,
         "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
+        "member_card_alt": "lenin dorado profile pic",
         "member_card_name": "Lenin Dorado",
         "member_card_job_title": "Chief Commercial Officer",
         "member_card_description_1": "I characterize myself as a born leader, because I always seek to develop the potential of the people I work with in order to achieve goals.",
@@ -138,6 +144,7 @@
   },
   "contact_section": {
     "contact_section_title": "Leave us a message!",
+    "contact_section_img_alt": "work group having fun",
     "contact_section_text_1": "The developer you need may be in our nest.",
     "contact_section_text_2": "Write us, we don't bite.",
     "contact_section_button": {
@@ -146,6 +153,7 @@
     }
   },
   "footer": {
+    "footer_logo_alt": "Pidgin Logo Negative",
     "title_newsletter": "Stay up to date with what happens in",
     "title_newsletter_underlined": "our nest",
     "newsletter_title": "Enter your e-mail",

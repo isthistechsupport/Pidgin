@@ -4,4 +4,5 @@ export default {
   locale: "es",
   fallbackLocale: "es",
   messages: { en, es },
+  silentTranslationWarn: true,
 };

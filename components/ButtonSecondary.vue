@@ -15,6 +15,7 @@ export default {
 
 .secondary-button {
   @include transition-ease-02;
+  display: inline-block;
   background-color: $white;
   border-radius: 10px;
   border: 1px solid $blue-primary;
@@ -25,6 +26,7 @@ export default {
   line-height: 1.125;
   padding: 10px 20px;
   text-decoration: none;
+  width: fit-content;
 
   &:hover {
     @include effect-gradient-2;

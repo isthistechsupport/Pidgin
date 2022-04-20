@@ -2,7 +2,10 @@
   <section class="first-step">
     <div class="first-step__content">
       <div class="first-step__img">
-        <img src="~/assets/images/jpg/first-step-banner-image.jpg" alt="" />
+        <img
+          src="~/assets/images/jpg/first-step-banner-image.jpg"
+          :alt="$t('first_step').first_step_image_alt"
+        />
       </div>
       <div class="first-step__info">
         <h3 class="first-step__title">
@@ -20,10 +23,14 @@
             >{{ $t("first_step").first_step_text_2_2 }}
           </p>
         </div>
-        <ButtonPrimary
+        <!-- <ButtonPrimary
           class="first-step__button"
           v-bind:buttonLabel="$t('first_step').first_step_button.label"
           v-bind:buttonLink="$t('first_step').first_step_button.link"
+        /> -->
+        <TempButtonPrimary
+          v-bind:buttonLabel="$t('first_step').first_step_button.label"
+          buttonLink="mailto:contacto@pidgin.com.co?subject=Agendemos una cita"
         />
       </div>
     </div>

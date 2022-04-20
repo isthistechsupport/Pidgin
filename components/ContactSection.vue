@@ -9,16 +9,25 @@
           <p>{{ $t("contact_section").contact_section_text_1 }}</p>
           <p>{{ $t("contact_section").contact_section_text_2 }}</p>
         </div>
-        <ButtonPrimary
+        <!-- <ButtonPrimary
           class="contact-section__button"
           v-bind:buttonLabel="
             $t('contact_section').contact_section_button.label
           "
           v-bind:buttonLink="$t('contact_section').contact_section_button.link"
+        /> -->
+        <TempButtonPrimary
+          v-bind:buttonLabel="
+            $t('contact_section').contact_section_button.label
+          "
+          buttonLink="mailto:contacto@pidgin.com.co?subject=Estoy buscando un desarrollador..."
         />
       </div>
       <div class="contact-section__img">
-        <img src="~/assets/images/jpg/leave-a-message.jpg" alt="" />
+        <img
+          src="~/assets/images/jpg/leave-a-message.jpg"
+          :alt="$t('contact_section').contact_section_img_alt"
+        />
         <div class="gradient-decorator"></div>
       </div>
     </div>
@@ -76,10 +85,6 @@ export default {};
         margin: 0 0 1.5rem;
       }
     }
-  }
-
-  &__button {
-    width: fit-content;
   }
 
   &__img {

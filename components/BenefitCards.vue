@@ -7,7 +7,7 @@
     >
       <img
         :src="require(`~/assets/images${card.benefit_card_img}`)"
-        alt="..."
+        alt=""
         class="card__img"
       />
       <div class="card__text">
@@ -20,7 +20,7 @@
       </div>
       <a :href="`${card.benefit_card_link_url}`" class="card__link"
         ><span>{{ card.benefit_card_link_label }}</span>
-        <img src="~/assets/images/svg/icon-arrow-right.svg" alt="..."
+        <img src="~/assets/images/svg/icon-arrow-right.svg" alt=""
       /></a>
     </div>
   </div>

@@ -15,6 +15,7 @@
             :backSpeed="50"
             :cursorChar="''"
             :strings="$t('hero').title_hero_animated_text"
+            :key="textAnimationKey"
           >
             <h2 class="hero__title">
               {{ $t("hero").title_connector }} <span class="typing"></span>
@@ -30,7 +31,8 @@
             :typeSpeed="150"
             :backSpeed="50"
             :cursorChar="''"
-            v-bind:strings="$t('hero').title_hero_animated_text"
+            :strings="$t('hero').title_hero_animated_text"
+            :key="textAnimationKey"
           >
             <h2 class="hero__title">
               <span class="typing"></span>
@@ -50,7 +52,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["textAnimationKey"],
+};
 </script>
 
 <style lang="scss">

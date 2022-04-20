@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <main>
-      <Hero />
+      <Hero v-bind:textAnimationKey="textAnimationKey" />
       <BenefitsSection />
       <FirstStepBanner />
       <MembersSection />
@@ -16,6 +16,16 @@
 <script>
 export default {
   name: "IndexPage",
+  data() {
+    return {
+      textAnimationKey: 0,
+    };
+  },
+  methods: {
+    forceRerender() {
+      this.textAnimationKey += 1;
+    },
+  },
 };
 </script>
 

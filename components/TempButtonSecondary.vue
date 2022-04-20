@@ -1,7 +1,7 @@
 <template>
-  <NuxtLink class="primary-button" :to="buttonLink">
+  <a class="secondary-button" :href="buttonLink">
     {{ buttonLabel }}
-  </NuxtLink>
+  </a>
 </template>
 
 <script>
@@ -13,13 +13,13 @@ export default {
 <style lang="scss" scoped>
 @import "~assets/scss/variables";
 
-.primary-button {
+.secondary-button {
   @include transition-ease-02;
   display: inline-block;
-  background: linear-gradient($blue-primary, $blue-primary);
+  background-color: $white;
   border-radius: 10px;
   border: 1px solid $blue-primary;
-  color: $white;
+  color: $blue-primary;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
@@ -29,17 +29,17 @@ export default {
   width: fit-content;
 
   &:hover {
-    @include effect-gradient-1;
+    @include effect-gradient-2;
     @include effect-cards-shadow;
   }
 
   &:active {
-    background: linear-gradient($blue-dark-4, $blue-dark-4);
+    background: $blue-light-6;
     box-shadow: none;
   }
 
   &:focus-visible {
-    background: linear-gradient($blue-primary, $blue-primary);
+    background: $white;
     outline: 0;
     box-shadow: $blue-light-4 0px 0px 0px 4px;
   }

@@ -3,8 +3,11 @@
     <div class="bg__gradient"></div>
     <div class="benefits__content">
       <h2 class="benefits__title">
-        {{ $t("benefits").benefits_title
-        }}<span> {{ $t("benefits").benefits_title_highlighted }}</span>
+        {{ $t("benefits").benefits_title_1 }}
+        <span>
+          {{ $t("benefits").benefits_title_highlighted }}
+        </span>
+        {{ $t("benefits").benefits_title_2 }}
       </h2>
       <div class="benefits__text">
         <p>

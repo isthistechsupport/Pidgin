@@ -1,4 +1,5 @@
 {
+  "navbar_logo_alt": "Logo Pidgin",
   "navbar_items": [
     {
       "id": 0,
@@ -42,8 +43,9 @@
     }
   },
   "benefits": {
-    "benefits_title": "Accede a talento ",
+    "benefits_title_1": "Accede a talento ",
     "benefits_title_highlighted": "cualificado",
+    "benefits_title_2": "",
     "benefits_paragraph": "Nuestro equipo está integrado por gente que ama lo que hace y no conoce límites. Evaluamos tus necesidades de producto para brindarle soluciones ágiles.",
     "benefits_cards": [
       {
@@ -91,13 +93,14 @@
   "first_step": {
     "first_step_title": "Da el primer paso hacia tu contratación estrella",
     "first_step_text_1_1": "Somos una firma de desarrolladores de software ",
+    "first_step_image_alt": "desarrollador con camiseta negra usando una computadora",
     "first_step_text_1_highlighted": "on demand",
     "first_step_text_1_2": " a la vanguardia de la contratación.",
     "first_step_text_2_1": "Con nuestro método logramos que nuestros clientes encuentren desarrolladores hasta ",
     "first_step_text_2_highlighted": "4 veces más rápido",
     "first_step_text_2_2": " y con una tasa de satisfacción del 100%.",
     "first_step_button": {
-      "label": "Agéndate con nosotros",
+      "label": "Agéndate",
       "link": "#"
     }
   },
@@ -109,6 +112,7 @@
       {
         "id": 0,
         "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+        "member_card_alt": "foto nicole mora",
         "member_card_name": "Nicole Mora",
         "member_card_job_title": "Directora General",
         "member_card_description_1": "Soy una mujer a la que le apasiona aprender para poder enseñar y motivar a otros. Eso es natural para mí, ya que fui docente. Llegué a Pidgin buscando contagiar esa pasión a otros.",
@@ -117,6 +121,7 @@
       {
         "id": 1,
         "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+        "member_card_alt": "foto camilo ospina",
         "member_card_name": "Camilo Ospina",
         "member_card_job_title": "Jefe Administrativo",
         "member_card_description_1": "Me considero un líder que va de la mano con los objetivos y los ideales de Pidgin. Tengo conocimiento en el manejo de personal y en el desarrollo de procesos para la mejora de actividades en las áreas requeridas.",
@@ -125,6 +130,7 @@
       {
         "id": 2,
         "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
+        "member_card_alt": "foto lenin dorado",
         "member_card_name": "Lenin Dorado",
         "member_card_job_title": "Jefe Comercial",
         "member_card_description_1": "Me caracterizo por ser un líder nato, pues siempre busco desarrollar el potencial de las personas con las que trabajo para, con ello, lograr objetivos.",
@@ -138,6 +144,7 @@
   },
   "contact_section": {
     "contact_section_title": "¡Déjanos un mensaje!",
+    "contact_section_img_alt": "grupo de trabajo divirtiéndose",
     "contact_section_text_1": "El desarrollador que necesitas puede estar en nuestro nido.",
     "contact_section_text_2": "Escríbenos, no picamos.",
     "contact_section_button": {
@@ -146,6 +153,7 @@
     }
   },
   "footer": {
+    "footer_logo_alt": "Logo Pidgin Negativo",
     "title_newsletter": "Mantente al tanto de lo que ocurre en",
     "title_newsletter_underlined": "nuestro nido",
     "newsletter_title": "Escribe tu correo electrónico",

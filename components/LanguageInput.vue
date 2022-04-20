@@ -11,7 +11,11 @@
         :key="lang.code"
         :value="lang.code"
         :class="$i18n.locale == lang.code ? 'active' : 'inactive'"
-        @click="$i18n.locale = lang.code"
+        @click="
+          {
+            switchLocale(lang), refreshLanguage();
+          }
+        "
         >{{ lang.name }}
         <img
           v-if="$i18n.locale == lang.code"
@@ -24,7 +28,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    switchLocale(lang) {
+      this.$i18n.locale = lang.code;
+    },
+    refreshLanguage() {
+      this.$parent.$parent.forceRerender();
+    },
+  },
+};
 </script>
 
 <style lang="scss">

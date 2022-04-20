@@ -9,11 +9,17 @@
           name="emailField"
           id="emailField"
         />
-        <input
+        <!-- <input
           id="emailFieldSubmit"
           type="submit"
-          :value="$t('footer').newsletter_send_button_label.label"
-        />
+          v-bind:value="$t('footer').newsletter_send_button_label"
+        /> -->
+        <a
+          id="emailFieldSubmit"
+          href="mailto:contacto@pidgin.com.co?subject=Quiero estar enterado"
+        >
+          {{ $t("footer").newsletter_send_button_label }}
+        </a>
       </div>
       <div class="input__confirm">
         <input

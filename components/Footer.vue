@@ -3,7 +3,12 @@
     <div class="footer__layout">
       <div class="footer__layout__main">
         <div class="footer__logo">
-          <img src="~/assets/images/svg/logo-footer.svg" alt="" />
+          <NuxtLink to="/">
+            <img
+              src="~/assets/images/svg/logo-footer.svg"
+              :alt="$t('footer').footer_logo_alt"
+            />
+          </NuxtLink>
         </div>
         <hr />
         <div class="footer__content">
@@ -201,7 +206,7 @@ hr {
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color: $blue-light-1;
     }
   }
 }

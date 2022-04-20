@@ -2,13 +2,20 @@
   <header class="navbar">
     <div class="navbar__content">
       <div class="navbar__logo">
-        <img src="~/assets/images/svg/logo-navbar.svg" alt="Pidgin Logo" />
+        <NuxtLink to="/">
+          <img
+            src="~/assets/images/svg/logo-navbar.svg"
+            :alt="$t('navbar_logo_alt')"
+          />
+        </NuxtLink>
       </div>
       <div class="navbar__logo--mobile">
-        <img
-          src="~/assets/images/svg/logo-navbar-mobile.svg"
-          alt="Pidgin Logo"
-        />
+        <NuxtLink to="/">
+          <img
+            src="~/assets/images/svg/logo-navbar-mobile.svg"
+            :alt="$t('navbar_logo_alt')"
+          />
+        </NuxtLink>
       </div>
       <div class="navbar__links">
         <NuxtLink
@@ -21,13 +28,17 @@
         </NuxtLink>
       </div>
       <div class="navbar__actions">
-        <ButtonSecondary
+        <!-- <ButtonSecondary
           v-bind:buttonLabel="$t('contact_button').label"
           v-bind:buttonLink="$t('contact_button').link"
+        /> -->
+        <TempButtonSecondary
+          v-bind:buttonLabel="$t('contact_button').label"
+          buttonLink="mailto:contacto@pidgin.com.co?subject=Necesito hablar con ustedes - Contacto"
         />
         <LanguageInput />
         <div class="mobile-menu">
-          <img src="~/assets/images/svg/icon-burger.svg" alt="..." />
+          <img src="~/assets/images/svg/icon-burger.svg" alt="" />
         </div>
       </div>
     </div>

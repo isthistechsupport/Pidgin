@@ -9,7 +9,7 @@
         <div class="member__card__avatar">
           <img
             :src="require(`~/assets/images${card.member_card_img}`)"
-            alt="..."
+            :alt="$t(card.member_card_alt)"
           />
         </div>
         <div class="member__card__title">
