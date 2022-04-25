@@ -207,12 +207,12 @@
       {
         "id": 2,
         "label": "Términos y Condiciones",
-        "link": "/terms"
+        "link": "/legal/terms"
       },
       {
         "id": 3,
         "label": "Aviso de privacidad",
-        "link": "/privacy"
+        "link": "/legal/privacy"
       }
     ],
     "credits_1": "Este sitio ha sido diseñado por ",

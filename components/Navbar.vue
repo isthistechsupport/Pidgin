@@ -77,6 +77,7 @@ export default {
 .navbar {
   display: flex;
   border-bottom: 1px solid $white-secondary;
+  padding: 0 !important;
   position: relative;
 
   &__logo {
@@ -133,8 +134,6 @@ export default {
 
 @media (max-width: $tablet) {
   .navbar {
-    padding: 0 !important;
-
     &__content {
       max-width: $laptop;
       padding: 20px 40px;
