@@ -152,6 +152,22 @@
       "link": "#"
     }
   },
+  "error": {
+    "error_title": "¡Rrrrrrr, rrrrrrr!",
+    "error_subtitle": "Parece que esta ruta no existe o ya no está disponible",
+    "error_text_1": "El cielo es muuuy grande y puede ponerse turbulento, deberías regresar con la bandada a la ",
+    "error_text_link_label": "página de inicio",
+    "error_text_1_2": ".",
+    "error_text_2": "Si necesitas ayuda, no dudes en avisarnos.",
+    "error_home_button": {
+      "label": "Regresar al inicio",
+      "link": "/"
+    },
+    "error_contact_button": {
+      "label": "Contáctanos",
+      "link": "#"
+    }
+  },
   "footer": {
     "footer_logo_alt": "Logo Pidgin Negativo",
     "title_newsletter": "Mantente al tanto de lo que ocurre en",

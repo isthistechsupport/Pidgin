@@ -152,6 +152,22 @@
       "link": "#"
     }
   },
+  "error": {
+    "error_title": "¡Rrrrrrr, rrrrrrr!",
+    "error_subtitle": "It seems that this route does not exist or is no longer available",
+    "error_text_1": "The sky is sooo big and it can get turbulent, you should return with the flock to the ",
+    "error_text_link_label": "home page",
+    "error_text_1_2": ".",
+    "error_text_2": "If you need help, don't hesitate to let us know.",
+    "error_home_button": {
+      "label": "Back to home",
+      "link": "/"
+    },
+    "error_contact_button": {
+      "label": "Contact us",
+      "link": "#"
+    }
+  },
   "footer": {
     "footer_logo_alt": "Pidgin Logo Negative",
     "title_newsletter": "Stay up to date with what happens in",

@@ -1,6 +1,6 @@
 <template>
   <div class="lang-selector">
-    <b-dropdown class="lang-selector__button" id="dropdown-right" right>
+    <b-dropdown class="lang-selector__button" id="dropdown-right">
       <template #button-content>
         <img src="~/assets/images/svg/icon-lang.svg" alt="" />
         <span id="lang-selector-label">{{ $i18n.locale }}</span>
@@ -34,7 +34,7 @@ export default {
       this.$i18n.locale = lang.code;
     },
     refreshLanguage() {
-      this.$parent.$parent.forceRerender();
+      this.$parent.$parent.$parent.forceRerender();
     },
   },
 };
@@ -133,11 +133,5 @@ export default {
   box-shadow: 0 0 10px 0 rgba($color: $black, $alpha: 0.15);
   padding: 18px !important;
   width: 160px !important;
-}
-
-@media (max-width: $tablet) {
-  #dropdown-right > ul {
-    transform: translate(-30px, 27px) !important;
-  }
 }
 </style>

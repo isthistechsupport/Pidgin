@@ -1,14 +1,11 @@
 <template>
   <div>
     <Navbar />
-    <main>
-      <Hero v-bind:textAnimationKey="textAnimationKey" />
-      <BenefitsSection />
-      <FirstStepBanner />
-      <MembersSection />
-      <!-- <TestimonialsSection /> -->
-      <ContactSection />
-    </main>
+    <Hero v-bind:textAnimationKey="textAnimationKey" />
+    <BenefitsSection />
+    <FirstStepBanner />
+    <MembersSection />
+    <ContactSection />
     <Footer />
   </div>
 </template>

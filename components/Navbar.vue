@@ -37,24 +37,47 @@
           buttonLink="mailto:contacto@pidgin.com.co?subject=Necesito hablar con ustedes - Contacto"
         />
         <LanguageInput />
-        <div class="mobile-menu">
-          <img src="~/assets/images/svg/icon-burger.svg" alt="" />
+        <div class="mobile-menu modal-btn">
+          <div @click="showModalMobile = true">
+            <img src="~/assets/images/svg/icon-burger-menu.svg" alt="" />
+          </div>
+        </div>
+        <div class="tablet-menu modal-btn">
+          <div @click="showModalTablet = true">
+            <img src="~/assets/images/svg/icon-burger-menu.svg" alt="" />
+          </div>
         </div>
       </div>
     </div>
+    <ModalMenuMobile
+      v-show="showModalMobile"
+      @close-modal="showModalMobile = false"
+    />
+    <ModalMenuTablet
+      v-show="showModalTablet"
+      @close-modal="showModalTablet = false"
+    />
   </header>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      showModalMobile: false,
+      showModalTablet: false,
+    };
+  },
+};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "~assets/scss/variables";
 
 .navbar {
   display: flex;
   border-bottom: 1px solid $white-secondary;
+  position: relative;
 
   &__logo {
     &--mobile {
@@ -87,6 +110,7 @@ export default {};
       &:hover {
         border-bottom: 2px solid $blue-primary;
         color: $blue-primary;
+        text-decoration: none;
       }
 
       &:focus-visible {
@@ -100,7 +124,8 @@ export default {};
     align-items: center;
     column-gap: 20px;
 
-    .mobile-menu {
+    .mobile-menu,
+    .tablet-menu {
       display: none;
     }
   }
@@ -108,22 +133,37 @@ export default {};
 
 @media (max-width: $tablet) {
   .navbar {
+    padding: 0 !important;
+
+    &__content {
+      max-width: $laptop;
+      padding: 20px 40px;
+    }
+
     &__links {
       display: none;
     }
 
     &__actions {
-      .mobile-menu {
+      column-gap: 16px;
+
+      .secondary-button {
+        display: none !important;
+      }
+
+      .tablet-menu {
         display: block;
       }
     }
+  }
+
+  .modal-btn {
+    cursor: pointer;
   }
 }
 
 @media (max-width: 600px) {
   .navbar {
-    padding: 0;
-
     &__logo {
       display: none;
 
@@ -133,14 +173,21 @@ export default {};
     }
 
     &__content {
-      max-width: $mobile;
+      max-width: 600px;
       padding: 20px;
     }
 
     &__actions {
-      a,
       .lang-selector {
+        display: none !important;
+      }
+
+      .tablet-menu {
         display: none;
+      }
+
+      .mobile-menu {
+        display: block;
       }
     }
   }
