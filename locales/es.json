@@ -197,12 +197,12 @@
       {
         "id": 0,
         "label": "Política de Tratamiento de Datos Personales",
-        "link": "/data-policy"
+        "link": "/legal/personal-data-treatment"
       },
       {
         "id": 1,
         "label": "Autorización de Tratamiento de Datos Personales",
-        "link": "/data-authorization"
+        "link": "/legal/personal-data-auth"
       },
       {
         "id": 2,
