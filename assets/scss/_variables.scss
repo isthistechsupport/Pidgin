@@ -66,3 +66,10 @@ $desktop-xl: 1920px;
   transition-timing-function: ease;
   transition-delay: 0s;
 }
+
+@mixin transition-ease-out-03 {
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}

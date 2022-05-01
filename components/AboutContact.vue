@@ -1,16 +1,14 @@
 <template>
-  <section class="contact-section">
-    <div class="contact-section__content">
-      <div class="contact-section__info">
-        <h2 class="contact-section__title">
-          {{ $t("contact_section").contact_section_title }}
-        </h2>
-        <div class="contact-section__text">
-          <p>{{ $t("contact_section").contact_section_text_1 }}</p>
-          <p>{{ $t("contact_section").contact_section_text_2 }}</p>
+  <section class="about-contact">
+    <div class="about-contact__content">
+      <div class="about-contact__info">
+        <h2 class="about-contact__title">Vive la experiencia desde el nido</h2>
+        <div class="about-contact__text">
+          <p>Únete a la bandada, tenemos espacio para más pichones,</p>
+          <p>Escríbenos, no picamos.</p>
         </div>
         <!-- <ButtonPrimary
-          class="contact-section__button"
+          class="about-contact__button"
           v-bind:buttonLabel="
             $t('contact_section').contact_section_button.label
           "
@@ -23,11 +21,8 @@
           buttonLink="mailto:contacto@pidgin.com.co?subject=Estoy buscando un desarrollador..."
         />
       </div>
-      <div class="contact-section__img">
-        <img
-          src="~/assets/images/jpg/leave-a-message.jpg"
-          :alt="$t('contact_section').contact_section_img_alt"
-        />
+      <div class="about-contact__img">
+        <img src="~/assets/images/jpg/write-us-2.jpg" alt="" />
         <div class="gradient-decorator"></div>
       </div>
     </div>
@@ -41,7 +36,7 @@ export default {};
 <style lang="scss" scoped>
 @import "~assets/scss/variables";
 
-.contact-section {
+.about-contact {
   background: $blue-dark-2;
 
   &__content {
@@ -67,7 +62,6 @@ export default {};
     font-size: 3rem;
     line-height: 1;
     font-weight: 600;
-    max-width: 300px;
     margin: 0;
   }
 
@@ -111,7 +105,7 @@ export default {};
 }
 
 @media (max-width: $tablet) {
-  .contact-section {
+  .about-contact {
     &__content {
       flex-direction: column-reverse;
       align-items: center;
@@ -163,7 +157,7 @@ export default {};
     }
 
     &__title {
-      max-width: unset;
+      max-width: 500px;
     }
 
     &__text {
@@ -179,7 +173,7 @@ export default {};
 }
 
 @media (max-width: $mobile) {
-  .contact-section {
+  .about-contact {
     &__content {
       max-width: $mobile;
     }
