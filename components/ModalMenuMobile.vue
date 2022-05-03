@@ -3,7 +3,7 @@
     <div class="menu-mobile">
       <div class="menu-mobile__header">
         <div class="navbar__logo--mobile">
-          <NuxtLink to="/">
+          <NuxtLink :to="localePath('/')">
             <img
               src="~/assets/images/svg/logo-navbar-mobile.svg"
               :alt="$t('navbar_logo_alt')"
@@ -20,7 +20,7 @@
             v-for="navitem in $t('navbar_items')"
             :key="navitem.id"
             class="navbar__item"
-            :to="navitem.link"
+            :to="localePath(navitem.link)"
           >
             {{ navitem.label }}
           </NuxtLink>

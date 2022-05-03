@@ -3,14 +3,12 @@
     <div class="about-us-hero__bg"></div>
     <div class="about-us-hero__content">
       <p>
-        Somos <b>Pidgin</b>, una firma de desarrolladores bajo demanda,
-        orientada a brindar soluciones a la medida para las necesidades de cada
-        negocio. Nuestro amplio rango de servicios abarca desde consultoría y
-        análisis hasta desarrollo de software.
+        {{ $t("about").about_hero_text_1_1
+        }}<b>{{ $t("about").about_hero_text_1_2 }}</b
+        >{{ $t("about").about_hero_text_1_3 }}
       </p>
       <p>
-        Buscamos ayudar a nuestros clientes a hacer crecer sus negocios,
-        entendiendo sus desafíos como si fueran los nuestros.
+        {{ $t("about").about_hero_text_2 }}
       </p>
     </div>
   </div>
@@ -28,6 +26,7 @@ export default {};
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-top: 90px;
 
   &__bg {
     position: absolute;

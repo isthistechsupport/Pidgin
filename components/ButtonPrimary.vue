@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink class="primary-button" :to="buttonLink">
+  <NuxtLink class="primary-button" :to="localePath(buttonLink)">
     {{ buttonLabel }}
   </NuxtLink>
 </template>

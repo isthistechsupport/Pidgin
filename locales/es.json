@@ -36,7 +36,7 @@
       "negocios",
       "el futuro"
     ],
-    "hero_paragraph": "Somos una firma dinámica enfocada en brindar soluciones a la medida para cada necesidad de tu negocio, conectándolo con desarrolladores dinámicos, energéticos y extremadamente talentosos.",
+    "hero_paragraph": "Somos una firma dinámica enfocada en brindar soluciones que se ajusten a las necesidades específicas de tu negocio. Te conectamos con desarrolladores dinámicos, energéticos y extremadamente talentosos.",
     "hero_button": {
       "label": "Entérate cómo",
       "link": "#"
@@ -46,13 +46,13 @@
     "benefits_title_1": "Accede a talento ",
     "benefits_title_highlighted": "cualificado",
     "benefits_title_2": "",
-    "benefits_paragraph": "Nuestro equipo está integrado por gente que ama lo que hace y no conoce límites. Evaluamos tus necesidades de producto para brindarle soluciones ágiles.",
+    "benefits_paragraph": "Nuestro equipo está integrado por gente que ama lo que hace y no conoce límites. Evaluamos tus necesidades de producto para brindarte soluciones ágiles y eficientes.",
     "benefits_cards": [
       {
         "id": 0,
         "benefit_card_img": "/svg/card-feature-1.svg",
         "benefit_card_title": "Estilo Pidgin",
-        "benefit_card_text_1": "Proponemos soluciones y ponemos en marcha los proyectos con menos papeleo, partiendo de ",
+        "benefit_card_text_1": "Proponemos soluciones y ponemos en marcha los proyectos con menos papeleo y partiendo de ",
         "benefit_card_text_highlighted": "procesos ágiles y focalizados",
         "benefit_card_text_2": ".",
         "benefit_card_link_label": "Cuéntame más",
@@ -62,19 +62,19 @@
         "id": 1,
         "benefit_card_img": "/svg/card-feature-2.svg",
         "benefit_card_title": "Globales",
-        "benefit_card_text_1": "Las fronteras no existen para nosotros. Trabajamos de manera ",
+        "benefit_card_text_1": "Para nosotros las fronteras no existen para nosotros. Trabajamos de manera ",
         "benefit_card_text_highlighted": "100% remota",
-        "benefit_card_text_2": ", en cualquier lugar podrás ver un nido con nuestra bandera en él.",
+        "benefit_card_text_2": ". Dondequiera que estés podrás encontrar un nido con nuestra bandera en él.",
         "benefit_card_link_label": "Cuéntame más",
         "benefit_card_link_url": "#"
       },
       {
         "id": 2,
         "benefit_card_img": "/svg/card-feature-3.svg",
-        "benefit_card_title": "Acertados",
+        "benefit_card_title": "Precisos",
         "benefit_card_text_1": "Establecemos ",
         "benefit_card_text_highlighted": "objetivos claros y viables",
-        "benefit_card_text_2": ", con rutas de trabajo puntuales para suplir necesidades, y generar crecimiento y continuidad a negocios.",
+        "benefit_card_text_2": " con rutas de trabajo puntuales para suplir todas las necesidades de tu negocio y generar crecimiento y continuidad.",
         "benefit_card_link_label": "Cuéntame más",
         "benefit_card_link_url": "#"
       },
@@ -82,7 +82,7 @@
         "id": 3,
         "benefit_card_img": "/svg/card-feature-4.svg",
         "benefit_card_title": "Bajo demanda",
-        "benefit_card_text_1": "Ofrecemos modelos flexibles y confiables para contratar desarrolladores en proyectos donde se necesite ",
+        "benefit_card_text_1": "Ofrecemos modelos de contratación flexibles y confiables. Ubicamos a los desarrolladores ideales en proyectos que requieren de una ",
         "benefit_card_text_highlighted": "intervención y solución oportuna",
         "benefit_card_text_2": ".",
         "benefit_card_link_label": "Cuéntame más",
@@ -96,18 +96,18 @@
     "first_step_image_alt": "desarrollador con camiseta negra usando una computadora",
     "first_step_text_1_highlighted": "on demand",
     "first_step_text_1_2": " a la vanguardia de la contratación.",
-    "first_step_text_2_1": "Con nuestro método logramos que nuestros clientes encuentren desarrolladores hasta ",
+    "first_step_text_2_1": "Con nuestro método conectamos a nuestros clientes con los desarrolladores perfectos hasta ",
     "first_step_text_2_highlighted": "4 veces más rápido",
     "first_step_text_2_2": " y con una tasa de satisfacción del 100%.",
     "first_step_button": {
-      "label": "Agéndate",
+      "label": "Agenda con nosotros",
       "link": "#"
     }
   },
   "members": {
     "members_title": "Somos ",
     "members_title_highlighted": "vanguardistas",
-    "members_paragraph": "Nuestros cofundadores tienen 15 años de experiencia combinada en el sector del desarrollo y big-data. Conectamos a los mejores desarrolladores con las mejores empresas, luego de un proceso de selección preciso.",
+    "members_paragraph": "Nuestros cofundadores tienen 15 años de experiencia combinada en el sector de desarrollo y big-data. Conectamos a los mejores desarrolladores con las mejores empresas mediante un proceso de selección preciso y confiable.",
     "members_cards": [
       {
         "id": 0,
@@ -116,7 +116,7 @@
         "member_card_name": "Nicole Mora",
         "member_card_job_title": "Directora General",
         "member_card_description_1": "Soy una mujer a la que le apasiona aprender para poder enseñar y motivar a otros. Eso es natural para mí, ya que fui docente. Llegué a Pidgin buscando contagiar esa pasión a otros.",
-        "member_card_description_2": "Soy abanderada de que las relaciones en una compañía deben ser recíprocas. Cuando le cumples a tu equipo se logran cosas maravillosas."
+        "member_card_description_2": "Soy abanderada de que las relaciones en una compañía deben ser recíprocas. Cuando le cumples a tu equipo, se logran cosas maravillosas."
       },
       {
         "id": 1,
@@ -124,8 +124,8 @@
         "member_card_alt": "foto camilo ospina",
         "member_card_name": "Camilo Ospina",
         "member_card_job_title": "Jefe Administrativo",
-        "member_card_description_1": "Me considero un líder que va de la mano con los objetivos y los ideales de Pidgin. Tengo conocimiento en el manejo de personal y en el desarrollo de procesos para la mejora de actividades en las áreas requeridas.",
-        "member_card_description_2": "Abogo por trabajar como un reloj en la entrega y prestación de los servicios a nuestros Pigeons."
+        "member_card_description_1": "Me considero un líder que trabaja de la mano con los objetivos y los ideales de Pidgin. Tengo conocimiento en las áreas de manejo de personal y desarrollo de procesos corporativos para la mejora de actividades en los procesos requeridos.",
+        "member_card_description_2": "Abogo por trabajar como un reloj en la entrega y prestación de servicios a nuestros Pigeons."
       },
       {
         "id": 2,
@@ -133,8 +133,8 @@
         "member_card_alt": "foto lenin dorado",
         "member_card_name": "Lenin Dorado",
         "member_card_job_title": "Jefe Comercial",
-        "member_card_description_1": "Me caracterizo por ser un líder nato, pues siempre busco desarrollar el potencial de las personas con las que trabajo para, con ello, lograr objetivos.",
-        "member_card_description_2": "Disfruto trabajar con los Pigeons. Hago parte del equipo de ventas; un grupo increíble de profesionales y uno de los departamentos de ventas más enérgicos y dinámicos de los que he formado parte."
+        "member_card_description_1": "Me caracterizo por ser un líder nato, pues siempre busco desarrollar el potencial de las personas con las que trabajo para, con ello, lograr los objetivos previstos.",
+        "member_card_description_2": "Disfruto trabajar con los Pigeons. Hago parte del equipo de ventas, un grupo increíble de profesionales y uno de los departamentos de ventas más enérgicos y dinámicos de los que alguna vez he formado parte."
       }
     ],
     "members_button": {
@@ -145,7 +145,7 @@
   "contact_section": {
     "contact_section_title": "¡Déjanos un mensaje!",
     "contact_section_img_alt": "grupo de trabajo divirtiéndose",
-    "contact_section_text_1": "El desarrollador que necesitas puede estar en nuestro nido.",
+    "contact_section_text_1": "El desarrollador que necesitas está en nuestro nido.",
     "contact_section_text_2": "Escríbenos, no picamos.",
     "contact_section_button": {
       "label": "Escríbenos",
@@ -168,6 +168,127 @@
       "link": "#"
     }
   },
+  "about": {
+    "about_hero_text_1_1": "Somos ",
+    "about_hero_text_1_2": "Pidgin",
+    "about_hero_text_1_3": ", una firma de desarrolladores bajo demanda, orientada a brindar soluciones a la medida para las necesidades de cada negocio. Nuestro amplio rango de servicios abarca desde consultoría y análisis hasta desarrollo de software.",
+    "about_hero_text_2": "Buscamos ayudar a nuestros clientes a hacer crecer sus negocios, entendiendo sus desafíos como si fueran los nuestros.",
+    "about_values": {
+      "about_values_text": "Esto nos representa:",
+      "about_values_cards": [
+        {
+          "id": 0,
+          "title": "Misión",
+          "text": "Brindar soluciones personalizadas a empresas colombianas que requieran de una transformación digital, a través de un marco de trabajo dinámico que nos permita enfrentar los desafíos del mercado."
+        },
+        {
+          "id": 1,
+          "title": "Visión",
+          "text": "Ser el referente en soluciones digitales de América Latina para el 2026, expandiendo nuestros servicios para contribuir y promover un desarrollo abierto y colaborativo en la comunidad tech."
+        },
+        {
+          "id": 2,
+          "title": "Filosofía",
+          "text": "Creamos valor agregado no solo para el usuario final, nuestros clientes y asociados, sino también para la sociedad en general con el compromiso de ofrecer productos que superen las expectativas."
+        }
+      ],
+      "about_values_elements": [
+        {
+          "id": 0,
+          "img_path": "/svg/value-ingenuity.svg",
+          "title": "Ingenio",
+          "text": "Innovamos constantemente creatividad, encontrando siempre la solución más eficiente."
+        },
+        {
+          "id": 1,
+          "img_path": "/svg/value-trust.svg",
+          "title": "Confianza",
+          "text": "Creemos firmemente en nuestras capacidades para trabajar de manera autónoma y eficaz."
+        },
+        {
+          "id": 2,
+          "img_path": "/svg/value-transparency.svg",
+          "title": "Transparencia",
+          "text": "Comunicamos ideas asertivas, apoyándonos siempre en valoraciones justas y precisas."
+        },
+        {
+          "id": 3,
+          "img_path": "/svg/value-teamwork.svg",
+          "title": "Trabajo en equipo",
+          "text": "Obramos siempre con el bien común en mente. Creemos en que todos juntos logramos más."
+        }
+      ]
+    },
+    "about_history": {
+      "title": "Crónica de un despegue anunciado",
+      "subtitle": "Sobrevolando nuestra historia",
+      "beginning_history": {
+        "title": "El principio de todo",
+        "paragraph_1": "En una charla sobre negocios de BPO en 2019, nuestros fundadores llegaron a una importante conclusión: este mercado creciente en Colombia no solo estaba trayendo más empleos directos, sino también grandes oportunidades para otras industrias.",
+        "paragraph_2": "Pidgin nació entonces como una compañía enfocada en prestar desarrolladores para cubrir necesidades específicas de los BPO: desde analítica y reportería hasta bases de datos y mucho más.",
+        "paragraph_3": "En 2020, la pandemia de COVID-19 hizo que tuviéramos que cerrar antes de poder empezar operaciones con nuestros clientes más grandes. Aun así, no nos rendimos.",
+        "paragraph_4": "Aprendimos, durante 2020, que con las nuevas modalidades de trabajo que estaban surgiendo, cada vez eran más los sectores que requerían desarrolladores, y no simplemente desarrolladores comunes y corrientes, sino los mejores desarrolladores. Vimos a muchos negocios transformarse con los tiempos difíciles; pero lo más importante es que los vimos crecer. ",
+        "paragraph_4_highlighted": "Por esto, nosotros también quisimos crecer con ellos."
+      },
+      "incubation_history": {
+        "title": "Incubación",
+        "paragraph_1": "En 2021 renovamos nuestra marca y nuestros servicios. Nuestra misión entonces se convirtió en conectar a los mejores desarrolladores con las mejores compañías.",
+        "paragraph_2": "Transformamos nuestro enfoque para mostrarles a los negocios que no se han atrevido a transformase aún, que evolucionar con la mejor tecnología es posible.",
+        "paragraph_3": "Así que, teniendo una hoja de ruta nueva, ",
+        "paragraph_3_highlighted": "solo nos quedaba armar un equipo de trabajo que viviera nuestros valores y que quisiera volar alto con nosotros."
+      },
+      "pidgin_history": {
+        "title": "Paloma > Fénix",
+        "paragraph_1": "En 2022 volvimos e iniciamos operaciones con uno de nuestros clientes más grandes. Nuestros Pigeons llegaron también a ayudar a construir y desarrollar la compañía en tres grandes áreas inicialmente: la Administrativa, la de Ventas y Marketing, y la de Operaciones.",
+        "paragraph_2": "Pasamos de ser dos soñadores que hablaban sobre las grandes oportunidades que el mercado del BPO ofrecía, a ser una firma activa que presta servicios de desarrollo, no solo a esas grandes compañías que han traído progreso, sino también a aquellas que están empezando y que, al igual que nosotros, sueñan con convertirse en gigantes en sus propias industrias."
+      },
+      "text": "Hoy en día tenemos presencia en redes y estamos empezando a abrirnos paso en el mundo del desarrollo y de las Startups. ",
+      "text_highlighted": "Y así seguimos avanzando, trabajando en equipo para poder seguir transformando vidas a través de las maravillas que nuestros desarrolladores pueden hacer."
+    },
+    "about_members": {
+      "title": "Las caras del ",
+      "title_highlighted": "nido",
+      "text": "Nuestros cofundadores tienen 15 años de experiencia combinada en el sector de desarrollo y big-data, y han seleccionado personalmente los talentos que conforman el equipo a través de un proceso tanto ágil como riguroso.",
+      "members": [
+        {
+          "id": "0",
+          "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+          "name": "Nicole Mora",
+          "job_title": "Directora General",
+          "paragraph_1": "Soy una mujer a la que le apasiona aprender para poder enseñar y motivar a otros. Eso es natural para mí, ya que fui docente. Llegué a Pidgin buscando contagiar esa pasión a otros. Nos proponemos ser una de las firmas más reconocidas en el campo de tecnología para poder ofrecerles soluciones a nuestros clientes que les permitan crecer y, al mismo tiempo, disfrutar de la mejor experiencia de servicio.",
+          "paragraph_2": "Saber que contamos con un equipo excelente para hacer realidad este sueño es muy gratificante. Soy abanderada de que las relaciones en una compañía deben ser recíprocas. Cuando le cumples a tu equipo se logran cosas maravillosas, y mi gran reto en esta compañía es cumplirle a todos los Pigeons para que, en equipo, podamos cumplirle a todos nuestros clientes."
+        },
+        {
+          "id": "1",
+          "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+          "name": "Camilo Ospina",
+          "job_title": "Jefe Administrativo",
+          "paragraph_1": "Soy Administrador de empresas en desarrollo de la universidad Politécnico Gran Colombiano, tengo 5 años de experiencia en el sector público y privado, desarrollando el tema administrativo para diferentes empresas. Así mismo tengo conocimiento en el manejo de personal y en el desarrollo de procesos para la mejora de las actividades en las áreas requeridas.",
+          "paragraph_2": "He liderado equipos en atención al cliente y me caracterizo por el buen trabajo en equipo, por lo cual me considero un líder que va de la mano con los objetivos y los ideales de la empresa. Hago parte del equipo administrativo el cual será una pieza clave para que la compañía pueda mantener los procesos administrativos y de personal en orden, trabajando como un reloj en la entrega y prestación de los servicios a nuestros Pigeons."
+        },
+        {
+          "id": "2",
+          "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
+          "name": "Lenin Dorado",
+          "job_title": "Jefe Comercial",
+          "paragraph_1": "Soy profesional en Administración de empresas comerciales de la Universidad Colegio mayor de Cundinamarca, con un diplomado en coaching empresarial, tengo más de 4 años de experiencia en startups, lideré varios equipos de trabajo en el área comercial y de atención al cliente. Me caracterizo por ser un líder nato pues siempre busco desarrollar el potencial de las personas con las que trabajo y así lograr objetivos. Como ya lo dijo Henry Ford. “Llegar juntos es el principio. Mantenerse juntos, es el progreso. Trabajar juntos es el éxito”, me encanta la lectura, los deportes al aire libre y pasar tiempo de calidad con mi familia.",
+          "paragraph_2": "Disfruto trabajar con los Pigeons. Hago parte del equipo de ventas; un grupo increíble de profesionales y uno de los departamentos de ventas más enérgicos y dinámicos de los que he formado parte. Los beneficios son excelentes y disfrutamos de una cultura de candidez única."
+        }
+      ],
+      "toggle_label_read_more": "Leer más",
+      "toggle_label_read_less": "Leer menos"
+    },
+    "about_contact": {
+      "title": "Vive la experiencia desde el nido",
+      "img_alt": "grupo de trabajo divirtiéndose",
+      "text_1": "Únete a la bandada, tenemos espacio para más pichones.",
+      "text_2": "Escríbenos, no picamos.",
+      "contact_button": {
+        "label": "Escríbenos",
+        "link": "#"
+      }
+    }
+  },
   "footer": {
     "footer_logo_alt": "Logo Pidgin Negativo",
     "title_newsletter": "Mantente al tanto de lo que ocurre en",
@@ -175,7 +296,7 @@
     "newsletter_title": "Escribe tu correo electrónico",
     "newsletter_send_button_label": "Enviar",
     "newsletter_consent": "Doy mi consentimiento para que Pidgin almacene la información enviada.",
-    "social_subtitle": "Encuéntranos",
+    "social_subtitle": "Encuéntranos en",
     "social_media": [
       {
         "id": 0,

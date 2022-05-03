@@ -3,7 +3,7 @@
     <div class="footer__layout">
       <div class="footer__layout__main">
         <div class="footer__logo">
-          <NuxtLink to="/">
+          <NuxtLink :to="localePath('/')">
             <img
               src="~/assets/images/svg/logo-footer.svg"
               :alt="$t('footer').footer_logo_alt"
@@ -42,7 +42,7 @@
           v-for="item in $t('footer').legal_docs"
           :key="item.id"
           class="legal__link"
-          :to="item.link"
+          :to="localePath(item.link)"
         >
           {{ item.label }}
         </NuxtLink>
@@ -51,20 +51,37 @@
       <div class="footer__layout__bottom">
         <div class="footer__caption">
           <div class="footer__credits">
-            {{ $t("footer").credits_1 }}<a href="#">Kevin Coley</a
-            >{{ $t("footer").credits_2 }}<a href="#">Abel Areiza</a>
+            {{ $t("footer").credits_1
+            }}<a href="https://www.linkedin.com/in/kcoleyv/" target="blank"
+              >Kevin Coley</a
+            >{{ $t("footer").credits_2
+            }}<a href="https://github.com/abelareiza" target="blank"
+              >Abel Areiza</a
+            >
           </div>
           <span>
             <b>{{ $t("footer").bottom_info }}</b>
           </span>
         </div>
       </div>
+      <div class="arrow-button" @click="scrollToTop">
+        <img src="~/assets/images/svg/arrow-button.svg" alt="" />
+      </div>
     </div>
   </footer>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToTop() {
+      window.scroll({
+        top: 0,
+        behavior: "smooth",
+      });
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -81,6 +98,7 @@ hr {
 }
 
 .footer {
+  position: relative;
   background: $black;
 
   &__layout {
@@ -102,6 +120,13 @@ hr {
       justify-content: space-between;
       padding: 1rem 0;
       width: 100%;
+    }
+
+    .arrow-button {
+      position: absolute;
+      top: 125px;
+      right: 60px;
+      cursor: pointer;
     }
   }
 
@@ -211,10 +236,24 @@ hr {
   }
 }
 
+@media (max-width: 1420px) {
+  .footer__layout {
+    .arrow-button {
+      top: 50px;
+      right: 24px;
+    }
+  }
+}
+
 @media (max-width: $tablet) {
   .footer {
     &__layout {
       padding: 0 2.5rem;
+
+      .arrow-button {
+        top: 50px;
+        right: 40px;
+      }
     }
 
     &__credits {
@@ -245,6 +284,11 @@ hr {
     &__layout {
       max-width: $mobile;
       padding: 0 20px;
+
+      .arrow-button {
+        top: 30px;
+        right: 20px;
+      }
 
       &__main {
         padding: 30px 0 0 0;

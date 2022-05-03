@@ -63,6 +63,7 @@ export default {
 .hero {
   display: flex;
   align-items: center;
+  margin-top: 90px;
 
   &__layout {
     display: flex;

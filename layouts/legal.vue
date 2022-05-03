@@ -10,11 +10,28 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "LegalPage",
+  data() {
+    return {
+      textAnimationKey: 0,
+    };
+  },
+  methods: {
+    forceRerender() {
+      this.textAnimationKey += 1;
+    },
+  },
+};
+</script>
+
 <style lang="scss">
 @import "~assets/scss/variables";
 
 .legal-doc {
   position: relative;
+  margin-top: 90px;
 
   .bg__gradient {
     @include effect-gradient-2--inverted;

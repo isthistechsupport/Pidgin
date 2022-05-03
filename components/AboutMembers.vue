@@ -1,18 +1,24 @@
 <template>
   <div class="about-members">
     <div class="about-members__header">
-      <h2>Las caras del <b>nido</b></h2>
+      <h2>
+        {{ $t("about").about_members.title
+        }}<b>{{ $t("about").about_members.title_highlighted }}</b>
+      </h2>
       <p>
-        Nuestros cofundadores tienen 15 años de experiencia combinada en el
-        sector de desarrollo y big-data, y han seleccionado personalmente los
-        talentos que conforman el equipo a través de un proceso tanto ágil como
-        riguroso.
+        {{ $t("about").about_members.text }}
       </p>
     </div>
     <div class="about-members__member__list">
-      <AboutMember />
-      <AboutMember />
-      <AboutMember />
+      <AboutMemberCard
+        v-for="memberCard in $t('about').about_members.members"
+        :key="memberCard.id"
+        :imgPath="memberCard.member_card_img"
+        :name="memberCard.name"
+        :jobTitle="memberCard.job_title"
+        :text1="memberCard.paragraph_1"
+        :text2="memberCard.paragraph_2"
+      />
     </div>
   </div>
 </template>
@@ -21,7 +27,7 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "~assets/scss/variables";
 
 .about-members {
@@ -57,16 +63,40 @@ export default {};
     }
   }
 
-  &__member {
-    &:nth-child(even) {
-      flex-direction: row-reverse;
-    }
+  &__member__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 70px;
 
-    &__list {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      row-gap: 70px;
+    .member-card {
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+
+      &:nth-child(1) {
+        .member-card {
+          &__header h3 {
+            color: $pink-primary;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        .member-card {
+          &__header h3 {
+            color: $green-primary;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        .member-card {
+          &__header h3 {
+            color: $blue-light-2;
+          }
+        }
+      }
     }
   }
 }
@@ -76,7 +106,7 @@ export default {};
     max-width: 820px;
     padding: 100px 40px;
 
-    &__member {
+    .member-card {
       &:nth-child(even) {
         flex-direction: column;
       }
@@ -101,7 +131,7 @@ export default {};
       }
     }
 
-    &__member {
+    .member-card {
       &__list {
         row-gap: 40px;
       }

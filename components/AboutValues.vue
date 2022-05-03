@@ -2,7 +2,7 @@
   <div class="about-us-values">
     <div class="about-us-values__gradient"></div>
     <div class="about-us-values__content">
-      <p>Nos representan:</p>
+      <p>{{ $t("about").about_values.about_values_text }}</p>
       <AboutCards />
       <AboutElements />
     </div>

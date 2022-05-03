@@ -12,7 +12,19 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "AboutUsPage",
+  data() {
+    return {
+      textAnimationKey: 0,
+    };
+  },
+  methods: {
+    forceRerender() {
+      this.textAnimationKey += 1;
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>

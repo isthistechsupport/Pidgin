@@ -2,10 +2,12 @@
   <section class="about-contact">
     <div class="about-contact__content">
       <div class="about-contact__info">
-        <h2 class="about-contact__title">Vive la experiencia desde el nido</h2>
+        <h2 class="about-contact__title">
+          {{ $t("about").about_contact.title }}
+        </h2>
         <div class="about-contact__text">
-          <p>Únete a la bandada, tenemos espacio para más pichones,</p>
-          <p>Escríbenos, no picamos.</p>
+          <p>{{ $t("about").about_contact.text_1 }}</p>
+          <p>{{ $t("about").about_contact.text_2 }}</p>
         </div>
         <!-- <ButtonPrimary
           class="about-contact__button"
@@ -15,14 +17,15 @@
           v-bind:buttonLink="$t('contact_section').contact_section_button.link"
         /> -->
         <TempButtonPrimary
-          v-bind:buttonLabel="
-            $t('contact_section').contact_section_button.label
-          "
+          v-bind:buttonLabel="$t('about').about_contact.contact_button.label"
           buttonLink="mailto:contacto@pidgin.com.co?subject=Estoy buscando un desarrollador..."
         />
       </div>
       <div class="about-contact__img">
-        <img src="~/assets/images/jpg/write-us-2.jpg" alt="" />
+        <img
+          src="~/assets/images/jpg/write-us-2.jpg"
+          :alt="$t('about').about_contact.img_alt"
+        />
         <div class="gradient-decorator"></div>
       </div>
     </div>

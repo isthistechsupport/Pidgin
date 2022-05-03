@@ -1,27 +1,13 @@
 <template>
   <div class="about-us__cards">
-    <div class="about-us__card">
-      <h3 class="about-us__card__title">Misión</h3>
+    <div
+      class="about-us__card"
+      v-for="aboutCard in $t('about').about_values.about_values_cards"
+      :key="aboutCard.id"
+    >
+      <h3 class="about-us__card__title">{{ aboutCard.title }}</h3>
       <p class="about-us__card__text">
-        Brindar soluciones personalizadas a empresas colombianas que requieran
-        de una transformación digital, a través de un marco de trabajo dinámico
-        que nos permita enfrentar los desafíos del mercado.
-      </p>
-    </div>
-    <div class="about-us__card">
-      <h3 class="about-us__card__title">Misión</h3>
-      <p class="about-us__card__text">
-        Brindar soluciones personalizadas a empresas colombianas que requieran
-        de una transformación digital, a través de un marco de trabajo dinámico
-        que nos permita enfrentar los desafíos del mercado.
-      </p>
-    </div>
-    <div class="about-us__card">
-      <h3 class="about-us__card__title">Misión</h3>
-      <p class="about-us__card__text">
-        Brindar soluciones personalizadas a empresas colombianas que requieran
-        de una transformación digital, a través de un marco de trabajo dinámico
-        que nos permita enfrentar los desafíos del mercado.
+        {{ aboutCard.text }}
       </p>
     </div>
   </div>

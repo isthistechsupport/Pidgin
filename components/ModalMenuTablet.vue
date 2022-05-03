@@ -3,7 +3,7 @@
     <div class="menu-tablet">
       <div class="menu-tablet__header">
         <div class="navbar__logo">
-          <NuxtLink to="/">
+          <NuxtLink :to="localePath('/')">
             <img
               src="~/assets/images/svg/logo-navbar.svg"
               :alt="$t('navbar_logo_alt')"
@@ -11,7 +11,6 @@
           </NuxtLink>
         </div>
         <div class="menu-tablet__actions">
-          <!-- <LanguageInput /> -->
           <LanguageInputMobile />
           <div class="close-btn" @click="$emit('close-modal')">
             <img src="~/assets/images/svg/icon-close-menu.svg" alt="" />
@@ -24,7 +23,7 @@
             v-for="navitem in $t('navbar_items')"
             :key="navitem.id"
             class="navbar__item"
-            :to="navitem.link"
+            :to="localePath(navitem.link)"
           >
             {{ navitem.label }}
           </NuxtLink>

@@ -1,38 +1,31 @@
 <template>
   <div class="history">
     <div class="history__header">
-      <h1>Crónica de un despegue anunciado</h1>
-      <h3>Sobrevolando nuestra historia</h3>
+      <h1>{{ $t("about").about_history.title }}</h1>
+      <h3>{{ $t("about").about_history.subtitle }}</h3>
     </div>
     <div class="history__beginning">
       <div class="history__beginning__container">
-        <h2>El principio de todo</h2>
+        <h2>{{ $t("about").about_history.beginning_history.title }}</h2>
         <div class="history__beginning__body">
           <div class="history__beginning__text">
             <p>
-              En una charla sobre negocios de BPO en 2019, nuestros fundadores
-              llegaron a una importante conclusión: este mercado creciente en
-              Colombia no solo estaba trayendo más empleos directos, sino
-              también grandes oportunidades para otras industrias.
+              {{ $t("about").about_history.beginning_history.paragraph_1 }}
             </p>
             <p>
-              Pidgin nació entonces como una compañía enfocada en prestar
-              desarrolladores para cubrir necesidades específicas de los BPO:
-              desde analítica y reportería hasta bases de datos y mucho más.
+              {{ $t("about").about_history.beginning_history.paragraph_2 }}
             </p>
             <p>
-              En 2020, la pandemia de COVID-19 hizo que tuviéramos que cerrar
-              antes de poder empezar operaciones con nuestros clientes más
-              grandes. Aun así, no nos rendimos.
+              {{ $t("about").about_history.beginning_history.paragraph_3 }}
             </p>
             <p>
-              Aprendimos, durante 2020, que con las nuevas modalidades de
-              trabajo que estaban surgiendo, cada vez eran más los sectores que
-              requerían desarrolladores, y no simplemente desarrolladores
-              comunes y corrientes, sino los mejores desarrolladores. Vimos a
-              muchos negocios transformarse con los tiempos difíciles; pero lo
-              más importante es que los vimos crecer.
-              <b>Por esto, nosotros también quisimos crecer con ellos.</b>
+              {{ $t("about").about_history.beginning_history.paragraph_4 }}
+              <b>
+                {{
+                  $t("about").about_history.beginning_history
+                    .paragraph_4_highlighted
+                }}
+              </b>
             </p>
           </div>
           <div class="history__beginning__img">
@@ -43,15 +36,10 @@
           <div class="flex-container">
             <div class="history__beginning__text">
               <p>
-                En una charla sobre negocios de BPO en 2019, nuestros fundadores
-                llegaron a una importante conclusión: este mercado creciente en
-                Colombia no solo estaba trayendo más empleos directos, sino
-                también grandes oportunidades para otras industrias.
+                {{ $t("about").about_history.beginning_history.paragraph_1 }}
               </p>
               <p>
-                Pidgin nació entonces como una compañía enfocada en prestar
-                desarrolladores para cubrir necesidades específicas de los BPO:
-                desde analítica y reportería hasta bases de datos y mucho más.
+                {{ $t("about").about_history.beginning_history.paragraph_2 }}
               </p>
             </div>
             <div class="history__beginning__img">
@@ -60,18 +48,16 @@
           </div>
           <div class="history__beginning__text">
             <p>
-              En 2020, la pandemia de COVID-19 hizo que tuviéramos que cerrar
-              antes de poder empezar operaciones con nuestros clientes más
-              grandes. Aun así, no nos rendimos.
+              {{ $t("about").about_history.beginning_history.paragraph_3 }}
             </p>
             <p>
-              Aprendimos, durante 2020, que con las nuevas modalidades de
-              trabajo que estaban surgiendo, cada vez eran más los sectores que
-              requerían desarrolladores, y no simplemente desarrolladores
-              comunes y corrientes, sino los mejores desarrolladores. Vimos a
-              muchos negocios transformarse con los tiempos difíciles; pero lo
-              más importante es que los vimos crecer.
-              <b>Por esto, nosotros también quisimos crecer con ellos.</b>
+              {{ $t("about").about_history.beginning_history.paragraph_4 }}
+              <b>
+                {{
+                  $t("about").about_history.beginning_history
+                    .paragraph_4_highlighted
+                }}
+              </b>
             </p>
           </div>
         </div>
@@ -79,27 +65,25 @@
     </div>
     <div class="history__incubation">
       <div class="history__incubation__container">
-        <h2>Incubación</h2>
+        <h2>{{ $t("about").about_history.incubation_history.title }}</h2>
         <div class="history__incubation__body">
           <div class="history__incubation__img">
             <img src="~/assets/images/jpg/history-incubation.jpg" alt="" />
           </div>
           <div class="history__incubation__text">
             <p>
-              En 2021 renovamos nuestra marca y nuestros servicios. Nuestra
-              misión entonces se convirtió en conectar a los mejores
-              desarrolladores con las mejores compañías.
+              {{ $t("about").about_history.incubation_history.paragraph_1 }}
             </p>
             <p>
-              Transformamos nuestro enfoque para mostrarles a los negocios que
-              no se han atrevido a transformase aún, que evolucionar con la
-              mejor tecnología es posible.
+              {{ $t("about").about_history.incubation_history.paragraph_2 }}
             </p>
             <p>
-              Así que, teniendo una hoja de ruta nueva,
-              <b
-                >solo nos quedaba armar un equipo de trabajo que viviera
-                nuestros valores y que quisiera volar alto con nosotros.
+              {{ $t("about").about_history.incubation_history.paragraph_3 }}
+              <b>
+                {{
+                  $t("about").about_history.incubation_history
+                    .paragraph_3_highlighted
+                }}
               </b>
             </p>
           </div>
@@ -108,14 +92,10 @@
           <div class="flex-container">
             <div class="history__incubation__text">
               <p>
-                En 2021 renovamos nuestra marca y nuestros servicios. Nuestra
-                misión entonces se convirtió en conectar a los mejores
-                desarrolladores con las mejores compañías.
+                {{ $t("about").about_history.incubation_history.paragraph_1 }}
               </p>
               <p>
-                Transformamos nuestro enfoque para mostrarles a los negocios que
-                no se han atrevido a transformase aún, que evolucionar con la
-                mejor tecnología es posible.
+                {{ $t("about").about_history.incubation_history.paragraph_2 }}
               </p>
             </div>
             <div class="history__incubation__img">
@@ -124,10 +104,12 @@
           </div>
           <div class="history__incubation__text">
             <p>
-              Así que, teniendo una hoja de ruta nueva,
-              <b
-                >solo nos quedaba armar un equipo de trabajo que viviera
-                nuestros valores y que quisiera volar alto con nosotros.
+              {{ $t("about").about_history.incubation_history.paragraph_3 }}
+              <b>
+                {{
+                  $t("about").about_history.incubation_history
+                    .paragraph_3_highlighted
+                }}
               </b>
             </p>
           </div>
@@ -136,23 +118,14 @@
     </div>
     <div class="history__pidgin">
       <div class="history__pidgin__container">
-        <h2>Paloma > Fénix</h2>
+        <h2>{{ $t("about").about_history.pidgin_history.title }}</h2>
         <div class="history__pidgin__body">
           <div class="history__pidgin__text">
             <p>
-              En 2022 volvimos e iniciamos operaciones con uno de nuestros
-              clientes más grandes. Nuestros Pigeons llegaron también a ayudar a
-              construir y desarrollar la compañía en tres grandes áreas
-              inicialmente: la Administrativa, la de Ventas y Marketing, y la de
-              Operaciones.
+              {{ $t("about").about_history.pidgin_history.paragraph_1 }}
             </p>
             <p>
-              Pasamos de ser dos soñadores que hablaban sobre las grandes
-              oportunidades que el mercado del BPO ofrecía, a ser una firma
-              activa que presta servicios de desarrollo, no solo a esas grandes
-              compañías que han traído progreso, sino también a aquellas que
-              están empezando y que, al igual que nosotros, sueñan con
-              convertirse en gigantes en sus propias industrias.
+              {{ $t("about").about_history.pidgin_history.paragraph_2 }}
             </p>
           </div>
           <div class="history__pidgin__img">
@@ -163,26 +136,16 @@
           <div class="flex-container">
             <div class="history__pidgin__text">
               <p>
-                En 2022 volvimos e iniciamos operaciones con uno de nuestros
-                clientes más grandes. Nuestros Pigeons llegaron también a ayudar
-                a construir y desarrollar la compañía en tres grandes áreas
-                inicialmente: la Administrativa, la de Ventas y Marketing, y la
-                de Operaciones.
+                {{ $t("about").about_history.pidgin_history.paragraph_1 }}
               </p>
             </div>
             <div class="history__pidgin__img">
-              <!-- <img src="~/assets/images/jpg/history-incubation.jpg" alt="" /> -->
               <img src="~/assets/images/jpg/history-pidgin.jpg" alt="" />
             </div>
           </div>
           <div class="history__pidgin__text">
             <p>
-              Pasamos de ser dos soñadores que hablaban sobre las grandes
-              oportunidades que el mercado del BPO ofrecía, a ser una firma
-              activa que presta servicios de desarrollo, no solo a esas grandes
-              compañías que han traído progreso, sino también a aquellas que
-              están empezando y que, al igual que nosotros, sueñan con
-              convertirse en gigantes en sus propias industrias.
+              {{ $t("about").about_history.pidgin_history.paragraph_2 }}
             </p>
           </div>
         </div>
@@ -192,12 +155,9 @@
       <div class="history__bottom-text__gradient"></div>
       <div class="history__bottom-text__content">
         <p>
-          Hoy en día tenemos presencia en redes y estamos empezando a abrirnos
-          paso en el mundo del desarrollo y de las Startups.
+          {{ $t("about").about_history.text }}
           <b>
-            Y así seguimos avanzando, trabajando en equipo para poder seguir
-            transformando vidas a través de las maravillas que nuestros
-            desarrolladores pueden hacer.
+            {{ $t("about").about_history.text_highlighted }}
           </b>
         </p>
       </div>

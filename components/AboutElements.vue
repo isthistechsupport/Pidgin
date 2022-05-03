@@ -1,50 +1,17 @@
 <template>
   <div class="about-us__elements">
-    <div class="about-us__element">
+    <div
+      class="about-us__element"
+      v-for="elementCard in $t('about').about_values.about_values_elements"
+      :key="elementCard.id"
+    >
       <div class="about-us__element-img">
-        <img src="~/assets/images/svg/value-ingenuity.svg" alt="" />
+        <img :src="require(`~/assets/images${elementCard.img_path}`)" alt="" />
       </div>
       <div class="about-us__element__text">
-        <h3>Ingenio</h3>
+        <h3>{{ elementCard.title }}</h3>
         <p>
-          Innovamos constantemente creatividad, encontrando siempre la solución
-          más eficiente.
-        </p>
-      </div>
-    </div>
-    <div class="about-us__element">
-      <div class="about-us__element-img">
-        <img src="~/assets/images/svg/value-ingenuity.svg" alt="" />
-      </div>
-      <div class="about-us__element__text">
-        <h3>Ingenio</h3>
-        <p>
-          Innovamos constantemente creatividad, encontrando siempre la solución
-          más eficiente.
-        </p>
-      </div>
-    </div>
-    <div class="about-us__element">
-      <div class="about-us__element-img">
-        <img src="~/assets/images/svg/value-ingenuity.svg" alt="" />
-      </div>
-      <div class="about-us__element__text">
-        <h3>Ingenio</h3>
-        <p>
-          Innovamos constantemente creatividad, encontrando siempre la solución
-          más eficiente.
-        </p>
-      </div>
-    </div>
-    <div class="about-us__element">
-      <div class="about-us__element-img">
-        <img src="~/assets/images/svg/value-ingenuity.svg" alt="" />
-      </div>
-      <div class="about-us__element__text">
-        <h3>Ingenio</h3>
-        <p>
-          Innovamos constantemente creatividad, encontrando siempre la solución
-          más eficiente.
+          {{ elementCard.text }}
         </p>
       </div>
     </div>

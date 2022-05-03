@@ -1,8 +1,8 @@
 <template>
-  <header class="navbar">
+  <header class="navbar" id="navbar">
     <div class="navbar__content">
       <div class="navbar__logo">
-        <NuxtLink to="/">
+        <NuxtLink :to="localePath('/')">
           <img
             src="~/assets/images/svg/logo-navbar.svg"
             :alt="$t('navbar_logo_alt')"
@@ -10,7 +10,7 @@
         </NuxtLink>
       </div>
       <div class="navbar__logo--mobile">
-        <NuxtLink to="/">
+        <NuxtLink :to="localePath('/')">
           <img
             src="~/assets/images/svg/logo-navbar-mobile.svg"
             :alt="$t('navbar_logo_alt')"
@@ -22,7 +22,7 @@
           v-for="navitem in $t('navbar_items')"
           :key="navitem.id"
           class="navbar__item"
-          :to="navitem.link"
+          :to="localePath(navitem.link)"
         >
           {{ navitem.label }}
         </NuxtLink>
@@ -69,16 +69,36 @@ export default {
     };
   },
 };
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-91px";
+  }
+  prevScrollpos = currentScrollPos;
+};
 </script>
 
 <style lang="scss">
 @import "~assets/scss/variables";
 
+#navbar {
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  background: $white;
+  z-index: 10;
+}
+
 .navbar {
   display: flex;
   border-bottom: 1px solid $white-secondary;
   padding: 0 !important;
-  position: relative;
+  // position: relative;
 
   &__logo {
     &--mobile {

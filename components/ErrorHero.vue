@@ -9,13 +9,15 @@
       <div class="error__text">
         <p>
           {{ $t("error").error_text_1
-          }}<NuxtLink to="/">{{ $t("error").error_text_link_label }}</NuxtLink
+          }}<NuxtLink :to="localePath('/')">{{
+            $t("error").error_text_link_label
+          }}</NuxtLink
           >.
         </p>
         <p>{{ $t("error").error_text_2 }}</p>
       </div>
       <div class="error__buttons">
-        <TempButtonPrimary
+        <ButtonPrimary
           v-bind:buttonLabel="$t('error').error_home_button.label"
           v-bind:buttonLink="$t('error').error_home_button.link"
         />
