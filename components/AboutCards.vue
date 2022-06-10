@@ -23,7 +23,6 @@ export default {};
 .about-us {
   &__cards {
     display: flex;
-    align-items: center;
     column-gap: 30px;
     padding: 0;
   }
@@ -38,7 +37,6 @@ export default {};
     border-radius: 20px;
     max-width: 364px;
     padding: 30px;
-    min-height: 226px;
     width: 100%;
 
     &__title {
@@ -64,6 +62,12 @@ export default {};
     &__cards {
       column-gap: 20px;
     }
+
+    &__card {
+      &__text {
+        text-align: left;
+      }
+    }
   }
 }
 
@@ -78,6 +82,16 @@ export default {};
     &__card {
       max-width: 466px;
       min-height: unset;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .about-us {
+    &__card {
+      &__text {
+        text-align: justify;
+      }
     }
   }
 }

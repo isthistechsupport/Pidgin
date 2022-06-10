@@ -4,7 +4,7 @@
     {
       "id": 0,
       "label": "Services",
-      "link": "#"
+      "link": "/services"
     },
     {
       "id": 1,
@@ -14,17 +14,17 @@
     {
       "id": 2,
       "label": "Careers",
-      "link": "#"
+      "link": "/careers"
     },
     {
       "id": 3,
       "label": "Blog",
-      "link": "#"
+      "link": "/blog"
     }
   ],
   "contact_button": {
     "label": "Contact",
-    "link": "#"
+    "link": "/contact"
   },
   "hero": {
     "title_hero": "We connect companies",
@@ -114,7 +114,7 @@
         "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
         "member_card_alt": "nicole mora profile pic",
         "member_card_name": "Nicole Mora",
-        "member_card_job_title": "Chief Executive Officer",
+        "member_card_job_title": "Executive Supervisor",
         "member_card_description_1": "I am a woman with a passion for learning. I learn so that I can teach and motivate others. Having been a teacher, this comes naturally to me.  I came to Pidgin looking to spread that passion to others.",
         "member_card_description_2": "I believe that relationships in a company should always be reciprocal. When you work hard for your team, wonderful things are achieved."
       },
@@ -123,7 +123,7 @@
         "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
         "member_card_alt": "camilo ospina profile pic",
         "member_card_name": "Camilo Ospina",
-        "member_card_job_title": "Chief Administrative Officer",
+        "member_card_job_title": "Administrative Supervisor",
         "member_card_description_1": "I consider myself a leader who works hand in hand with the goals and ideals of Pidgin. My areas of expertise are personnel management and the development of processes for the improvement of activities in other areas.",
         "member_card_description_2": "I advocate for working like a clockwork to provide our Pigeons with the services they require."
       },
@@ -132,14 +132,14 @@
         "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
         "member_card_alt": "lenin dorado profile pic",
         "member_card_name": "Lenin Dorado",
-        "member_card_job_title": "Chief Commercial Officer",
+        "member_card_job_title": "Commercial Supervisor",
         "member_card_description_1": "I characterize myself as a born leader because I always seek to develop the potential of the people I work with to achieve the necessary goals.",
         "member_card_description_2": "I enjoy working with the Pigeons. I am part of the sales team, an amazing group of professionals and one of the most energetic and dynamic sales departments I have ever been a part of."
       }
     ],
     "members_button": {
       "label": "Get to know us",
-      "link": "#"
+      "link": "/about-us/#about_members_detail"
     }
   },
   "contact_section": {
@@ -171,25 +171,25 @@
   "about": {
     "about_hero_text_1_1": "We are ",
     "about_hero_text_1_2": "Pidgin",
-    "about_hero_text_1_3": ", a firm of developers on demand aiming to provide custom-made solutions for every business need. Our services range from consultancy and analytics to software development.",
+    "about_hero_text_1_3": ", a firm of developers on-demand firm that seeks to provide custom-made solutions tailored to every business’ need. We provide services that range from consultancy and analytics to software development.",
     "about_hero_text_2": "Our main goal is to help our customers’ businesses grow by understanding their challenges as if they were our own.",
     "about_values": {
-      "about_values_text": "This represents us:",
+      "about_values_text": "What represents us:",
       "about_values_cards": [
         {
           "id": 0,
           "title": "Mission",
-          "text": "To provide customized solutions to Colombian companies that seek digital transformation. We do this through a dynamic framework that allows us to face the challenges of the current market."
+          "text": "To provide customized solutions to Colombian companies that seek digital transformation by means of a dynamic framework that allows us to face the challenges of the current market."
         },
         {
           "id": 1,
           "title": "Vision",
-          "text": "By 2026, we will be a leading provider of digital solutions in Latin America, expanding our services to contribute to and promote open and collaborative development in the tech community."
+          "text": "By 2026, we will be a leading provider of digital solutions in Latin America. We will broaden our services to contribute to and promote an open and collaborative development in the tech community."
         },
         {
           "id": 2,
           "title": "Philosophy",
-          "text": "Not only do we create added value for the end-user, our clients, and associates, but also for society in general, committed to offering products that exceed expectations."
+          "text": "Not only do we create added value for the end-user, our clients, and our associates, but also for society in general. We are committed to offering products that exceed expectations."
         }
       ],
       "about_values_elements": [
@@ -197,37 +197,37 @@
           "id": 0,
           "img_path": "/svg/value-ingenuity.svg",
           "title": "Ingenuity",
-          "text": "We constantly innovate with candidness and creativity, always finding the most efficient solution."
+          "text": "We are constantly innovating with candidness and creativity, always finding the most efficient solution."
         },
         {
           "id": 1,
           "img_path": "/svg/value-trust.svg",
           "title": "Trust",
-          "text": "We strongly believe in our ability to work autonomously and efficiently."
+          "text": "We strongly believe in our abilities, and we work autonomously and efficiently. "
         },
         {
           "id": 2,
           "img_path": "/svg/value-transparency.svg",
           "title": "Transparency",
-          "text": "We communicate ideas assertively, always based on fair and accurate assessments."
+          "text": "We communicate assertively and always support our ideas on fair and accurate assessments. "
         },
         {
           "id": 3,
           "img_path": "/svg/value-teamwork.svg",
           "title": "Teamwork",
-          "text": "We always work with the common good in mind because we believe that we can accomplish more together."
+          "text": "We always work with the common good in mind because we believe that together we can achieve more."
         }
       ]
     },
     "about_history": {
-      "title": "Chronicle of an announced takeoff",
-      "subtitle": "Flying over our history",
+      "title": "Chronicle of a foreseen takeoff",
+      "subtitle": "Overflying our history",
       "beginning_history": {
         "title": "The beginning of everything",
-        "paragraph_1": "In a discussion regarding the BPO business in 2019, our founders came to an important conclusion: in Colombia, this growing market was not only bringing more jobs but also opening great opportunities for other industries.",
-        "paragraph_2": "Thus, Pidgin was born. We were a company that focused on covering specific BPO needs, such as analytics, reporting, and databases, through the provision of developers.",
+        "paragraph_1": "In a discussion regarding the BPO business in 2019, our founders came to an important conclusion: in Colombia, the growing market of BPOs was not only bringing more jobs into the country but also opening up great opportunities for other industries.",
+        "paragraph_2": "That was the moment Pidgin was born. We were a company that focused on covering specific BPO needs through the provision of developers, with services that ranged from analytics and reporting to databases and many more.",
         "paragraph_3": "In 2020, the COVID19 pandemic forced us to close our doors before we could begin operations with our largest clients. Nonetheless, we didn't give up and continued fighting for this dream.",
-        "paragraph_4": "We learned, during 2020, that because of the emerging job modalities, more and more sectors were in dire need of developers. The developers that were needed were not just ordinary type but, in fact, the best developers the market could offer. During these difficult times, we saw many businesses transform. More importantly, we saw them grow, ",
+        "paragraph_4": "During that same year, we learned that more and more sectors were in dire need of developers because of the emerging job modalities. The market needed extraordinary developers who were willing to break the mold and divert from what was standard. Companies needed the best developers the market could offer. During these difficult times, we saw many businesses transform; we saw many of them grow, ",
         "paragraph_4_highlighted": "which ignited within us a burning desire to grow along with them."
       },
       "incubation_history": {
@@ -238,9 +238,9 @@
         "paragraph_3_highlighted": "all that was left was to put together a team of people who shared our values and wanted to fly high with us."
       },
       "pidgin_history": {
-        "title": "Pidgin > Phoenix",
-        "paragraph_1": "In 2022 we returned and initiated operations with one of our largest clients. Our Pigeons also joined us to help build and expand the company in three main areas: Administration, Sales and Marketing, and Operations.",
-        "paragraph_2": "We went from being two dreamers talking about the great opportunities that the BPO market offered, to being an active firm that provides development services. Our services are directed not only at those large companies that have brought progress but also at those which are just starting, companies which, like us, dream of becoming giants in their own industries."
+        "title": "From Pigeon to Phoenix",
+        "paragraph_1": "We came back in 2022 and initiated operations with one of our largest clients. New Pigeons also joined our flock to help build and expand the company in three main areas: Administration, Sales and Marketing, and Operations.",
+        "paragraph_2": "We went from being two dreamers talking about the great opportunities that the BPO market offered to being an active firm that provides development services. Our services are not only directed at those large companies that have brought progress but also at startups, companies who, like us, dream of becoming giants in their own industries."
       },
       "text": "We are currently active on social media, and we are beginning to make our way into the world of development and startups. ",
       "text_highlighted": "We continue moving forward, working as a team to keep on transforming people's lives via the wonderful ideas that our developers can bring about and make possible."
@@ -248,40 +248,40 @@
     "about_members": {
       "title": "The faces of the ",
       "title_highlighted": "nest",
-      "text": "Our co-founders have 15 years of combined experience in the development and big-data sector, and they have carefully selected the talents that make up the team through a process that is both agile and rigorous.",
+      "text": "Our co-founders have 15 years of combined experience in the development and big-data sector. They have carefully selected the talents that make up the team through an agile and rigorous process.",
       "members": [
         {
           "id": "0",
           "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
           "name": "Nicole Mora",
-          "job_title": "Chief Executive Officer",
-          "paragraph_1": "I am a woman with a passion for learning. I learn so that I can teach and motivate others. Having been a teacher, this comes naturally to me. I came to Pidgin looking to spread that passion to others. We aim to become one of the leading firms in the field of technology to offer solutions to our clients that allow them to grow and, at the same time, have the best service experience possible.",
-          "paragraph_2": "Knowing that we have an exceptional team to make this dream a reality is very fulfilling. I believe that relationships in a company should always be reciprocal. When you work hard for your team, wonderful things are achieved. Thus, the greatest challenge for me in this company is to honor and meet all my Pigeons' expectations and needs so that, as a team, we can help make all of our customers’ dreams a reality."
+          "job_title": "Executive Supervisor",
+          "paragraph_1": "I am a woman with a passion for learning. I learn so that I can teach and motivate people, and I came to Pidgin looking to spread that passion to others, a desire which has grown within me since I became a teacher as well. At Pidgin, we aim to become one of the leading firms in the field of technology to offer solutions to our clients that allow them to grow and, at the same time, have the best customer service experience possible.",
+          "paragraph_2": "Knowing that we have an exceptional team to make this dream a reality is very fulfilling. I believe that relationships in a company should always be reciprocal because when you work hard for your team, wonderful things can be achieved. Thus, the greatest challenge for me in this company is to honor and meet all my Pigeons' expectations and needs so that, as a team, we can help make all of our customers’ dreams a reality."
         },
         {
           "id": "1",
           "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
           "name": "Camilo Ospina",
-          "job_title": "Chief Administrative Officer",
-          "paragraph_1": "I am an Administrator of developing companies from the Gran Colombiano Polytechnic University, I have 5 years of experience in the public and private sectors, developing administrative issues for different companies. I also have knowledge in personnel management and in the development of processes for the improvement of activities in the required areas.",
-          "paragraph_2": "I have led teams in customer service and I am characterized by good teamwork, which is why I consider myself a leader who goes hand in hand with the objectives and ideals of the company. I am part of the administrative team which will be a key piece for the company to keep the administrative and personnel processes in order, working like clockwork in the delivery and provision of services to our Pigeons."
+          "job_title": "Administrative Supervisor",
+          "paragraph_1": "I am a business development manager from the Gran Colombiano Polytechnic University and have five years of experience in the public and private sectors, developing administrative issues for different companies. I have experience in personnel management and the improvement of activities in several areas through the development of corporative processes.",
+          "paragraph_2": "I have led several customer services’ teams, and teamwork is one of the things I enjoy the most, which is why I consider myself a leader who goes hand in hand with the objectives and ideals of the company. I work with the administrative team, which is essential to keep the administrative and HR processes in order. At Pidgin, we work tirelessly to provide outstanding services to our Pigeons."
         },
         {
           "id": "2",
           "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
           "name": "Lenin Dorado",
-          "job_title": "Chief Commercial Officer",
-          "paragraph_1": "I am a professional in Commercial Business Administration from the Universidad Colegio Mayor de Cundinamarca, with a diploma in business coaching, I have more than 4 years of experience in startups, I led several work teams in the commercial and customer service area. I characterize myself as a born leader because I always seek to develop the potential of the people I work with and thus achieve goals. As Henry Ford already said. “Arriving together is the beginning. Keeping together is progress. Working together is success”, I love reading, outdoor sports and spending quality time with my family.",
-          "paragraph_2": "I enjoy working with the Pigeons. I am part of the sales team; an amazing group of professionals and one of the most energetic and dynamic sales departments I have ever been a part of. The benefits are excellent and we enjoy a unique culture of candor."
+          "job_title": "Commercial Supervisor",
+          "paragraph_1": "I am a professional in Commercial Business Administration from the Universidad Colegio Mayor de Cundinamarca, with a diploma in business coaching. During my four years of experience in startups, I have led several commercial and customer service teams. I characterize myself as a born leader because I always seek to develop my teammates’ potential in order to reach the desired goals. As Henry Ford once said, “coming together is the beginning. Keeping together is progress. Working together is success”. I love reading, outdoor sports and spending quality time with my family.",
+          "paragraph_2": "I enjoy working with the Pigeons as a member of the sales team, an amazing group of professionals and one of the most energetic and dynamic sales departments I have ever been a part of. The benefits are excellent, and we all work with honesty and enthusiasm."
         }
       ],
       "toggle_label_read_more": "Read more",
       "toggle_label_read_less": "Read less"
     },
     "about_contact": {
-      "title": "Live the experience from the nest",
+      "title": "Live the experience from your nest",
       "img_alt": "work group having fun",
-      "text_1": "Join the flock, we have room for more chicks.",
+      "text_1": "Join the flock! We always have room for more pigeons.",
       "text_2": "Contact us. We don't bite.",
       "contact_button": {
         "label": "Contact us",
@@ -289,10 +289,35 @@
       }
     }
   },
+  "contact_page": {
+    "hero_title": "Contact us",
+    "hero_text_1": "Get in touch with the right ",
+    "hero_text_2": "pigeon. ",
+    "hero_text_3": "Send an email according to your needs to the emails that we leave you ahead or enter the data in our form.",
+    "info_title": "Tell us what you need",
+    "info_text_1": "Our ",
+    "info_text_2": "pigeons ",
+    "info_text_3": "will always be there for you when you need them. Contact us through our channels:",
+    "info_email_title": "Email",
+    "info_email_label": "contacto@pidgin.com.co",
+    "info_email_link": "mailto:contacto@pidgin.com.co?subject=Contact",
+    "info_wa_title": "WhatsApp",
+    "info_wa_label": "(+57) 305 319 4579",
+    "info_wa_link": "https://wa.link/e5mfdf",
+    "info_text_4": "If you are our client already and you need support with any of the services we provide for you, contact us at ",
+    "support_mail_label": "soporte@pidgin.com.co",
+    "support_mail_link": "mailto:soporte@pidgin.com.co?subject=Support",
+    "mandatory_fields": "Marked fields (*) are required",
+    "name_label": "Full name*",
+    "email_label": "E-mail*",
+    "phone_label": "Phone",
+    "subject_label": "Subject*",
+    "message_label": "Type your message...*",
+    "submit_button_label": "Send message"
+  },
   "footer": {
     "footer_logo_alt": "Pidgin Logo Negative",
-    "title_newsletter": "Stay up to date with what happens in",
-    "title_newsletter_underlined": "our nest",
+    "title_newsletter": "Stay up to date with what happens in our nest",
     "newsletter_title": "Enter your e-mail",
     "newsletter_send_button_label": "Send",
     "newsletter_consent": "I give Pidgin my consent to store the submitted information.",
@@ -337,7 +362,8 @@
       }
     ],
     "credits_1": "This site has been designed by ",
-    "credits_2": " and developed by ",
+    "credits_2": " developed by ",
+    "credits_3": " and reviewed by ",
     "bottom_info": "© 2022 PIDGIN - Contact Solutions"
   }
 }

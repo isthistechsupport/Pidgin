@@ -13,11 +13,7 @@
         <hr />
         <div class="footer__content">
           <div class="footer__content--left">
-            <p>
-              {{ $t("footer").title_newsletter }}
-              <strong>{{ $t("footer").title_newsletter_underlined }}</strong
-              >:
-            </p>
+            <p>{{ $t("footer").title_newsletter }}:</p>
             <NewsletterForm />
           </div>
           <div class="footer__content--right">
@@ -51,13 +47,21 @@
       <div class="footer__layout__bottom">
         <div class="footer__caption">
           <div class="footer__credits">
-            {{ $t("footer").credits_1
-            }}<a href="https://www.linkedin.com/in/kcoleyv/" target="blank"
-              >Kevin Coley</a
-            >{{ $t("footer").credits_2
-            }}<a href="https://github.com/abelareiza" target="blank"
-              >Abel Areiza</a
+            {{ $t("footer").credits_1 }}
+            <a href="https://www.linkedin.com/in/kcoleyv/" target="blank">
+              Kevin Coley,
+            </a>
+            {{ $t("footer").credits_2 }}
+            <a href="https://github.com/abelareiza" target="blank">
+              Abel Areiza,
+            </a>
+            {{ $t("footer").credits_3 }}
+            <a
+              href="https://www.linkedin.com/in/ana-gabriela-pérez-guarnizo-50b105237/"
+              target="blank"
             >
+              Ana Peréz
+            </a>
           </div>
           <span>
             <b>{{ $t("footer").bottom_info }}</b>
@@ -65,7 +69,7 @@
         </div>
       </div>
       <div class="arrow-button" @click="scrollToTop">
-        <img src="~/assets/images/svg/arrow-button.svg" alt="" />
+        <img src="~/assets/images/svg/arrow-icon.svg" alt="" />
       </div>
     </div>
   </footer>
@@ -123,10 +127,31 @@ hr {
     }
 
     .arrow-button {
+      @include transition-ease-02;
       position: absolute;
       top: 125px;
       right: 60px;
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $white;
+      border-radius: 100%;
+      border: 1px solid $blue-primary;
+      box-shadow: none;
+      height: 50px;
+      width: 50px;
+
+      &:hover {
+        @include effect-button-shadow;
+        @include effect-gradient-2--button;
+      }
+
+      &:active {
+        background-color: $blue-light-6;
+        background-image: none;
+        box-shadow: none;
+      }
     }
   }
 
@@ -142,11 +167,6 @@ hr {
         font-weight: bold;
         margin: 0 0 2rem;
         max-width: 364px;
-
-        strong {
-          font-weight: bold;
-          text-decoration: underline;
-        }
       }
     }
   }
@@ -257,9 +277,7 @@ hr {
     }
 
     &__credits {
-      a {
-        text-decoration: none;
-      }
+      max-width: 380px;
     }
   }
 

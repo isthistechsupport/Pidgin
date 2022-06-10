@@ -38,6 +38,9 @@ $desktop-xl: 1920px;
 @mixin effect-gradient-2 {
   background: linear-gradient($white 50%, $blue-light-6);
 }
+@mixin effect-gradient-2--button {
+  background-image: linear-gradient($white 50%, $blue-light-6);
+}
 @mixin effect-gradient-2--inverted {
   background: linear-gradient($blue-light-6 50%, $white);
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="about-members">
+  <div class="about-members" id="about_members_detail">
     <div class="about-members__header">
       <h2>
         {{ $t("about").about_members.title

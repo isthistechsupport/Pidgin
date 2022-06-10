@@ -129,7 +129,7 @@
             </p>
           </div>
           <div class="history__pidgin__img">
-            <img src="~/assets/images/jpg/history-pidgin.jpg" alt="" />
+            <img src="~/assets/images/jpg/team2.jpg" alt="" />
           </div>
         </div>
         <div class="history__pidgin__body--mobile">
@@ -140,7 +140,7 @@
               </p>
             </div>
             <div class="history__pidgin__img">
-              <img src="~/assets/images/jpg/history-pidgin.jpg" alt="" />
+              <img src="~/assets/images/jpg/team2.jpg" alt="" />
             </div>
           </div>
           <div class="history__pidgin__text">

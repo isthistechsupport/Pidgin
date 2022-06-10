@@ -5,18 +5,20 @@
       v-for="card in $t('benefits').benefits_cards"
       :key="card.id"
     >
-      <img
-        :src="require(`~/assets/images${card.benefit_card_img}`)"
-        alt=""
-        class="card__img"
-      />
-      <div class="card__text">
-        <h3 class="card__title">{{ card.benefit_card_title }}</h3>
-        <p>
-          {{ card.benefit_card_text_1
-          }}<span>{{ card.benefit_card_text_highlighted }}</span
-          >{{ card.benefit_card_text_2 }}
-        </p>
+      <div class="benefits__card__body">
+        <img
+          :src="require(`~/assets/images${card.benefit_card_img}`)"
+          alt=""
+          class="card__img"
+        />
+        <div class="card__text">
+          <h3 class="card__title">{{ card.benefit_card_title }}</h3>
+          <p>
+            {{ card.benefit_card_text_1
+            }}<span>{{ card.benefit_card_text_highlighted }}</span
+            >{{ card.benefit_card_text_2 }}
+          </p>
+        </div>
       </div>
       <a :href="`${card.benefit_card_link_url}`" class="card__link"
         ><span>{{ card.benefit_card_link_label }}</span>
@@ -35,7 +37,6 @@ export default {};
 
 .benefits__cards {
   display: flex;
-  align-items: center;
   column-gap: 30px;
   padding: 0 1.5rem;
   margin-bottom: -169px;
@@ -45,14 +46,20 @@ export default {};
   @include effect-cards-shadow;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   row-gap: 20px;
   background: $white;
   border-radius: 20px;
   max-width: 266px;
   padding: 30px;
-  min-height: 338px;
   width: 100%;
   z-index: 2;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
 
   .card {
     &__img {
@@ -96,11 +103,12 @@ export default {};
 
       img {
         margin-left: 0.25rem;
+        transition: transform 200ms ease;
       }
 
       &:hover {
-        span {
-          border-bottom: 1px solid $blue-primary;
+        img {
+          transform: translateX(5px);
         }
       }
     }

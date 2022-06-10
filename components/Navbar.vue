@@ -28,13 +28,9 @@
         </NuxtLink>
       </div>
       <div class="navbar__actions">
-        <!-- <ButtonSecondary
+        <ButtonSecondary
           v-bind:buttonLabel="$t('contact_button').label"
           v-bind:buttonLink="$t('contact_button').link"
-        /> -->
-        <TempButtonSecondary
-          v-bind:buttonLabel="$t('contact_button').label"
-          buttonLink="mailto:contacto@pidgin.com.co?subject=Necesito hablar con ustedes - Contacto"
         />
         <LanguageInput />
         <div class="mobile-menu modal-btn">
