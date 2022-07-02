@@ -315,6 +315,153 @@
     "message_label": "Type your message...*",
     "submit_button_label": "Send message"
   },
+  "services_page": {
+    "hero_title_1": "The ",
+    "hero_title_2": "perfect developer for your business ",
+    "hero_title_3": "is here",
+    "hero_text": "We have a team of expert developers who assess our clients' product needs to provide customized solutions.",
+    "hero_button_label": "Let's see the profiles",
+    "hero_button_link": "#",
+    "intro_text_1": "At ",
+    "intro_text_2": "Pidgin",
+    "intro_text_3": " we primarily seek to help companies cover their staffing gaps with flexible and reliable developer hiring models, and to provide fast, quality development solutions for ongoing projects that require timely intervention.",
+    "pidgin_style_title_1": "The ",
+    "pidgin_style_title_2": "Pidgin ",
+    "pidgin_style_title_3": "Way",
+    "pidgin_style_text_1": "We propose solutions and launch projects based on agile and focused processes.",
+    "pidgin_style_text_2": "Getting our services is easy!",
+    "modalities_intro_text_1": "Each and every one of our clients has very different needs.",
+    "modalities_intro_text_2": "In ",
+    "modalities_intro_text_3": "Pidgin",
+    "modalities_intro_text_4": ", we approach them from these three modalities:",
+    "projects_title": "Projects",
+    "projects_text_1": "For clients who are not looking for personnel to fill technology roles, but rather obtain a specific development product, we offer the project work service.",
+    "projects_text_2": "In this modality, the client tells us what their product needs are, and our team of experts estimates the necessary tools and resources, the delivery time and the price for the execution of the project.",
+    "headhunting_title": "Headhunting",
+    "headhunting_text_1": "At Pidgin we are committed to dynamism and teamwork. We like to have diverse teams able to share knowledge and collaborate with each other to build new ideas.",
+    "headhunting_text_2": "Therefore, our headhunting process is strictly governed by these principles, guaranteeing efficiency and quality.",
+    "staffing_title": "Staffing",
+    "staffing_text_1": "Pidgin's staffing service is the process by which our developers are selected to be part of a specific work team, in charge of developing a specific project.",
+    "staffing_text_2": "The profiles below are just a few of the many we have.",
+    "staffing_text_3": "If the profile you are looking for is not on the list, ",
+    "staffing_text_4": "write to us!",
+    "profiles": [
+      {
+        "id": 0,
+        "img_alt": "Code on computer monitor",
+        "title": "Full Stack Developer",
+        "description": "They have the skills to create a fully functioning website. They are capable of setting up Linux servers, writing server-side APIs, and more."
+      },
+      {
+        "id": 1,
+        "title": "Back-end developer",
+        "img_alt": "Code on a laptop screen",
+        "description": "The back end of a website is made up of a server, an application, and a database. Our Backend developers build and maintain these components. His development skills are Java, C++, Ruby, Python, Scala, and Go."
+      },
+      {
+        "id": 2,
+        "img_alt": "Code on computer monitor",
+        "title": "Front-end Developer",
+        "description": "They are our experts in visual, aesthetic and design user interfaces. His skills consist of User Interface (UI) Design, User Experience (UX) Design, CSS, JavaScript, HTML, UI Frameworks."
+      },
+      {
+        "id": 3,
+        "img_alt": "Code on computer monitor",
+        "title": "Software Developer",
+        "description": "They work on identifying, designing, installing, and testing a software system that has been built for a client from scratch."
+      },
+      {
+        "id": 4,
+        "img_alt": "Male sports engineer on computer",
+        "title": "DevOps Developer",
+        "description": "They can create applications, deploy them and monitor them. His skills are Kubernetes, Docker, Apache Mesos, Jenkins, etc. and HashiCorp stack."
+      },
+      {
+        "id": 5,
+        "img_alt": "Male engineer develops sustainable code",
+        "title": "Data Scientist",
+        "description": "They are in charge of statistical analysis, machine learning, and predictive modeling. His skills are Python, R, SQL, among others."
+      },
+      {
+        "id": 6,
+        "img_alt": "Woman in black shirt using laptop computer",
+        "title": "Security Engineer",
+        "description": "They specialize in creating systems, methods, and procedures for testing the security of software systems and correcting security flaws."
+      },
+      {
+        "id": 7,
+        "img_alt": "Person using a MacBook Pro",
+        "title": "Test engineer",
+        "description": "Are responsible for designing and implementing the tests that ensure the quality and functionality of a product."
+      },
+      {
+        "id": 8,
+        "img_alt": "Man holding smartphone with flat screen monitor",
+        "title": "Machine learning engineer",
+        "description": "They are the ones that focus on researching, building and designing self-executing artificial intelligence (AI) systems to automate predictive models. His development skills are Python, Java, C++, C, R and JavaScript."
+      }
+    ],
+    "languages": [
+      {
+        "id": 0,
+        "language": "Python",
+        "img": "/svg/tech-stack/python.svg"
+      },
+      { "id": 1, "language": "HTML 5", "img": "/svg/tech-stack/html.svg" },
+      { "id": 2, "language": "CSS 3", "img": "/svg/tech-stack/css.svg" },
+      { "id": 3, "language": "Perl", "img": "/svg/tech-stack/perl.svg" },
+      {
+        "id": 4,
+        "language": "JavaScript",
+        "img": "/svg/tech-stack/javascript.svg"
+      },
+      {
+        "id": 5,
+        "language": "TypeScript",
+        "img": "/svg/tech-stack/typescript.svg"
+      },
+      { "id": 6, "language": "Swift", "img": "/svg/tech-stack/swift.svg" },
+      { "id": 7, "language": "Bash", "img": "/svg/tech-stack/bash.svg" },
+      { "id": 8, "language": "C", "img": "/svg/tech-stack/c.svg" },
+      { "id": 9, "language": "C++", "img": "/svg/tech-stack/c++.svg" },
+      { "id": 10, "language": "C#", "img": "/svg/tech-stack/c-sharp.svg" },
+      { "id": 11, "language": "Ruby", "img": "/svg/tech-stack/ruby.png" },
+      { "id": 12, "language": "Kotlin", "img": "/svg/tech-stack/kotlin.svg" },
+      { "id": 13, "language": "Java", "img": "/svg/tech-stack/java.svg" },
+      { "id": 14, "language": "R", "img": "/svg/tech-stack/r.svg" },
+      { "id": 15, "language": "Scala", "img": "/svg/tech-stack/scala.svg" }
+    ],
+    "stack_text_1": "Our team masters the following computer languages to tackle your projects!",
+    "stack_text_2": "If you have another in mind, you can contact us directly to assess the options!",
+    "bottom_cta_title": "Take the chance!",
+    "bottom_cta_text_1": "You already dreamed it and here are your wings, let's spread them and boost your business!",
+    "bottom_cta_text_2": "Write us, we don't bite.",
+    "write_us_button_label": "Write us",
+    "write_us_button_link": "/contact",
+    "pidgin_style_steps": [
+      {
+        "id": 0,
+        "step_number": "1",
+        "step_title": "Tell our messenger pigeons what you need, and they will forward your needs to the expert Pigeons:",
+        "step_paragraph_1": "Tell us which IT roles you need covered and how many developers you require, and we'll get to work to find them for you. ",
+        "step_paragraph_2": "Tell us about that urgent problem your business has that can only be solved with a developer: Our developers can code for you whichever dreams you have in mind, no matter the requirement."
+      },
+      {
+        "id": 1,
+        "step_number": "2",
+        "step_title": "Book a consultation with our experts to learn how we can help you and start building dreams together",
+        "step_paragraph_1": "No matter how complex your project or requirement is, we believe that dreams do come true.",
+        "step_paragraph_2": "Our Pigeons understand how costs can vary depending on the size and complexity of each need."
+      },
+      {
+        "id": 2,
+        "step_number": "3",
+        "step_title": "Did we convince you? Great!",
+        "step_paragraph_1": "If our solutions are ideal, our representatives will give you the instructions to lay the groundwork for the beginning of a great relationship.",
+        "step_paragraph_2": ""
+      }
+    ]
+  },
   "footer": {
     "footer_logo_alt": "Pidgin Logo Negative",
     "title_newsletter": "Stay up to date with what happens in our nest",

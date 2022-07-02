@@ -36,7 +36,7 @@
       "negocios",
       "el futuro"
     ],
-    "hero_paragraph": "Somos una firma dinámica enfocada en brindar soluciones que se ajusten a las necesidades específicas de tu negocio. Te conectamos con desarrolladores dinámicos, energéticos y extremadamente talentosos.",
+    "hero_paragraph": "Somos una firma de desarrolladores que conecta a tu compañía con los mejores talentos para que puedas sacar adelante esos proyectos que te ayudarán a volar muy alto. Conocemos perfectamente los desafíos del día a día corporativo y entendemos las necesidades de tu negocio. Por eso somos tus mejores aliados en la búsqueda de tu contratación estrella.",
     "hero_button": {
       "label": "Entérate cómo",
       "link": "#"
@@ -314,6 +314,153 @@
     "subject_label": "Asunto*",
     "message_label": "Escribe tu mensaje...*",
     "submit_button_label": "Enviar mensaje"
+  },
+  "services_page": {
+    "hero_title_1": "El desarrollador ",
+    "hero_title_2": "perfecto para tu negocio ",
+    "hero_title_3": "está aquí",
+    "hero_text": "Contamos con un equipo de desarrolladores expertos que evalúan las necesidades de producto de nuestros clientes para brindar soluciones personalizadas.",
+    "hero_button_label": "Veamos los perfiles",
+    "hero_button_link": "#",
+    "intro_text_1": "En ",
+    "intro_text_2": "Pidgin",
+    "intro_text_3": " buscamos, principalmente, ayudar a que las compañías cubran sus brechas de personal con modelos flexibles y confiables de contratación de desarrolladores, y proveer soluciones de desarrollo rápidas y de calidad para proyectos sobre la marcha que requieran de una intervención oportuna.",
+    "pidgin_style_title_1": "El Estilo ",
+    "pidgin_style_title_2": "Pidgin",
+    "pidgin_style_title_3": "",
+    "pidgin_style_text_1": "Proponemos soluciones y ponemos en marcha proyectos partiendo de procesos ágiles y focalizados.",
+    "pidgin_style_text_2": "¡Obtener nuestros servicios es muy fácil!",
+    "modalities_intro_text_1": "Todos y cada uno de nuestros clientes tienen necesidades muy diferentes.",
+    "modalities_intro_text_2": "En ",
+    "modalities_intro_text_3": "Pidgin",
+    "modalities_intro_text_4": ", las abordamos desde estas tres modalidades:",
+    "projects_title": "Proyectos",
+    "projects_text_1": "Para clientes que no están buscando personal para suplir roles de tecnología, sino obtener un producto de desarrollo determinado, ofrecemos el servicio de trabajo por proyectos.",
+    "projects_text_2": "En esta modalidad, el cliente nos cuenta cuáles son sus necesidades de producto, y nuestro equipo de expertos estima las herramientas y recursos necesarios, el plazo de entrega y el precio para la ejecución del proyecto.",
+    "headhunting_title": "Headhunting",
+    "headhunting_text_1": "En Pidgin estamos comprometidos con el dinamismo y el trabajo en equipo. Nos gusta tener equipos diversos que compartan conocimiento y colaboren entre sí para la construcción de nuevas ideas.",
+    "headhunting_text_2": "Por lo tanto, nuestro proceso de headhunting se rige estrictamente bajo estos principios, garantizando eficiencia y calidad.",
+    "staffing_title": "Staffing",
+    "staffing_text_1": "El servicio de staffing de Pidgin es el proceso mediante el cual nuestros desarrolladores son seleccionados para hacer parte de un equipo de trabajo específico, encargado de desarrollar un proyecto en concreto.",
+    "staffing_text_2": "Los perfiles que aparecen a continuación son solo algunos de los muchos que tenemos.",
+    "staffing_text_3": "Si el perfil que buscas no está en la lista, ",
+    "staffing_text_4": "¡escríbenos!",
+    "profiles": [
+      {
+        "id": 0,
+        "img_alt": "Código en un monitor",
+        "title": "Desarrollador Full Stack",
+        "description": "Tienen las habilidades para crear un sitio web en pleno funcionamiento. Son capaces de configurar servidores Linux, escribir APIs del lado del servidor, entre otros."
+      },
+      {
+        "id": 1,
+        "img_alt": "Código en una laptop",
+        "title": "Desarrollador Back-end",
+        "description": "El back end de un sitio web se compone de un servidor, una aplicación y una base de datos. Nuestros desarrolladores Backend construyen y mantienen estos componentes. Sus habilidades de desarrollo son Java, C++, Ruby, Python, Scala y Go."
+      },
+      {
+        "id": 2,
+        "img_alt": "Código en un monitor",
+        "title": "Desarrollador Front-end",
+        "description": "Son nuestros expertos en interfaces de usuario visuales, estéticas y con diseño. Sus habilidades consisten en diseño de interfaz de usuario (UI), diseño de experiencia de usuario (UX), CSS, JavaScript, HTML, UI Frameworks."
+      },
+      {
+        "id": 3,
+        "img_alt": "Código en un monitor",
+        "title": "Desarrollador de Software",
+        "description": "Trabajan en la identificación, el diseño, la instalación y la prueba de un sistema de software que se ha creado para una cliente desde cero."
+      },
+      {
+        "id": 4,
+        "img_alt": "Hombre ingeniero usando una computadora",
+        "title": "Desarrollador DevOps",
+        "description": "Pueden crear aplicaciones, implementarlas y monitorearlas. Sus habilidades son Kubernetes, Docker, Apache Mesos, Jenkins, etc. y HashiCorp stack."
+      },
+      {
+        "id": 5,
+        "img_alt": "Male engineer develops sustainable code",
+        "title": "Científico de datos",
+        "description": "Están a cargo del análisis estadístico, el aprendizaje automático y el modelado predictivo. Sus habilidades son Python, R, SQL, entre otros."
+      },
+      {
+        "id": 6,
+        "img_alt": "Mujer en camiseta negra usando una laptop",
+        "title": "Ingeniero de Seguridad",
+        "description": "Se especializan en crear sistemas, métodos y procedimientos para probar la seguridad de los sistemas de software y corregir fallas de seguridad."
+      },
+      {
+        "id": 7,
+        "img_alt": "Persona usando una MacBook Pro",
+        "title": "Ingeniero de testeo",
+        "description": "Son responsables de diseñar e implementar las pruebas que aseguran la calidad y la funcionalidad de un producto."
+      },
+      {
+        "id": 8,
+        "img_alt": "Hombre sosteniendo un smartphone usando un monitor de pantalla plana",
+        "title": "Machine learning engineer",
+        "description": "Son los que se enfocan en investigar, construir y diseñar sistemas de inteligencia artificial (IA) autoejecutables para automatizar modelos predictivos. Sus habilidades de desarrollo son Python, Java, C++, C, R and JavaScript."
+      }
+    ],
+    "languages": [
+      {
+        "id": 0,
+        "language": "Python",
+        "img": "/svg/tech-stack/python.svg"
+      },
+      { "id": 1, "language": "HTML 5", "img": "/svg/tech-stack/html.svg" },
+      { "id": 2, "language": "CSS 3", "img": "/svg/tech-stack/css.svg" },
+      { "id": 3, "language": "Perl", "img": "/svg/tech-stack/perl.svg" },
+      {
+        "id": 4,
+        "language": "JavaScript",
+        "img": "/svg/tech-stack/javascript.svg"
+      },
+      {
+        "id": 5,
+        "language": "TypeScript",
+        "img": "/svg/tech-stack/typescript.svg"
+      },
+      { "id": 6, "language": "Swift", "img": "/svg/tech-stack/swift.svg" },
+      { "id": 7, "language": "Bash", "img": "/svg/tech-stack/bash.svg" },
+      { "id": 8, "language": "C", "img": "/svg/tech-stack/c.svg" },
+      { "id": 9, "language": "C++", "img": "/svg/tech-stack/c++.svg" },
+      { "id": 10, "language": "C#", "img": "/svg/tech-stack/c-sharp.svg" },
+      { "id": 11, "language": "Ruby", "img": "/svg/tech-stack/ruby.png" },
+      { "id": 12, "language": "Kotlin", "img": "/svg/tech-stack/kotlin.svg" },
+      { "id": 13, "language": "Java", "img": "/svg/tech-stack/java.svg" },
+      { "id": 14, "language": "R", "img": "/svg/tech-stack/r.svg" },
+      { "id": 15, "language": "Scala", "img": "/svg/tech-stack/scala.svg" }
+    ],
+    "stack_text_1": "¡Nuestro equipo domina los siguientes lenguajes informáticos para abordar tus proyectos!",
+    "stack_text_2": "¡Si tienes otro en mente, puedes consultarnos directamente para valorar las opciones!",
+    "bottom_cta_title": "¡Toma la oportunidad!",
+    "bottom_cta_text_1": "Ya lo soñaste y aquí están tus alas, ¡despleguémoslas e impulsemos tu negocio!",
+    "bottom_cta_text_2": "Escríbenos, no picamos.",
+    "write_us_button_label": "Escríbenos",
+    "write_us_button_link": "/contact",
+    "pidgin_style_steps": [
+      {
+        "id": 0,
+        "step_number": "1",
+        "step_title": "Cuéntales a nuestras palomitas mensajeras qué necesitas, y ellos le harán llegar tus necesidades a los Pigeons expertos",
+        "step_paragraph_1": "Cuéntanos cuáles perfiles para roles de tecnología te hacen falta y cuántos desarrolladores necesitas, y nosotros nos pondremos manos a la obra para conseguirlos.",
+        "step_paragraph_2": "Cuéntanos cuál es esa necesidad urgente que tu negocio precisa cubrir con un desarrollador: No importa el requerimiento, nuestros desarrolladores pueden pasar a código eso que tanto sueñas para tu empresa."
+      },
+      {
+        "id": 1,
+        "step_number": "2",
+        "step_title": "Reserva una consulta con nuestros expertos para conocer cómo podemos ayudarte y empezar a construir sueños juntos",
+        "step_paragraph_1": "No importa cuán difícil sea tu proyecto o tu requerimiento, creemos que los sueños se hacen realidad.",
+        "step_paragraph_2": "Nuestros Pigeons entienden cómo los costos pueden variar según el tamaño y la complejidad de cada necesidad."
+      },
+      {
+        "id": 2,
+        "step_number": "3",
+        "step_title": "¿Te convencimos? ¡Genial!",
+        "step_paragraph_1": "Si nuestras soluciones son las ideales, nuestros representantes te darán las instrucciones para poder marcar el comienzo de una excelente relación.",
+        "step_paragraph_2": ""
+      }
+    ]
   },
   "footer": {
     "footer_logo_alt": "Logo Pidgin Negativo",

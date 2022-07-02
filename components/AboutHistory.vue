@@ -183,10 +183,7 @@ export default {};
 
     h1 {
       color: $black;
-      font-size: 3rem;
-      font-weight: 600;
-      line-height: 1.2;
-      margin: 0;
+      @include title-48;
     }
 
     h3 {
@@ -256,10 +253,7 @@ export default {};
       width: 50%;
 
       p {
-        color: $gray-1;
-        font-size: 1.25rem;
-        font-weight: 300;
-        line-height: 1.2;
+        @include body-20;
         margin: 0 0 1.25rem;
         text-align: justify;
 

@@ -27,12 +27,9 @@
           >
             {{ navitem.label }}
           </NuxtLink>
-          <a
-            class="navbar__item"
-            href="mailto:contacto@pidgin.com.co?subject=Necesito hablar con ustedes - Contacto"
-          >
+          <NuxtLink class="navbar__item" :to="localePath('/contact')">
             {{ $t("contact_button").label }}
-          </a>
+          </NuxtLink>
         </div>
         <div class="bg-gradient"></div>
       </div>

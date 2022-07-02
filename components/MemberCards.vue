@@ -41,7 +41,6 @@ export default {};
 .members {
   &__cards {
     display: flex;
-    align-items: center;
     column-gap: 30px;
     padding: 0 1.5rem;
   }
@@ -57,7 +56,6 @@ export default {};
   border-radius: 16px;
   max-width: 364px;
   padding: 30px;
-  min-height: 411px;
   width: 100%;
   @include transition-ease-02;
 

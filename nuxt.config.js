@@ -39,7 +39,11 @@ export default {
   css: ["~assets/scss/_variables.scss"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ["@/plugins/bootstrap-vue", "@/plugins/vue-typed-js"],
+  plugins: [
+    "@/plugins/bootstrap-vue",
+    "@/plugins/vue-typed-js",
+    "@/plugins/infinite-slide-bar",
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
