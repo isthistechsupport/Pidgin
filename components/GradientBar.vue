@@ -12,7 +12,7 @@ export default {};
 .bg__gradient {
   @include effect-gradient-2;
   width: 100%;
-  height: 85px;
+  height: 100px;
   z-index: -1;
 }
 

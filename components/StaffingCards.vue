@@ -91,6 +91,7 @@ export default {};
         rgba(24, 26, 45, 0.8),
         rgba(24, 26, 45, 0.8)
       );
+      border-radius: 20px;
       height: 100%;
       width: 100%;
       opacity: 0.3;

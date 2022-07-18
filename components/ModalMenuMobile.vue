@@ -28,7 +28,7 @@
             {{ $t("contact_button").label }}
           </NuxtLink>
         </div>
-        <LanguageInputMobile />
+        <LanguageInput />
         <div class="bg-gradient"></div>
       </div>
     </div>
@@ -73,7 +73,7 @@ export default {};
 
     .lang-selector {
       position: absolute;
-      bottom: 108px;
+      bottom: 150px;
       z-index: 10;
       left: 50%;
       transform: translate(-50%, 0);

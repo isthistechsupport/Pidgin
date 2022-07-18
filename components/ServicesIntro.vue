@@ -27,11 +27,7 @@ export default {};
     padding: 100px 24px;
 
     p {
-      color: $gray-1;
-      font-size: 2rem;
-      font-weight: 300;
-      line-height: 1.2;
-      margin: 0;
+      @include body-28;
       text-align: center;
 
       b {

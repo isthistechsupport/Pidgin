@@ -11,11 +11,7 @@
         :key="lang.code"
         :value="lang.code"
         :class="$i18n.locale == lang.code ? 'active' : 'inactive'"
-        @click="
-          {
-            switchLocale(lang), refreshLanguage();
-          }
-        "
+        @click="switchLocale(lang)"
         >{{ lang.name }}
         <img
           v-if="$i18n.locale == lang.code"
@@ -32,9 +28,7 @@ export default {
   methods: {
     switchLocale(lang) {
       this.$i18n.locale = lang.code;
-    },
-    refreshLanguage() {
-      this.$parent.$parent.forceRerender();
+      this.$root.$emit("force-re-render");
     },
   },
 };
@@ -48,7 +42,7 @@ export default {
     button {
       background-color: $white;
       border: none;
-      color: $blue-dark-4;
+      color: $blue-primary;
       font-family: $montserrat;
       font-size: 18px;
       font-weight: 300;
@@ -72,7 +66,7 @@ export default {
   column-gap: 0.25rem;
   background-color: $white;
   border: none;
-  color: $blue-dark-4;
+  color: $blue-primary;
 
   &::after {
     display: none;

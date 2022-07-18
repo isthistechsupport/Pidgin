@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <ServicesHero />
     <ServicesIntro />
     <ServicesStyle />
@@ -8,26 +7,16 @@
     <ServicesLanguages />
     <GradientBar />
     <ServicesWriteUs />
-    <Footer />
   </div>
 </template>
 
 <script>
-import ServiceWriteUs from "../components/ServicesWriteUs.vue";
 export default {
-  name: "ServicesPage",
-  data() {
+  head() {
     return {
-      textAnimationKey: 0,
+      title: "Pidgin - Services",
     };
   },
-  methods: {
-    forceRerender() {
-      this.textAnimationKey += 1;
-    },
-  },
-  components: { ServiceWriteUs },
+  layout: "layout",
 };
 </script>
-
-<style lang="scss" scoped></style>

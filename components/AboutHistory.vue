@@ -2,7 +2,7 @@
   <div class="history">
     <div class="history__header">
       <h1>{{ $t("about").about_history.title }}</h1>
-      <h3>{{ $t("about").about_history.subtitle }}</h3>
+      <h2>{{ $t("about").about_history.subtitle }}</h2>
     </div>
     <div class="history__beginning">
       <div class="history__beginning__container">
@@ -20,12 +20,11 @@
             </p>
             <p>
               {{ $t("about").about_history.beginning_history.paragraph_4 }}
-              <b>
-                {{
-                  $t("about").about_history.beginning_history
-                    .paragraph_4_highlighted
-                }}
-              </b>
+
+              {{
+                $t("about").about_history.beginning_history
+                  .paragraph_4_highlighted
+              }}
             </p>
           </div>
           <div class="history__beginning__img">
@@ -79,12 +78,10 @@
             </p>
             <p>
               {{ $t("about").about_history.incubation_history.paragraph_3 }}
-              <b>
-                {{
-                  $t("about").about_history.incubation_history
-                    .paragraph_3_highlighted
-                }}
-              </b>
+              {{
+                $t("about").about_history.incubation_history
+                  .paragraph_3_highlighted
+              }}
             </p>
           </div>
         </div>
@@ -186,8 +183,8 @@ export default {};
       @include title-48;
     }
 
-    h3 {
-      color: $blue-light-2;
+    h2 {
+      color: $blue-primary;
       font-size: 2rem;
       font-style: italic;
       font-weight: 500;
@@ -205,7 +202,7 @@ export default {};
   }
 
   &__incubation {
-    background: $blue-light-5;
+    background: $blue-light-6;
 
     &__img {
       max-height: 256px;
@@ -301,11 +298,7 @@ export default {};
       padding: 100px 24px;
 
       p {
-        color: $gray-1;
-        font-size: 1.875rem;
-        font-weight: 300;
-        line-height: 1.2;
-        margin: 0;
+        @include body-28;
         text-align: center;
 
         b {
@@ -365,7 +358,7 @@ export default {};
         max-width: 560px;
       }
 
-      h3 {
+      h2 {
         margin: 0 auto;
         max-width: 560px;
       }
@@ -449,7 +442,7 @@ export default {};
         max-width: unset;
       }
 
-      h3 {
+      h2 {
         font-size: 1.25rem;
         max-width: unset;
       }

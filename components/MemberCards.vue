@@ -63,24 +63,6 @@ export default {};
     @include effect-cards-shadow;
   }
 
-  &:nth-child(1) {
-    .member__card__job-title {
-      color: $pink-primary;
-    }
-  }
-
-  &:nth-child(2) {
-    .member__card__job-title {
-      color: $green-primary;
-    }
-  }
-
-  &:nth-child(3) {
-    .member__card__job-title {
-      color: $blue-light-2;
-    }
-  }
-
   &__avatar {
     width: 100px;
     height: 100px;
@@ -108,6 +90,7 @@ export default {};
   }
 
   &__job-title {
+    color: $blue-primary;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.2;

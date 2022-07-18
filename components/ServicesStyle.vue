@@ -41,17 +41,23 @@ export default {};
     margin-bottom: 50px;
 
     span {
-      color: $blue-dark-4;
+      color: $blue-primary;
     }
   }
 
   p {
     @include body-20;
     text-align: center;
+    margin-bottom: 0.5rem;
+
+    &:last-child {
+      margin: 0;
+    }
   }
 
   .text--secondary {
     color: $blue-primary;
+    font-weight: 600;
   }
 }
 

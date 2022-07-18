@@ -36,7 +36,8 @@
       "negocios",
       "el futuro"
     ],
-    "hero_paragraph": "Somos una firma de desarrolladores que conecta a tu compañía con los mejores talentos para que puedas sacar adelante esos proyectos que te ayudarán a volar muy alto. Conocemos perfectamente los desafíos del día a día corporativo y entendemos las necesidades de tu negocio. Por eso somos tus mejores aliados en la búsqueda de tu contratación estrella.",
+    "hero_paragraph_1": "Somos una firma de desarrolladores que conecta a tu compañía con los mejores talentos para que puedas sacar adelante esos proyectos que te ayudarán a volar muy alto.",
+    "hero_paragraph_2": "Conocemos perfectamente los desafíos del día a día corporativo y entendemos las necesidades de tu negocio. Por eso somos tus mejores aliados en la búsqueda de tu contratación estrella.",
     "hero_button": {
       "label": "Entérate cómo",
       "link": "#"
@@ -171,7 +172,7 @@
   "about": {
     "about_hero_text_1_1": "Somos ",
     "about_hero_text_1_2": "Pidgin",
-    "about_hero_text_1_3": ", una firma de desarrolladores on-demand , orientada a brindar soluciones a la medida de cada negocio. Nuestro amplio rango de servicios abarca desde consultoría y análisis hasta desarrollo de software.",
+    "about_hero_text_1_3": ", una firma de desarrolladores on-demand, orientada a brindar soluciones a la medida de cada negocio. Nuestro amplio rango de servicios abarca desde consultoría y análisis hasta desarrollo de software.",
     "about_hero_text_2": "Buscamos ayudar a nuestros clientes a hacer crecer sus negocios, entendiendo sus desafíos como si fueran los nuestros.",
     "about_values": {
       "about_values_text": "Lo que nos representa:",

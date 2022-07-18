@@ -9,9 +9,9 @@
         {{ step.step_number }}
       </div>
       <div class="card-info">
-        <h3 class="card-title">
+        <h2 class="card-title">
           {{ step.step_title }}
-        </h3>
+        </h2>
         <div class="card-body-text">
           <p>
             {{ step.step_paragraph_1 }}
@@ -45,39 +45,40 @@ export default {};
     margin: 0 auto;
     max-width: 955px;
 
-    &:nth-child(1) {
-      .card-title {
-        color: $blue-light-3;
-      }
+    // &:nth-child(1) {
+    //   .card-title {
+    //     color: $blue-primary;
+    //   }
 
-      .number-indicator {
-        background-color: $blue-light-3;
-      }
-    }
+    //   .number-indicator {
+    //     background-color: $blue-primary;
+    //   }
+    // }
 
-    &:nth-child(2) {
-      .card-title {
-        color: $blue-light-2;
-      }
+    // &:nth-child(2) {
+    //   .card-title {
+    //     color: $blue-light-2;
+    //   }
 
-      .number-indicator {
-        background-color: $blue-light-2;
-      }
-    }
+    //   .number-indicator {
+    //     background-color: $blue-light-2;
+    //   }
+    // }
 
-    &:nth-child(3) {
-      .card-title {
-        color: $blue-light-1;
-      }
+    // &:nth-child(3) {
+    //   .card-title {
+    //     color: $blue-light-1;
+    //   }
 
-      .number-indicator {
-        background-color: $blue-light-1;
-      }
-    }
+    //   .number-indicator {
+    //     background-color: $blue-light-1;
+    //   }
+    // }
   }
 
   &-title {
     @include title-32;
+    color: $blue-primary;
   }
 
   &-info {
@@ -93,6 +94,7 @@ export default {};
 
     p {
       @include body-12;
+      color: $gray-1;
     }
   }
 }
@@ -104,6 +106,7 @@ export default {};
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  background-color: $blue-primary;
   color: $white;
   font-size: 3rem;
   font-weight: 700;

@@ -39,9 +39,14 @@
             </h2>
           </vue-typed-js>
         </div>
-        <p>
-          {{ $t("hero").hero_paragraph }}
-        </p>
+        <div class="hero__text">
+          <p>
+            {{ $t("hero").hero_paragraph_1 }}
+          </p>
+          <p>
+            {{ $t("hero").hero_paragraph_2 }}
+          </p>
+        </div>
         <ButtonPrimary
           v-bind:buttonLabel="$t('hero').hero_button.label"
           v-bind:buttonLink="$t('hero').hero_button.link"
@@ -52,8 +57,25 @@
 </template>
 
 <script>
+import LanguageInput from "../components/LanguageInput.vue";
+
 export default {
-  props: ["textAnimationKey"],
+  components: {
+    LanguageInput,
+  },
+  data() {
+    return {
+      textAnimationKey: 0,
+    };
+  },
+  mounted() {
+    this.$root.$on("force-re-render", this.forceRerender);
+  },
+  methods: {
+    forceRerender() {
+      this.textAnimationKey += 1;
+    },
+  },
 };
 </script>
 
@@ -130,7 +152,7 @@ export default {
       text-align: center;
 
       span {
-        color: $blue-dark-4;
+        color: $blue-primary;
 
         &:nth-child(2) {
           display: inline-block;
@@ -142,7 +164,9 @@ export default {
         }
       }
     }
+  }
 
+  &__text {
     p {
       color: $gray-1;
       font-size: 1.25rem;
@@ -151,6 +175,10 @@ export default {
       text-align: center;
       margin: 0;
       max-width: 740px;
+
+      &:first-child {
+        margin-bottom: 1.25rem;
+      }
     }
   }
 
@@ -233,16 +261,6 @@ export default {
           }
         }
       }
-
-      p {
-        color: $gray-1;
-        font-size: 1.25rem;
-        line-height: 24px;
-        font-weight: 300;
-        text-align: center;
-        margin: 0;
-        max-width: 740px;
-      }
     }
   }
 }
@@ -276,10 +294,16 @@ export default {
         margin: 0;
         max-width: 370px;
       }
+    }
 
+    &__text {
       p {
         font-size: 1rem;
         max-width: 400px;
+
+        &:first-child {
+          margin-bottom: 1rem;
+        }
       }
     }
 

@@ -56,7 +56,7 @@ export default {};
 
       p {
         color: $gray-1;
-        font-size: 0.75rem;
+        font-size: 0.875rem;
         font-weight: 300;
         line-height: 1.2;
         margin: 0;

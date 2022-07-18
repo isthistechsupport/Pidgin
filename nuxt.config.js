@@ -23,8 +23,13 @@ export default {
           "Somos una firma de developers on demand especializada en conectar a los mejores desarrolladores con las mejores empresas.",
       },
 
-      { hid: "robots", name: "robots", content: "index, follow" },
+      { name: "robots", content: "index, follow" },
       { name: "format-detection", content: "telephone=no" },
+      {
+        name: "keywords",
+        content:
+          "Pidgin, Pidgin Contact Solutions, Pidgin Colombia, BPO, Desarrolladores, Developers, Desarrollo, Desarrolladores, Programación, Programadores, On demand",
+      },
     ],
     link: [
       { rel: "icon", type: "image/png", href: "/favicon.png" },
@@ -54,6 +59,7 @@ export default {
     [
       "nuxt-i18n",
       {
+        strategy: "no_prefix",
         defaultLocale: "es",
         locales: [
           {

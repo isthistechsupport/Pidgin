@@ -93,7 +93,7 @@ export default {};
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 380px) {
   .about-us-hero__bg {
     background-image: url("~/assets/images/svg/about-us-hero-mobile-bg.svg");
   }

@@ -11,7 +11,7 @@
           </NuxtLink>
         </div>
         <div class="menu-tablet__actions">
-          <LanguageInputMobile />
+          <LanguageInput />
           <div class="close-btn" @click="$emit('close-modal')">
             <img src="~/assets/images/svg/icon-close-menu.svg" alt="" />
           </div>

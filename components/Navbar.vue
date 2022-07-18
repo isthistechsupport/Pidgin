@@ -136,6 +136,10 @@ window.onscroll = function () {
     }
   }
 
+  .nuxt-link-active {
+    color: $blue-primary;
+  }
+
   &__actions {
     display: flex;
     align-items: center;

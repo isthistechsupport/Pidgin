@@ -74,28 +74,8 @@ export default {};
         flex-direction: row-reverse;
       }
 
-      &:nth-child(1) {
-        .member-card {
-          &__header h3 {
-            color: $pink-primary;
-          }
-        }
-      }
-
-      &:nth-child(2) {
-        .member-card {
-          &__header h3 {
-            color: $green-primary;
-          }
-        }
-      }
-
-      &:nth-child(3) {
-        .member-card {
-          &__header h3 {
-            color: $blue-light-2;
-          }
-        }
+      &__header h3 {
+        color: $blue-primary;
       }
     }
   }

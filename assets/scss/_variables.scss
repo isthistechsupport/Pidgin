@@ -112,6 +112,14 @@ $desktop-xl: 1920px;
   margin: 0;
 }
 
+@mixin body-28 {
+  color: $gray-1;
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+}
+
 @mixin body-20 {
   color: $gray-1;
   font-size: 1.25rem;

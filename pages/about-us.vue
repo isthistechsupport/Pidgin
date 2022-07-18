@@ -1,30 +1,21 @@
 <template>
   <div>
-    <Navbar />
     <AboutHero />
     <AboutValues />
     <AboutHistory />
     <AboutMembers />
     <GradientBar />
     <AboutContact />
-    <Footer />
   </div>
 </template>
 
 <script>
 export default {
-  name: "AboutUsPage",
-  data() {
+  head() {
     return {
-      textAnimationKey: 0,
+      title: "Pidgin - About Us",
     };
   },
-  methods: {
-    forceRerender() {
-      this.textAnimationKey += 1;
-    },
-  },
+  layout: "layout",
 };
 </script>
-
-<style lang="scss" scoped></style>

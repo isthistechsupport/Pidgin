@@ -63,6 +63,7 @@
       </div>
     </div>
 
+    <GradientBarInverted />
     <div class="staffing">
       <div class="staffing__header">
         <h3 class="service__title">
@@ -88,8 +89,14 @@
 import StaffingCards from "./StaffingCards.vue";
 import LanguagesSpinner from "./LanguagesSlideBar.vue";
 import ServicesLanguages from "./ServicesLanguages.vue";
+import GradientBarInverted from "./GradientBarInverted.vue";
 export default {
-  components: { StaffingCards, LanguagesSpinner, ServicesLanguages },
+  components: {
+    StaffingCards,
+    LanguagesSpinner,
+    ServicesLanguages,
+    GradientBarInverted,
+  },
 };
 </script>
 
@@ -179,7 +186,7 @@ export default {
 }
 
 .projects {
-  background-color: $blue-light-5;
+  background-color: $blue-light-6;
 }
 
 .headhunting {
@@ -193,7 +200,7 @@ export default {
 .staffing {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 100px 24px;
+  padding: 0 24px 100px;
   width: 100%;
 
   &__header {
@@ -242,7 +249,7 @@ export default {
 
   .staffing {
     max-width: unset;
-    padding: 100px 40px;
+    padding: 0 40px 100px;
 
     &__header {
       margin: 0 auto;
@@ -295,7 +302,7 @@ export default {
 
   .staffing {
     max-width: unset;
-    padding: 50px 20px;
+    padding: 0 20px 50px;
 
     &__header {
       margin: 0 auto;
