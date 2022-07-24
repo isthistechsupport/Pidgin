@@ -81,6 +81,10 @@ export default {};
 
     &:nth-child(9) {
       background-image: url("~assets/images/jpg/machine-learning.jpg");
+
+      .card__title {
+        max-width: 230px;
+      }
     }
 
     &::after {

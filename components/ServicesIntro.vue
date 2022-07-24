@@ -2,9 +2,9 @@
   <div class="services-intro">
     <div class="services-intro__content">
       <p>
-        {{ $t("services_page").intro_text_1 }}
-        <b>{{ $t("services_page").intro_text_2 }}</b>
-        {{ $t("services_page").intro_text_3 }}
+        {{ $t("services_page").intro_text_1
+        }}<b>{{ $t("services_page").intro_text_2 }}</b
+        >{{ $t("services_page").intro_text_3 }}
       </p>
     </div>
   </div>

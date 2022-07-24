@@ -11,8 +11,8 @@
         </div>
         <ButtonPrimary
           class="services-cta__button"
-          v-bind:buttonLabel="$t('services_page').write_us_button_label"
-          v-bind:buttonLink="$t('services_page').write_us_button_link"
+          v-bind:buttonLabel="$t('services_page').contact_us_button_label"
+          v-bind:buttonLink="$t('services_page').contact_us_button_link"
         />
       </div>
       <div class="services-cta__img">

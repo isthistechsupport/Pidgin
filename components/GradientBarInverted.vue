@@ -20,7 +20,7 @@ export default {};
   .bg__gradient {
     @include effect-gradient-2--inverted;
     width: 100%;
-    height: 50px;
+    height: 80px;
     z-index: -1;
   }
 }

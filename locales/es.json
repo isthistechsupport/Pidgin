@@ -317,15 +317,15 @@
     "submit_button_label": "Enviar mensaje"
   },
   "services_page": {
-    "hero_title_1": "El desarrollador ",
-    "hero_title_2": "perfecto para tu negocio ",
-    "hero_title_3": "está aquí",
-    "hero_text": "Contamos con un equipo de desarrolladores expertos que evalúan las necesidades de producto de nuestros clientes para brindar soluciones personalizadas.",
+    "hero_title_1": "Tenemos al desarrollador ",
+    "hero_title_2": "perfecto para tu negocio",
+    "hero_title_3": "",
+    "hero_text": "Contamos con un equipo de desarrolladores expertos que evaluarán tus necesidades de producto para brindarte soluciones personalizadas.",
     "hero_button_label": "Veamos los perfiles",
     "hero_button_link": "#",
     "intro_text_1": "En ",
     "intro_text_2": "Pidgin",
-    "intro_text_3": " buscamos, principalmente, ayudar a que las compañías cubran sus brechas de personal con modelos flexibles y confiables de contratación de desarrolladores, y proveer soluciones de desarrollo rápidas y de calidad para proyectos sobre la marcha que requieran de una intervención oportuna.",
+    "intro_text_3": " nuestra prioridad es cubrir las brechas de personal de nuestros clientes con modelos flexibles y confiables de contratación de desarrolladores, y proveer soluciones de desarrollo rápidas y de calidad para proyectos sobre la marcha que requieran de una intervención oportuna.",
     "pidgin_style_title_1": "El Estilo ",
     "pidgin_style_title_2": "Pidgin",
     "pidgin_style_title_3": "",
@@ -336,13 +336,13 @@
     "modalities_intro_text_3": "Pidgin",
     "modalities_intro_text_4": ", las abordamos desde estas tres modalidades:",
     "projects_title": "Proyectos",
-    "projects_text_1": "Para clientes que no están buscando personal para suplir roles de tecnología, sino obtener un producto de desarrollo determinado, ofrecemos el servicio de trabajo por proyectos.",
-    "projects_text_2": "En esta modalidad, el cliente nos cuenta cuáles son sus necesidades de producto, y nuestro equipo de expertos estima las herramientas y recursos necesarios, el plazo de entrega y el precio para la ejecución del proyecto.",
+    "projects_text_1": "Para clientes que no necesitan personal para suplir roles de tecnología, sino obtener un producto de desarrollo determinado, ofrecemos el servicio de trabajo por proyectos.",
+    "projects_text_2": "En esta modalidad, el cliente nos cuenta cuáles son sus necesidades de producto, y nuestro equipo de expertos determina las herramientas y recursos necesarios, el plazo de entrega y el valor de la ejecución del proyecto.",
     "headhunting_title": "Headhunting",
-    "headhunting_text_1": "En Pidgin estamos comprometidos con el dinamismo y el trabajo en equipo. Nos gusta tener equipos diversos que compartan conocimiento y colaboren entre sí para la construcción de nuevas ideas.",
+    "headhunting_text_1": "En Pidgin estamos comprometidos con el dinamismo y el trabajo en equipo. Nos gusta tener equipos diversos que compartan conocimiento y colaboren en la construcción de nuevas ideas.",
     "headhunting_text_2": "Por lo tanto, nuestro proceso de headhunting se rige estrictamente bajo estos principios, garantizando eficiencia y calidad.",
     "staffing_title": "Staffing",
-    "staffing_text_1": "El servicio de staffing de Pidgin es el proceso mediante el cual nuestros desarrolladores son seleccionados para hacer parte de un equipo de trabajo específico, encargado de desarrollar un proyecto en concreto.",
+    "staffing_text_1": "En nuestro servicio de staffing seleccionamos a nuestros desarrolladores que mejor se ajustan a los requerimientos para hacer parte de un equipo de trabajo, encargado de desarrollar un proyecto en concreto.",
     "staffing_text_2": "Los perfiles que aparecen a continuación son solo algunos de los muchos que tenemos.",
     "staffing_text_3": "Si el perfil que buscas no está en la lista, ",
     "staffing_text_4": "¡escríbenos!",
@@ -356,50 +356,50 @@
       {
         "id": 1,
         "img_alt": "Código en una laptop",
-        "title": "Desarrollador Back-end",
-        "description": "El back end de un sitio web se compone de un servidor, una aplicación y una base de datos. Nuestros desarrolladores Backend construyen y mantienen estos componentes. Sus habilidades de desarrollo son Java, C++, Ruby, Python, Scala y Go."
+        "title": "Desarrollador Back-End",
+        "description": "El back end de un sitio web se compone de un servidor, una aplicación y una base de datos. Nuestros desarrolladores Back-End construyen y mantienen estos componentes. Sus habilidades de desarrollo son Java, C++, Ruby, Python, Scala y Go."
       },
       {
         "id": 2,
         "img_alt": "Código en un monitor",
-        "title": "Desarrollador Front-end",
-        "description": "Son nuestros expertos en interfaces de usuario visuales, estéticas y con diseño. Sus habilidades consisten en diseño de interfaz de usuario (UI), diseño de experiencia de usuario (UX), CSS, JavaScript, HTML, UI Frameworks."
+        "title": "Desarrollador Front-End",
+        "description": "Son nuestros expertos en interfaces de usuario visuales, y estéticas. Sus habilidades consisten en diseño de interfaz de usuario (UI), diseño de experiencia de usuario (UX), CSS, JavaScript, HTML y UI Frameworks."
       },
       {
         "id": 3,
         "img_alt": "Código en un monitor",
         "title": "Desarrollador de Software",
-        "description": "Trabajan en la identificación, el diseño, la instalación y la prueba de un sistema de software que se ha creado para una cliente desde cero."
+        "description": "Identifican, diseñan, instalan y prueban los sistemas de software que se han creado para un cliente desde cero."
       },
       {
         "id": 4,
         "img_alt": "Hombre ingeniero usando una computadora",
         "title": "Desarrollador DevOps",
-        "description": "Pueden crear aplicaciones, implementarlas y monitorearlas. Sus habilidades son Kubernetes, Docker, Apache Mesos, Jenkins, etc. y HashiCorp stack."
+        "description": "Crean aplicaciones, las implementan y las monitorean. Sus habilidades son Kubernetes, Docker, Apache Mesos, Jenkins, etc. y HashiCorp stack."
       },
       {
         "id": 5,
         "img_alt": "Male engineer develops sustainable code",
-        "title": "Científico de datos",
-        "description": "Están a cargo del análisis estadístico, el aprendizaje automático y el modelado predictivo. Sus habilidades son Python, R, SQL, entre otros."
+        "title": "Científico de Datos",
+        "description": "Están a cargo del análisis estadístico, del aprendizaje automático y del modelado predictivo. Sus habilidades son Python, R, SQL, entre otros."
       },
       {
         "id": 6,
         "img_alt": "Mujer en camiseta negra usando una laptop",
         "title": "Ingeniero de Seguridad",
-        "description": "Se especializan en crear sistemas, métodos y procedimientos para probar la seguridad de los sistemas de software y corregir fallas de seguridad."
+        "description": "Se especializan en crear sistemas, métodos y procedimientos para probar la seguridad de los sistemas de software y corregir sus fallas."
       },
       {
         "id": 7,
         "img_alt": "Persona usando una MacBook Pro",
-        "title": "Ingeniero de testeo",
-        "description": "Son responsables de diseñar e implementar las pruebas que aseguran la calidad y la funcionalidad de un producto."
+        "title": "Ingeniero de Testeo",
+        "description": "Son responsables de diseñar e implementar las pruebas de calidad y funcionalidad de los productos."
       },
       {
         "id": 8,
         "img_alt": "Hombre sosteniendo un smartphone usando un monitor de pantalla plana",
-        "title": "Machine learning engineer",
-        "description": "Son los que se enfocan en investigar, construir y diseñar sistemas de inteligencia artificial (IA) autoejecutables para automatizar modelos predictivos. Sus habilidades de desarrollo son Python, Java, C++, C, R and JavaScript."
+        "title": "Machine Learning Engineer",
+        "description": "Son los que se enfocan en investigar, construir y diseñar sistemas de inteligencia artificial (IA) autoejecutables para automatizar modelos predictivos. Sus habilidades de desarrollo son Python, Java, C++, C, R y JavaScript."
       }
     ],
     "languages": [
@@ -435,24 +435,26 @@
     "stack_text_1": "¡Nuestro equipo domina los siguientes lenguajes informáticos para abordar tus proyectos!",
     "stack_text_2": "¡Si tienes otro en mente, puedes consultarnos directamente para valorar las opciones!",
     "bottom_cta_title": "¡Toma la oportunidad!",
-    "bottom_cta_text_1": "Ya lo soñaste y aquí están tus alas, ¡despleguémoslas e impulsemos tu negocio!",
+    "bottom_cta_text_1": "Ya lo soñaste y aquí están tus alas. ¡Despleguémoslas e impulsemos tu negocio!",
     "bottom_cta_text_2": "Escríbenos, no picamos.",
     "write_us_button_label": "Escríbenos",
     "write_us_button_link": "/contact",
+    "contact_us_button_label": "Contáctanos",
+    "contact_us_button_link": "/contact",
     "pidgin_style_steps": [
       {
         "id": 0,
         "step_number": "1",
-        "step_title": "Cuéntales a nuestras palomitas mensajeras qué necesitas, y ellos le harán llegar tus necesidades a los Pigeons expertos",
-        "step_paragraph_1": "Cuéntanos cuáles perfiles para roles de tecnología te hacen falta y cuántos desarrolladores necesitas, y nosotros nos pondremos manos a la obra para conseguirlos.",
-        "step_paragraph_2": "Cuéntanos cuál es esa necesidad urgente que tu negocio precisa cubrir con un desarrollador: No importa el requerimiento, nuestros desarrolladores pueden pasar a código eso que tanto sueñas para tu empresa."
+        "step_title": "Cuéntales a nuestras palomitas mensajeras qué necesitas, y ellos se lo comunicarán a los Pigeons expertos.",
+        "step_paragraph_1": "¿Cuáles perfiles para roles de tecnología necesitas y cuántos? ¡Háznoslo saber y te los haremos llegar volando!",
+        "step_paragraph_2": "¿Tienes alguna necesidad urgente que solo puedes cubrir con un desarrollador? No importa el requerimiento, ¡nuestros desarrolladores pueden pasar a código todos tus sueños!"
       },
       {
         "id": 1,
         "step_number": "2",
-        "step_title": "Reserva una consulta con nuestros expertos para conocer cómo podemos ayudarte y empezar a construir sueños juntos",
-        "step_paragraph_1": "No importa cuán difícil sea tu proyecto o tu requerimiento, creemos que los sueños se hacen realidad.",
-        "step_paragraph_2": "Nuestros Pigeons entienden cómo los costos pueden variar según el tamaño y la complejidad de cada necesidad."
+        "step_title": "Reserva una consulta con nuestros expertos para conocer cómo podemos ayudarte y empezar a construir sueños juntos.",
+        "step_paragraph_1": "¿Piensas que tu proyecto es muy difícil? No te preocupes, ¡en Pidgin hacemos realidad tus sueños!",
+        "step_paragraph_2": "Nuestros Pigeons entienden cómo los costos pueden variar según el tamaño y la complejidad de tu necesidad."
       },
       {
         "id": 2,
