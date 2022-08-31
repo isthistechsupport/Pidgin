@@ -45,6 +45,7 @@
 <script>
 export default {
   props: ["imgPath", "name", "jobTitle", "text1", "text2"],
+
   data: function () {
     return {
       isExpanded: false,

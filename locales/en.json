@@ -1,4 +1,6 @@
 {
+  "cookie_advice": "We use cookies to ensure that we give you a good experience on our site and to be able to analyze how you use it. If you continue here, we assume that you accept its use. Otherwise go out, run far away and watch if a pigeon is following you.",
+  "cookie_button_label": "I understand",
   "navbar_logo_alt": "Pidgin Logo",
   "navbar_items": [
     {

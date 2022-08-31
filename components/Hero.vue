@@ -53,15 +53,18 @@
         />
       </div>
     </div>
+    <CookieModal />
   </section>
 </template>
 
 <script>
 import LanguageInput from "../components/LanguageInput.vue";
+import CookieModal from "./CookieModal.vue";
 
 export default {
   components: {
     LanguageInput,
+    CookieModal,
   },
   data() {
     return {
@@ -86,6 +89,7 @@ export default {
   display: flex;
   align-items: center;
   margin-top: 90px;
+  position: relative;
 
   &__layout {
     display: flex;

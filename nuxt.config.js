@@ -48,6 +48,7 @@ export default {
     "@/plugins/bootstrap-vue",
     "@/plugins/vue-typed-js",
     "@/plugins/infinite-slide-bar",
+    "@/plugins/vue-cookies",
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

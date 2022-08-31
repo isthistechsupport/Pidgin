@@ -3,52 +3,125 @@
     <span class="mandatory-fields">
       {{ $t("contact_page").mandatory_fields }}
     </span>
-    <form action="POST">
+    <form ref="contactForm" @submit.prevent="submitForm" novalidate>
       <div class="form__field">
         <input
           type="text"
-          name="name"
+          :class="{ invalid: errors.name }"
+          v-model="form.name"
           :placeholder="$t('contact_page').name_label"
         />
       </div>
       <div class="form__field">
         <input
           type="email"
-          name="email"
+          :class="{ invalid: errors.email }"
+          v-model="form.email"
           :placeholder="$t('contact_page').email_label"
         />
       </div>
       <div class="form__field">
         <input
           type="tel"
-          name="phone"
+          v-model="form.phone"
           :placeholder="$t('contact_page').phone_label"
         />
       </div>
       <div class="form__field">
         <input
           type="text"
-          name="subject"
+          :class="{ invalid: errors.subject }"
+          v-model="form.subject"
           :placeholder="$t('contact_page').subject_label"
         />
       </div>
       <div class="form__field">
         <textarea
-          name="message"
+          :class="{ invalid: errors.message }"
+          v-model="form.message"
           :placeholder="$t('contact_page').message_label"
-        />
+        >
+        </textarea>
       </div>
       <div class="recaptcha"></div>
-      <ButtonPrimary
-        :buttonLabel="$t('contact_page').submit_button_label"
-        buttonLink="#"
-      />
+      <button class="primary-button">
+        {{ $t("contact_page").submit_button_label }}
+      </button>
     </form>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      form: {
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      },
+      errors: {
+        name: false,
+        email: false,
+        subject: false,
+        message: false,
+      },
+    };
+  },
+
+  methods: {
+    submitForm() {
+      if (!this.form.name) {
+        this.errors.name = true;
+      } else {
+        this.errors.name = false;
+      }
+
+      if (!this.form.email) {
+        this.errors.email = true;
+      } else {
+        if (!this.validEmail(this.form.email)) {
+          this.errors.email = true;
+        } else {
+          this.errors.email = false;
+        }
+      }
+
+      if (!this.form.subject) {
+        this.errors.subject = true;
+      } else {
+        this.errors.subject = false;
+      }
+
+      if (!this.form.message) {
+        this.errors.message = true;
+      } else {
+        this.errors.message = false;
+      }
+
+      const formIsValid =
+        !this.errors.name &&
+        !this.errors.email &&
+        !this.errors.subject &&
+        !this.errors.message;
+
+      if (formIsValid) {
+        console.log("Todo bien, todo correcto", this.form);
+        this.$refs.contactForm.reset();
+      } else {
+        console.log("Revisa pa");
+      }
+    },
+
+    validEmail(email) {
+      var re =
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -100,6 +173,7 @@ export default {};
 
         &:focus-visible {
           outline: 0;
+          border: 1px solid $blue-light-3;
           box-shadow: $blue-light-4 0px 0px 0px 4px;
         }
       }
@@ -107,6 +181,11 @@ export default {};
       textarea {
         resize: none;
         height: 150px;
+      }
+
+      .invalid {
+        border: 1px solid $pink-primary;
+        box-shadow: $warning-red 0px 0px 0px 4px;
       }
     }
   }
