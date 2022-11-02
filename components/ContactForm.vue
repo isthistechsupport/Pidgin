@@ -44,7 +44,7 @@
         </textarea>
       </div>
       <div class="recaptcha"></div>
-      <button class="primary-button">
+      <button class="primary-button" :disabled="formSubmitted">
         {{ $t("contact_page").submit_button_label }}
       </button>
     </form>
@@ -68,6 +68,7 @@ export default {
         subject: false,
         message: false,
       },
+      formSubmitted: false,
     };
   },
 
@@ -108,10 +109,11 @@ export default {
         !this.errors.message;
 
       if (formIsValid) {
-        console.log("Todo bien, todo correcto", this.form);
+        console.log("Correcto", this.form);
         this.$refs.contactForm.reset();
+        this.formSubmitted = true;
       } else {
-        console.log("Revisa pa");
+        console.log("Revisar");
       }
     },
 

@@ -1,31 +1,30 @@
 <template>
   <div class="newsletter">
     <p>{{ $t("footer").newsletter_title }}:</p>
-    <form action="/">
+    <form
+      ref="newsletter"
+      @submit.prevent="submitForm"
+      novalidate
+      :class="{ invalid: errors.email || errors.terms }"
+    >
       <div class="input__email">
         <input
           type="email"
           placeholder="little.egg@pidgin.com.co"
           name="emailField"
           id="emailField"
+          v-model="form.email"
         />
-        <!-- <input
-          id="emailFieldSubmit"
-          type="submit"
-          v-bind:value="$t('footer').newsletter_send_button_label"
-        /> -->
-        <a
-          id="emailFieldSubmit"
-          href="mailto:contacto@pidgin.com.co?subject=Quiero estar enterado"
-        >
+        <button id="emailFieldSubmit" :disabled="formSubmitted">
           {{ $t("footer").newsletter_send_button_label }}
-        </a>
+        </button>
       </div>
       <div class="input__confirm">
         <input
           type="checkbox"
           name="newsletterConfirm"
           id="newsletterConfirm"
+          v-model="form.terms"
         />
         <label for="newsletterConfirm"
           >{{ $t("footer").newsletter_consent }}
@@ -36,7 +35,57 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      form: {
+        email: "",
+        terms: "",
+      },
+      errors: {
+        email: false,
+        terms: false,
+      },
+      formSubmitted: false,
+    };
+  },
+
+  methods: {
+    submitForm() {
+      if (!this.form.email) {
+        this.errors.email = true;
+      } else {
+        if (!this.validEmail(this.form.email)) {
+          this.errors.email = true;
+        } else {
+          this.errors.email = false;
+        }
+      }
+
+      if (!this.form.terms) {
+        this.errors.terms = true;
+      } else {
+        this.errors.terms = false;
+      }
+
+      const formIsValid = !this.errors.email && !this.errors.terms;
+
+      if (formIsValid) {
+        console.log("Correcto", this.form);
+        this.$refs.newsletter.reset();
+        this.formSubmitted = true;
+      } else {
+        console.log("Revisar");
+      }
+    },
+
+    validEmail(email) {
+      var re =
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -53,17 +102,20 @@ export default {};
   form {
     .input__email {
       display: flex;
+      border-radius: 10px;
+      border: 1px solid $blue-primary;
+      width: fit-content;
+      overflow: hidden;
     }
 
     #emailField {
       background: $white;
-      border-radius: 10px 0 0 10px;
-      border: 1px solid $blue-primary;
-      border-right: 0;
+      border: none;
       color: $black;
       font-family: $montserrat;
       font-size: 12px;
       font-style: italic;
+      outline: 0;
       padding: 12px 0 12px 14px;
       width: 268px;
 
@@ -75,13 +127,20 @@ export default {};
 
     #emailFieldSubmit {
       background: $blue-primary;
-      border-radius: 0 10px 10px 0;
       border-left: 0;
       border: none;
       color: $white;
       font-size: 12px;
       font-weight: bold;
       padding: 12px 28px 12px 32px;
+
+      &:hover {
+        @include effect-gradient-1;
+      }
+
+      &:active {
+        background: $blue-light-1;
+      }
     }
 
     .input__confirm {
@@ -96,6 +155,16 @@ export default {};
         font-weight: 300;
         margin: 0;
       }
+    }
+  }
+
+  .invalid {
+    .input__email {
+      border: 1px solid $gray-1;
+    }
+
+    #emailFieldSubmit {
+      background: $gray-1;
     }
   }
 }
