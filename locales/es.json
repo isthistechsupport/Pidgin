@@ -114,7 +114,7 @@
     "members_cards": [
       {
         "id": 0,
-        "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+        "member_card_img": "/webp/nicole.webp",
         "member_card_alt": "foto nicole mora",
         "member_card_name": "Nicole Mora",
         "member_card_job_title": "Directora General",
@@ -123,7 +123,7 @@
       },
       {
         "id": 1,
-        "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+        "member_card_img": "/webp/camilo.webp",
         "member_card_alt": "foto camilo ospina",
         "member_card_name": "Camilo Ospina",
         "member_card_job_title": "Jefe Administrativo",
@@ -132,12 +132,21 @@
       },
       {
         "id": 2,
-        "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
-        "member_card_alt": "foto lenin dorado",
-        "member_card_name": "Lenin Dorado",
-        "member_card_job_title": "Jefe Comercial",
-        "member_card_description_1": "Me caracterizo por ser un líder nato, pues siempre busco desarrollar el potencial de las personas con las que trabajo para, con ello, lograr los objetivos previstos.",
-        "member_card_description_2": "Disfruto trabajar con los Pigeons. Hago parte del equipo de ventas, un grupo increíble de profesionales y uno de los departamentos de ventas más enérgicos y dinámicos de los que alguna vez he formado parte."
+        "member_card_img": "/webp/natalia.webp",
+        "member_card_alt": "foto natalia morales",
+        "member_card_name": "Natalia Morales",
+        "member_card_job_title": "Gerente de Operaciones",
+        "member_card_description_1": "Soy licenciada en Filología e Idiomas - inglés de la Universidad Nacional de Colombia.",
+        "member_card_description_2": "Mi formación en esta carrera me capacitó para ejecutar talleres y cursos, y contribuyó al perfeccionamiento de mis habilidades comunicativas, las cuales fueron esenciales para mi desarrollo profesional en años posteriores."
+      },
+      {
+        "id": 3,
+        "member_card_img": "/webp/ana.webp",
+        "member_card_alt": "foto ana perez",
+        "member_card_name": "Ana Pérez",
+        "member_card_job_title": "Administradora de Contenido",
+        "member_card_description_1": "Soy una apasionada de las letras y creo firmemente en su poder de construcción.",
+        "member_card_description_2": "Las habilidades que desarrollé durante mi vida académica en la universidad me han permitido trabajar en diferentes áreas, específicamente en traducción, edición y  corrección de estilo."
       }
     ],
     "members_button": {
@@ -255,7 +264,7 @@
       "members": [
         {
           "id": "0",
-          "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+          "member_card_img": "/webp/nicole.webp",
           "name": "Nicole Mora",
           "job_title": "Directora General",
           "paragraph_1": "Soy una mujer a la que le apasiona aprender para poder enseñar y motivar a otros. Este deseo hace parte de mí, puesto que fui docente. Llegué a Pidgin buscando contagiar esa pasión a otros. Nos proponemos ser una de las firmas más reconocidas en el campo de tecnología para poder ofrecerles soluciones a nuestros clientes que les permitan crecer y, al mismo tiempo, disfrutar de la mejor experiencia de servicio.",
@@ -263,7 +272,7 @@
         },
         {
           "id": "1",
-          "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+          "member_card_img": "/webp/camilo.webp",
           "name": "Camilo Ospina",
           "job_title": "Jefe Administrativo",
           "paragraph_1": "Soy administrador de empresas en desarrollo de la universidad Politécnico Gran Colombiano , y tengo 5 años de experiencia en el sector público y privado, desarrollando el tema administrativo para diferentes empresas. Tengo conocimiento en las áreas de manejo de personal y desarrollo de procesos corporativos para la mejora de actividades en los procesos requeridos.",
@@ -271,11 +280,19 @@
         },
         {
           "id": "2",
-          "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
-          "name": "Lenin Dorado",
-          "job_title": "Jefe Comercial",
-          "paragraph_1": "Soy profesional en Administración de empresas comerciales de la Universidad Colegio mayor de Cundinamarca con un diplomado en coaching empresarial. Tengo más de 4 años de experiencia en startups y he liderado varios equipos de trabajo en el área comercial y de atención al cliente. Me caracterizo por ser un líder nato, pues siempre busco desarrollar el potencial de las personas con las que trabajo para, con ello, lograr objetivos deseados. Como dijo Henry Ford, “Llegar juntos es el principio. Mantenerse juntos, es el progreso. Trabajar juntos es el éxito”. Amo la lectura, los deportes al aire libre y pasar tiempo de calidad con mi familia.",
-          "paragraph_2": "Disfruto trabajar con los Pigeons. Hago parte del equipo de ventas, un grupo increíble de profesionales y uno de los departamentos de ventas más enérgicos y dinámicos de los que alguna vez he formado parte. Los beneficios son excelentes y disfrutamos de una cultura de candidez única."
+          "member_card_img": "/webp/natalia.webp",
+          "name": "Natalia Morales",
+          "job_title": "Gerente de Operaciones",
+          "paragraph_1": "Soy licenciada en Filología e Idiomas - inglés de la Universidad Nacional de Colombia. Mi formación en esta carrera me capacitó para ejecutar talleres y cursos, y contribuyó al perfeccionamiento de mis habilidades comunicativas, las cuales fueron esenciales para mi desarrollo profesional en años posteriores. Actualmente me especializo en desarrollar proyectos y crear alianzas duraderas entre compañías e instituciones a nivel nacional e internacional. Tengo experiencia en internacionalización de la educación superior, traducción e interpretación, y Business Product Outsourcing (BPO).",
+          "paragraph_2": "Llegué a Pidgin con el sueño de poder usar mis habilidades y conocimientos para seguir construyendo puentes entre personas y empresas con objetivos complementarios en un área diferente del mercado: la del desarrollo de software. Mi experiencia trabajando como asesora de relaciones estratégicas en la Universidad Nacional de Colombia fue un pasó esencial en mi desarrollo profesional para llegar a donde estoy ahora, construyendo los sueños de nuestros desarrolladores y de nuestros clientes."
+        },
+        {
+          "id": "3",
+          "member_card_img": "/webp/ana.webp",
+          "name": "Ana Gabriela Pérez",
+          "job_title": "Administradora de Contenido",
+          "paragraph_1": "Soy una apasionada de las letras y creo firmemente en su poder de construcción. Es por eso estudié Filología e Idiomas – inglés en la Universidad Nacional de Colombia y decidí expandir mis conocimientos en otros idiomas, específicamente alemán, francés y español, mi lengua materna. Las habilidades que desarrollé durante mi vida académica en la universidad me han permitido trabajar en diferentes áreas, específicamente en traducción, edición y corrección de estilo.",
+          "paragraph_2": "Actualmente me desempeño como copywriter y correctora de estilo de inglés y español en Pidgin. Llegué a esta empresa con el sueño de ayudarlos a crecer y a cambiar las vidas de cientos de personas desde el área del B2B y el desarrollo de software, sueño que he podido cumplir en el tiempo que llevo siendo parte de esta familia. Ha sido una experiencia enriquecedora trabajar con un equipo dedicado a ofrecer servicios de calidad a otras compañías y oportunidades de crecimiento a desarrolladores emergentes creativos y brillantes."
         }
       ],
       "toggle_label_read_more": "Leer más",

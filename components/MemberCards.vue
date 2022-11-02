@@ -54,8 +54,8 @@ export default {};
   background: $white;
   border: 1px solid $blue-light-6;
   border-radius: 16px;
-  max-width: 364px;
-  padding: 30px;
+  // max-width: 364px;
+  padding: 30px 16px;
   width: 100%;
   @include transition-ease-02;
 
@@ -103,7 +103,7 @@ export default {};
       font-weight: 300;
       font-size: 0.875rem;
       line-height: 1.2;
-      text-align: justify;
+      text-align: left;
       margin: 0;
 
       &:nth-child(1) {
@@ -129,7 +129,7 @@ export default {};
     row-gap: 20px;
     border-radius: 16px;
     max-width: 560px;
-    padding: 30px;
+    padding: 20px;
     min-height: 262px;
 
     &__avatar {

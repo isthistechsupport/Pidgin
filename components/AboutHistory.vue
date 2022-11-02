@@ -126,7 +126,7 @@
             </p>
           </div>
           <div class="history__pidgin__img">
-            <img src="~/assets/images/jpg/team2.jpg" alt="" />
+            <img src="~/assets/images/webp/team.webp" alt="pidgin team" />
           </div>
         </div>
         <div class="history__pidgin__body--mobile">
@@ -137,7 +137,7 @@
               </p>
             </div>
             <div class="history__pidgin__img">
-              <img src="~/assets/images/jpg/team2.jpg" alt="" />
+              <img src="~/assets/images/webp/team.webp" alt="pidgin team" />
             </div>
           </div>
           <div class="history__pidgin__text">

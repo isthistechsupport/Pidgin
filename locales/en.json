@@ -114,7 +114,7 @@
     "members_cards": [
       {
         "id": 0,
-        "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+        "member_card_img": "/webp/nicole.webp",
         "member_card_alt": "nicole mora profile pic",
         "member_card_name": "Nicole Mora",
         "member_card_job_title": "Executive Supervisor",
@@ -123,7 +123,7 @@
       },
       {
         "id": 1,
-        "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+        "member_card_img": "/webp/camilo.webp",
         "member_card_alt": "camilo ospina profile pic",
         "member_card_name": "Camilo Ospina",
         "member_card_job_title": "Administrative Supervisor",
@@ -132,12 +132,21 @@
       },
       {
         "id": 2,
-        "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
-        "member_card_alt": "lenin dorado profile pic",
-        "member_card_name": "Lenin Dorado",
-        "member_card_job_title": "Commercial Supervisor",
-        "member_card_description_1": "I characterize myself as a born leader because I always seek to develop the potential of the people I work with to achieve the necessary goals.",
-        "member_card_description_2": "I enjoy working with the Pigeons. I am part of the sales team, an amazing group of professionals and one of the most energetic and dynamic sales departments I have ever been a part of."
+        "member_card_img": "/webp/natalia.webp",
+        "member_card_alt": "foto natalia morales",
+        "member_card_name": "Natalia Morales",
+        "member_card_job_title": "Operations Manager",
+        "member_card_description_1": "In 2017, I graduated from the National University of Colombia with a degree in English Philology and Languages.",
+        "member_card_description_2": "Studying this degree qualified me to run workshops and language courses and allowed me to improve my communication skills, which were essential for my professional development in later years."
+      },
+      {
+        "id": 3,
+        "member_card_img": "/webp/ana.webp",
+        "member_card_alt": "foto ana perez",
+        "member_card_name": "Ana Pérez",
+        "member_card_job_title": "Copywriter and Content Manager",
+        "member_card_description_1": "I am a firm believer in the constructive power of words.",
+        "member_card_description_2": "The skills I developed during my studies at the university have allowed me to work in different areas, specifically in translation, editing and proofreading."
       }
     ],
     "members_button": {
@@ -255,7 +264,7 @@
       "members": [
         {
           "id": "0",
-          "member_card_img": "/jpg/profile-pic-nicole-mora.jpg",
+          "member_card_img": "/webp/nicole.webp",
           "name": "Nicole Mora",
           "job_title": "Executive Supervisor",
           "paragraph_1": "I am a woman with a passion for learning. I learn so that I can teach and motivate people, and I came to Pidgin looking to spread that passion to others, a desire which has grown within me since I became a teacher as well. At Pidgin, we aim to become one of the leading firms in the field of technology to offer solutions to our clients that allow them to grow and, at the same time, have the best customer service experience possible.",
@@ -263,7 +272,7 @@
         },
         {
           "id": "1",
-          "member_card_img": "/jpg/profile-pic-camilo-ospina.jpg",
+          "member_card_img": "/webp/camilo.webp",
           "name": "Camilo Ospina",
           "job_title": "Administrative Supervisor",
           "paragraph_1": "I am a business development manager from the Gran Colombiano Polytechnic University and have five years of experience in the public and private sectors, developing administrative issues for different companies. I have experience in personnel management and the improvement of activities in several areas through the development of corporative processes.",
@@ -271,11 +280,19 @@
         },
         {
           "id": "2",
-          "member_card_img": "/jpg/profile-pic-lenin-dorado.jpg",
-          "name": "Lenin Dorado",
-          "job_title": "Commercial Supervisor",
-          "paragraph_1": "I am a professional in Commercial Business Administration from the Universidad Colegio Mayor de Cundinamarca, with a diploma in business coaching. During my four years of experience in startups, I have led several commercial and customer service teams. I characterize myself as a born leader because I always seek to develop my teammates’ potential in order to reach the desired goals. As Henry Ford once said, “coming together is the beginning. Keeping together is progress. Working together is success”. I love reading, outdoor sports and spending quality time with my family.",
-          "paragraph_2": "I enjoy working with the Pigeons as a member of the sales team, an amazing group of professionals and one of the most energetic and dynamic sales departments I have ever been a part of. The benefits are excellent, and we all work with honesty and enthusiasm."
+          "member_card_img": "/webp/natalia.webp",
+          "name": "Natalia Morales",
+          "job_title": "Operations Manager",
+          "paragraph_1": "In 2017, I graduated from the National University of Colombia with a degree in English Philology and Languages. Studying this degree qualified me to run workshops and language courses and allowed me to improve my communication skills, which were essential for my professional development in later years. I currently specialize in developing projects and creating lasting alliances between companies and institutions at the national and international levels. I have experience in Higher Education Internationalization, Translation and Interpretation, and Business Product Outsourcing (BPO).",
+          "paragraph_2": "I joined Pidgin with the dream of being able to use my skills and knowledge to continue forging alliances between people and companies pursuing complementary goals in a different area of the market: software development. My experience working as a strategic relations consultant at the National University of Colombia was an essential step in my professional development to get to where I am today, helping to build the dreams of our developers and clients one day at a time."
+        },
+        {
+          "id": "3",
+          "member_card_img": "/webp/ana.webp",
+          "name": "Ana Gabriela Pérez",
+          "job_title": "Copywriter and Content Manager",
+          "paragraph_1": "I am a firm believer in the constructive power of words. That is the main reason that drove me to study English Philology and Languages at the National University of Colombia and later led me to broaden my knowledge of other languages, specifically German, French, and Spanish, my mother tongue. The skills I developed during my studies at the university have allowed me to work in different areas, specifically in translation, editing and proofreading.",
+          "paragraph_2": "I am currently working at Pidgin as a copywriter and proofreader of both English and Spanish. When I first joined this company, it was a dream of mine to help them grow and change the lives of hundreds of people in the B2B and software development field. In the time I've been part of this family, I've been able to fulfill this dream. Working with a team dedicated to offering quality services to other companies and growth opportunities to creative and brilliant emerging developers has been an invaluable and enriching experience."
         }
       ],
       "toggle_label_read_more": "Read more",
