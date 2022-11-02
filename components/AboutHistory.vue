@@ -28,7 +28,7 @@
             </p>
           </div>
           <div class="history__beginning__img">
-            <img src="~/assets/images/jpg/history-beginning.jpg" alt="" />
+            <img src="~/assets/images/webp/history-beginning.webp" alt="" />
           </div>
         </div>
         <div class="history__beginning__body--mobile">
@@ -42,7 +42,7 @@
               </p>
             </div>
             <div class="history__beginning__img">
-              <img src="~/assets/images/jpg/history-beginning.jpg" alt="" />
+              <img src="~/assets/images/webp/history-beginning.webp" alt="" />
             </div>
           </div>
           <div class="history__beginning__text">
@@ -67,7 +67,7 @@
         <h2>{{ $t("about").about_history.incubation_history.title }}</h2>
         <div class="history__incubation__body">
           <div class="history__incubation__img">
-            <img src="~/assets/images/jpg/history-incubation.jpg" alt="" />
+            <img src="~/assets/images/webp/history-incubation.webp" alt="" />
           </div>
           <div class="history__incubation__text">
             <p>
@@ -96,7 +96,7 @@
               </p>
             </div>
             <div class="history__incubation__img">
-              <img src="~/assets/images/jpg/history-incubation.jpg" alt="" />
+              <img src="~/assets/images/webp/history-incubation.webp" alt="" />
             </div>
           </div>
           <div class="history__incubation__text">

@@ -48,39 +48,39 @@ export default {};
     transition: box-shadow 0.2s ease;
 
     &:nth-child(1) {
-      background-image: url("~assets/images/jpg/fullstack.jpg");
+      background-image: url("~assets/images/webp/fullstack.webp");
     }
 
     &:nth-child(2) {
-      background-image: url("~assets/images/jpg/backend.jpg");
+      background-image: url("~assets/images/webp/backend.webp");
     }
 
     &:nth-child(3) {
-      background-image: url("~assets/images/jpg/frontend.jpg");
+      background-image: url("~assets/images/webp/frontend.webp");
     }
 
     &:nth-child(4) {
-      background-image: url("~assets/images/jpg/software-developer.jpg");
+      background-image: url("~assets/images/webp/software-developer.webp");
     }
 
     &:nth-child(5) {
-      background-image: url("~assets/images/jpg/devops.jpg");
+      background-image: url("~assets/images/webp/devops.webp");
     }
 
     &:nth-child(6) {
-      background-image: url("~assets/images/jpg/data-scientist.jpg");
+      background-image: url("~assets/images/webp/data-scientist.webp");
     }
 
     &:nth-child(7) {
-      background-image: url("~assets/images/jpg/security-engineer.jpg");
+      background-image: url("~assets/images/webp/security-engineer.webp");
     }
 
     &:nth-child(8) {
-      background-image: url("~assets/images/jpg/testing-engineer.jpg");
+      background-image: url("~assets/images/webp/testing-engineer.webp");
     }
 
     &:nth-child(9) {
-      background-image: url("~assets/images/jpg/machine-learning.jpg");
+      background-image: url("~assets/images/webp/machine-learning.webp");
 
       .card__title {
         max-width: 230px;

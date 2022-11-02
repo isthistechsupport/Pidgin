@@ -16,7 +16,7 @@
         />
       </div>
       <div class="services-hero__img">
-        <img src="~/assets/images/jpg/first-step-banner-image.jpg" alt="" />
+        <img src="~/assets/images/webp/developer.webp" alt="" />
       </div>
     </div>
   </div>

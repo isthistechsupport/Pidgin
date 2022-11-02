@@ -147,7 +147,7 @@ export default {
       display: flex;
       align-content: center;
       column-gap: 5px;
-      margin: 17px 0 0 0;
+      margin: 15px 0 0 0;
 
       label {
         color: $white;

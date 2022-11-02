@@ -3,7 +3,7 @@
     <div class="first-step__content">
       <div class="first-step__img">
         <img
-          src="~/assets/images/jpg/first-step-banner-image.jpg"
+          src="~/assets/images/webp/developer.webp"
           :alt="$t('first_step').first_step_image_alt"
         />
       </div>

@@ -25,7 +25,7 @@
       </div>
       <div class="contact-section__img">
         <img
-          src="~/assets/images/jpg/leave-a-message.jpg"
+          src="~/assets/images/webp/leave-a-message.webp"
           :alt="$t('contact_section').contact_section_img_alt"
         />
         <div class="gradient-decorator"></div>

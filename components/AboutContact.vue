@@ -23,7 +23,7 @@
       </div>
       <div class="about-contact__img">
         <img
-          src="~/assets/images/jpg/write-us-2.jpg"
+          src="~/assets/images/webp/write-us-2.webp"
           :alt="$t('about').about_contact.img_alt"
         />
         <div class="gradient-decorator"></div>

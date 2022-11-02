@@ -33,7 +33,7 @@
           />
         </div>
         <div class="service__img">
-          <img src="~/assets/images/jpg/projects.jpg" alt="" />
+          <img src="~/assets/images/webp/projects.webp" alt="" />
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@
           />
         </div>
         <div class="service__img">
-          <img src="~/assets/images/jpg/headhunting.jpg" alt="" />
+          <img src="~/assets/images/webp/headhunting.webp" alt="" />
         </div>
       </div>
     </div>
