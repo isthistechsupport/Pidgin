@@ -13,7 +13,8 @@
       <AboutMemberCard
         v-for="memberCard in $t('about').about_members.members"
         :key="memberCard.id"
-        :imgPath="memberCard.member_card_img"
+        :imgPath="`/images${memberCard.member_card_img}`"
+        :alt="memberCard.name"
         :name="memberCard.name"
         :jobTitle="memberCard.job_title"
         :text1="memberCard.paragraph_1"

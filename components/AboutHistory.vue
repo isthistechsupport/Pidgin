@@ -28,7 +28,10 @@
             </p>
           </div>
           <div class="history__beginning__img">
-            <img src="~/assets/images/webp/history-beginning.webp" alt="" />
+            <nuxt-img
+              src="/images/history-beginning.webp"
+              alt="man wearing black jacket on a blue stage"
+            />
           </div>
         </div>
         <div class="history__beginning__body--mobile">
@@ -42,7 +45,10 @@
               </p>
             </div>
             <div class="history__beginning__img">
-              <img src="~/assets/images/webp/history-beginning.webp" alt="" />
+              <nuxt-img
+                src="/images/history-beginning.webp"
+                alt="man wearing black jacket on a blue stage"
+              />
             </div>
           </div>
           <div class="history__beginning__text">
@@ -67,7 +73,10 @@
         <h2>{{ $t("about").about_history.incubation_history.title }}</h2>
         <div class="history__incubation__body">
           <div class="history__incubation__img">
-            <img src="~/assets/images/webp/history-incubation.webp" alt="" />
+            <nuxt-img
+              src="/images/history-incubation.webp"
+              alt="man standing in front of table in boardroom"
+            />
           </div>
           <div class="history__incubation__text">
             <p>
@@ -96,7 +105,10 @@
               </p>
             </div>
             <div class="history__incubation__img">
-              <img src="~/assets/images/webp/history-incubation.webp" alt="" />
+              <nuxt-img
+                src="/images/history-incubation.webp"
+                alt="man standing in front of table in boardroom"
+              />
             </div>
           </div>
           <div class="history__incubation__text">
@@ -126,7 +138,7 @@
             </p>
           </div>
           <div class="history__pidgin__img">
-            <img src="~/assets/images/webp/team.webp" alt="pidgin team" />
+            <nuxt-img src="/images/team.webp" alt="pidgin team" />
           </div>
         </div>
         <div class="history__pidgin__body--mobile">
@@ -137,7 +149,7 @@
               </p>
             </div>
             <div class="history__pidgin__img">
-              <img src="~/assets/images/webp/team.webp" alt="pidgin team" />
+              <nuxt-img src="/images/team.webp" alt="pidgin team" />
             </div>
           </div>
           <div class="history__pidgin__text">

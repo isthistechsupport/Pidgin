@@ -80,6 +80,10 @@ export default {};
       a {
         color: $blue-primary;
         text-decoration: underline;
+
+        &:hover {
+          color: $blue-primary;
+        }
       }
 
       p {

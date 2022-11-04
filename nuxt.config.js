@@ -75,6 +75,7 @@ export default {
         vueI18n: i18n,
       },
     ],
+    "@nuxt/image",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

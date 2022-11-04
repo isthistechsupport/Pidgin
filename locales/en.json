@@ -42,7 +42,7 @@
     "hero_paragraph_2": "We know perfectly the challenges of the corporate day-to-day and we understand the needs of your business. That is why we are your best allies in the search for your star hire.",
     "hero_button": {
       "label": "Find out how",
-      "link": "#"
+      "link": "/services/#pidgin_style"
     }
   },
   "benefits": {
@@ -59,7 +59,7 @@
         "benefit_card_text_highlighted": "agile and focused ",
         "benefit_card_text_2": "processes.",
         "benefit_card_link_label": "Tell me more",
-        "benefit_card_link_url": "#"
+        "benefit_card_link_url": "/about-us"
       },
       {
         "id": 1,
@@ -69,7 +69,7 @@
         "benefit_card_text_highlighted": "100% remotely",
         "benefit_card_text_2": ". Wherever you are, you can find a nest with our flag on it.",
         "benefit_card_link_label": "Tell me more",
-        "benefit_card_link_url": "#"
+        "benefit_card_link_url": "/about-us"
       },
       {
         "id": 2,
@@ -79,7 +79,7 @@
         "benefit_card_text_highlighted": "clear and feasible objectives",
         "benefit_card_text_2": " with specific work routes to meet all your needs and generate growth and continuity for businesses.",
         "benefit_card_link_label": "Tell me more",
-        "benefit_card_link_url": "#"
+        "benefit_card_link_url": "/about-us"
       },
       {
         "id": 3,
@@ -89,7 +89,7 @@
         "benefit_card_text_highlighted": "interventions and solutions are needed.",
         "benefit_card_text_2": ".",
         "benefit_card_link_label": "Tell me more",
-        "benefit_card_link_url": "#"
+        "benefit_card_link_url": "/about-us"
       }
     ]
   },
@@ -104,7 +104,7 @@
     "first_step_text_2_2": " and with a 100% satisfaction rate.",
     "first_step_button": {
       "label": "Schedule with us",
-      "link": "#"
+      "link": ""
     }
   },
   "members": {
@@ -114,7 +114,7 @@
     "members_cards": [
       {
         "id": 0,
-        "member_card_img": "/webp/nicole.webp",
+        "member_card_img": "/nicole.webp",
         "member_card_alt": "nicole mora profile pic",
         "member_card_name": "Nicole Mora",
         "member_card_job_title": "Executive Supervisor",
@@ -123,7 +123,7 @@
       },
       {
         "id": 1,
-        "member_card_img": "/webp/camilo.webp",
+        "member_card_img": "/camilo.webp",
         "member_card_alt": "camilo ospina profile pic",
         "member_card_name": "Camilo Ospina",
         "member_card_job_title": "Administrative Supervisor",
@@ -132,7 +132,7 @@
       },
       {
         "id": 2,
-        "member_card_img": "/webp/natalia.webp",
+        "member_card_img": "/natalia.webp",
         "member_card_alt": "foto natalia morales",
         "member_card_name": "Natalia Morales",
         "member_card_job_title": "Operations Manager",
@@ -141,7 +141,7 @@
       },
       {
         "id": 3,
-        "member_card_img": "/webp/ana.webp",
+        "member_card_img": "/ana.webp",
         "member_card_alt": "foto ana perez",
         "member_card_name": "Ana Pérez",
         "member_card_job_title": "Content Manager",
@@ -161,7 +161,7 @@
     "contact_section_text_2": "Contact us. We don't bite.",
     "contact_section_button": {
       "label": "Contact us",
-      "link": "#"
+      "link": "/contact"
     }
   },
   "error": {
@@ -264,7 +264,7 @@
       "members": [
         {
           "id": "0",
-          "member_card_img": "/webp/nicole.webp",
+          "member_card_img": "/nicole.webp",
           "name": "Nicole Mora",
           "job_title": "Executive Supervisor",
           "paragraph_1": "I am a woman with a passion for learning. I learn so that I can teach and motivate people, and I came to Pidgin looking to spread that passion to others, a desire which has grown within me since I became a teacher as well. At Pidgin, we aim to become one of the leading firms in the field of technology to offer solutions to our clients that allow them to grow and, at the same time, have the best customer service experience possible.",
@@ -272,7 +272,7 @@
         },
         {
           "id": "1",
-          "member_card_img": "/webp/camilo.webp",
+          "member_card_img": "/camilo.webp",
           "name": "Camilo Ospina",
           "job_title": "Administrative Supervisor",
           "paragraph_1": "I am a business development manager from the Gran Colombiano Polytechnic University and have five years of experience in the public and private sectors, developing administrative issues for different companies. I have experience in personnel management and the improvement of activities in several areas through the development of corporative processes.",
@@ -280,7 +280,7 @@
         },
         {
           "id": "2",
-          "member_card_img": "/webp/natalia.webp",
+          "member_card_img": "/natalia.webp",
           "name": "Natalia Morales",
           "job_title": "Operations Manager",
           "paragraph_1": "In 2017, I graduated from the National University of Colombia with a degree in English Philology and Languages. Studying this degree qualified me to run workshops and language courses and allowed me to improve my communication skills, which were essential for my professional development in later years. I currently specialize in developing projects and creating lasting alliances between companies and institutions at the national and international levels. I have experience in Higher Education Internationalization, Translation and Interpretation, and Business Product Outsourcing (BPO).",
@@ -288,7 +288,7 @@
         },
         {
           "id": "3",
-          "member_card_img": "/webp/ana.webp",
+          "member_card_img": "/ana.webp",
           "name": "Ana Gabriela Pérez",
           "job_title": "Content Manager",
           "paragraph_1": "I am a firm believer in the constructive power of words. That is the main reason that drove me to study English Philology and Languages at the National University of Colombia and later led me to broaden my knowledge of other languages, specifically German, French, and Spanish, my mother tongue. The skills I developed during my studies at the university have allowed me to work in different areas, specifically in translation, editing and proofreading.",
@@ -341,7 +341,7 @@
     "hero_title_3": "is here",
     "hero_text": "Our team of expert developers will assess all your product needs to offer you customized solutions.",
     "hero_button_label": "Show me the profiles",
-    "hero_button_link": "#",
+    "hero_button_link": "/services#staffing_section",
     "intro_text_1": "At ",
     "intro_text_2": "Pidgin",
     "intro_text_3": ", our priority is to help companies cover their staffing gaps with flexible and reliable developer hiring models, and to provide fast, high- quality development solutions for ongoing projects that require timely intervention.",

@@ -29,6 +29,7 @@
     "vuelidate": "^0.7.7"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
     "sass": "^1.49.10",
     "sass-loader": "^10.2.1",
     "webpack": "^4.46.0"

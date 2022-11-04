@@ -1,5 +1,5 @@
 <template>
-  <div class="services-style">
+  <div class="services-style" id="pidgin_style">
     <div class="services-style__header">
       <h1>
         {{ $t("services_page").pidgin_style_title_1 }}

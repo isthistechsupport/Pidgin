@@ -16,8 +16,8 @@
         />
       </div>
       <div class="services-cta__img">
-        <img
-          src="~/assets/images/webp/flying-pidgin.webp"
+        <nuxt-img
+          src="/images/flying-pidgin.webp"
           :alt="$t('contact_section').contact_section_img_alt"
         />
         <div class="gradient-decorator"></div>

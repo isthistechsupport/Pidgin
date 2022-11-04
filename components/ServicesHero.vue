@@ -16,7 +16,10 @@
         />
       </div>
       <div class="services-hero__img">
-        <img src="~/assets/images/webp/developer.webp" alt="" />
+        <nuxt-img
+          src="/images/developer.webp"
+          alt="man wearing a black t-shirt using a laptop"
+        />
       </div>
     </div>
   </div>

@@ -9,23 +9,17 @@
           <p>{{ $t("contact_section").contact_section_text_1 }}</p>
           <p>{{ $t("contact_section").contact_section_text_2 }}</p>
         </div>
-        <!-- <ButtonPrimary
+        <ButtonPrimary
           class="contact-section__button"
           v-bind:buttonLabel="
             $t('contact_section').contact_section_button.label
           "
           v-bind:buttonLink="$t('contact_section').contact_section_button.link"
-        /> -->
-        <TempButtonPrimary
-          v-bind:buttonLabel="
-            $t('contact_section').contact_section_button.label
-          "
-          buttonLink="mailto:contacto@pidgin.com.co?subject=Estoy buscando un desarrollador..."
         />
       </div>
       <div class="contact-section__img">
-        <img
-          src="~/assets/images/webp/leave-a-message.webp"
+        <nuxt-img
+          src="/images/leave-a-message.webp"
           :alt="$t('contact_section').contact_section_img_alt"
         />
         <div class="gradient-decorator"></div>

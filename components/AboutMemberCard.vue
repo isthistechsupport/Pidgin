@@ -1,7 +1,7 @@
 <template>
   <div class="member-card">
     <div class="member-card__img">
-      <img :src="require(`~/assets/images${imgPath}`)" alt="" />
+      <nuxt-img :src="imgPath" :alt="alt" />
     </div>
 
     <div
@@ -44,13 +44,14 @@
 
 <script>
 export default {
-  props: ["imgPath", "name", "jobTitle", "text1", "text2"],
+  props: ["imgPath", "alt", "name", "jobTitle", "text1", "text2"],
 
   data: function () {
     return {
       isExpanded: false,
     };
   },
+
   methods: {
     toggleState: function () {
       this.isExpanded = !this.isExpanded;

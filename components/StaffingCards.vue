@@ -48,39 +48,39 @@ export default {};
     transition: box-shadow 0.2s ease;
 
     &:nth-child(1) {
-      background-image: url("~assets/images/webp/fullstack.webp");
+      background-image: url("/images/fullstack.webp");
     }
 
     &:nth-child(2) {
-      background-image: url("~assets/images/webp/backend.webp");
+      background-image: url("/images/backend.webp");
     }
 
     &:nth-child(3) {
-      background-image: url("~assets/images/webp/frontend.webp");
+      background-image: url("/images/frontend.webp");
     }
 
     &:nth-child(4) {
-      background-image: url("~assets/images/webp/software-developer.webp");
+      background-image: url("/images/software-developer.webp");
     }
 
     &:nth-child(5) {
-      background-image: url("~assets/images/webp/devops.webp");
+      background-image: url("/images/devops.webp");
     }
 
     &:nth-child(6) {
-      background-image: url("~assets/images/webp/data-scientist.webp");
+      background-image: url("/images/data-scientist.webp");
     }
 
     &:nth-child(7) {
-      background-image: url("~assets/images/webp/security-engineer.webp");
+      background-image: url("/images/security-engineer.webp");
     }
 
     &:nth-child(8) {
-      background-image: url("~assets/images/webp/testing-engineer.webp");
+      background-image: url("/images/testing-engineer.webp");
     }
 
     &:nth-child(9) {
-      background-image: url("~assets/images/webp/machine-learning.webp");
+      background-image: url("/images/machine-learning.webp");
 
       .card__title {
         max-width: 230px;

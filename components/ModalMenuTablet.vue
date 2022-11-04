@@ -13,7 +13,7 @@
         <div class="menu-tablet__actions">
           <LanguageInput />
           <div class="close-btn" @click="$emit('close-modal')">
-            <img src="~/assets/images/svg/icon-close-menu.svg" alt="" />
+            <img src="~/assets/images/svg/icon-close-menu.svg" alt="close menu button" />
           </div>
         </div>
       </div>

@@ -20,10 +20,10 @@
           </p>
         </div>
       </div>
-      <a :href="`${card.benefit_card_link_url}`" class="card__link"
+      <NuxtLink :to="localePath(card.benefit_card_link_url)" class="card__link"
         ><span>{{ card.benefit_card_link_label }}</span>
         <img src="~/assets/images/svg/icon-arrow-right.svg" alt=""
-      /></a>
+      /></NuxtLink>
     </div>
   </div>
 </template>

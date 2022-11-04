@@ -33,7 +33,10 @@
           />
         </div>
         <div class="service__img">
-          <img src="~/assets/images/webp/projects.webp" alt="" />
+          <nuxt-img
+            src="/images/projects.webp"
+            alt="person planning on a white board"
+          />
         </div>
       </div>
     </div>
@@ -58,13 +61,16 @@
           />
         </div>
         <div class="service__img">
-          <img src="~/assets/images/webp/headhunting.webp" alt="" />
+          <nuxt-img
+            src="/images/headhunting.webp"
+            alt="person writting on a sheet"
+          />
         </div>
       </div>
     </div>
 
     <GradientBarInverted />
-    <div class="staffing">
+    <div class="staffing" id="staffing_section">
       <div class="staffing__header">
         <h3 class="service__title">
           {{ $t("services_page").staffing_title }}
@@ -76,7 +82,11 @@
           <p>
             {{ $t("services_page").staffing_text_2 }}<br />
             {{ $t("services_page").staffing_text_3
-            }}<b>{{ $t("services_page").staffing_text_4 }}</b>
+            }}<b
+              ><NuxtLink class="service-link" :to="localePath('/contact')">
+                {{ $t("services_page").staffing_text_4 }}
+              </NuxtLink></b
+            >
           </p>
         </div>
       </div>
@@ -167,7 +177,10 @@ export default {
     }
 
     b {
-      color: $blue-primary;
+      a {
+        color: $blue-primary;
+        text-decoration: none;
+      }
     }
   }
 

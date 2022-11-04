@@ -42,7 +42,7 @@
     "hero_paragraph_2": "Conocemos perfectamente los desafíos del día a día corporativo y entendemos las necesidades de tu negocio. Por eso somos tus mejores aliados en la búsqueda de tu contratación estrella.",
     "hero_button": {
       "label": "Entérate cómo",
-      "link": "#"
+      "link": "/services/#pidgin_style"
     }
   },
   "benefits": {
@@ -59,7 +59,7 @@
         "benefit_card_text_highlighted": "procesos ágiles y focalizados",
         "benefit_card_text_2": ".",
         "benefit_card_link_label": "Cuéntame más",
-        "benefit_card_link_url": "#"
+        "benefit_card_link_url": "/about-us"
       },
       {
         "id": 1,
@@ -69,7 +69,7 @@
         "benefit_card_text_highlighted": "100% remota",
         "benefit_card_text_2": ". Dondequiera que estés podrás encontrar un nido con nuestra bandera en él.",
         "benefit_card_link_label": "Cuéntame más",
-        "benefit_card_link_url": "#"
+        "benefit_card_link_url": "/about-us"
       },
       {
         "id": 2,
@@ -79,7 +79,7 @@
         "benefit_card_text_highlighted": "objetivos claros y viables",
         "benefit_card_text_2": " con rutas de trabajo puntuales para suplir todas las necesidades de tu negocio y generar crecimiento y continuidad.",
         "benefit_card_link_label": "Cuéntame más",
-        "benefit_card_link_url": "#"
+        "benefit_card_link_url": "/about-us"
       },
       {
         "id": 3,
@@ -89,7 +89,7 @@
         "benefit_card_text_highlighted": "intervención y solución oportuna",
         "benefit_card_text_2": ".",
         "benefit_card_link_label": "Cuéntame más",
-        "benefit_card_link_url": "#"
+        "benefit_card_link_url": "/about-us"
       }
     ]
   },
@@ -104,7 +104,7 @@
     "first_step_text_2_2": " y con una tasa de satisfacción del 100%.",
     "first_step_button": {
       "label": "Agenda con nosotros",
-      "link": "#"
+      "link": ""
     }
   },
   "members": {
@@ -114,7 +114,7 @@
     "members_cards": [
       {
         "id": 0,
-        "member_card_img": "/webp/nicole.webp",
+        "member_card_img": "/nicole.webp",
         "member_card_alt": "foto nicole mora",
         "member_card_name": "Nicole Mora",
         "member_card_job_title": "Directora General",
@@ -123,7 +123,7 @@
       },
       {
         "id": 1,
-        "member_card_img": "/webp/camilo.webp",
+        "member_card_img": "/camilo.webp",
         "member_card_alt": "foto camilo ospina",
         "member_card_name": "Camilo Ospina",
         "member_card_job_title": "Jefe Administrativo",
@@ -132,7 +132,7 @@
       },
       {
         "id": 2,
-        "member_card_img": "/webp/natalia.webp",
+        "member_card_img": "/natalia.webp",
         "member_card_alt": "foto natalia morales",
         "member_card_name": "Natalia Morales",
         "member_card_job_title": "Gerente de Operaciones",
@@ -141,7 +141,7 @@
       },
       {
         "id": 3,
-        "member_card_img": "/webp/ana.webp",
+        "member_card_img": "/ana.webp",
         "member_card_alt": "foto ana perez",
         "member_card_name": "Ana Pérez",
         "member_card_job_title": "Administradora de Contenido",
@@ -161,7 +161,7 @@
     "contact_section_text_2": "Escríbenos, no picamos.",
     "contact_section_button": {
       "label": "Escríbenos",
-      "link": "#"
+      "link": "/contact"
     }
   },
   "error": {
@@ -264,7 +264,7 @@
       "members": [
         {
           "id": "0",
-          "member_card_img": "/webp/nicole.webp",
+          "member_card_img": "/nicole.webp",
           "name": "Nicole Mora",
           "job_title": "Directora General",
           "paragraph_1": "Soy una mujer a la que le apasiona aprender para poder enseñar y motivar a otros. Este deseo hace parte de mí, puesto que fui docente. Llegué a Pidgin buscando contagiar esa pasión a otros. Nos proponemos ser una de las firmas más reconocidas en el campo de tecnología para poder ofrecerles soluciones a nuestros clientes que les permitan crecer y, al mismo tiempo, disfrutar de la mejor experiencia de servicio.",
@@ -272,7 +272,7 @@
         },
         {
           "id": "1",
-          "member_card_img": "/webp/camilo.webp",
+          "member_card_img": "/camilo.webp",
           "name": "Camilo Ospina",
           "job_title": "Jefe Administrativo",
           "paragraph_1": "Soy administrador de empresas en desarrollo de la universidad Politécnico Gran Colombiano , y tengo 5 años de experiencia en el sector público y privado, desarrollando el tema administrativo para diferentes empresas. Tengo conocimiento en las áreas de manejo de personal y desarrollo de procesos corporativos para la mejora de actividades en los procesos requeridos.",
@@ -280,7 +280,7 @@
         },
         {
           "id": "2",
-          "member_card_img": "/webp/natalia.webp",
+          "member_card_img": "/natalia.webp",
           "name": "Natalia Morales",
           "job_title": "Gerente de Operaciones",
           "paragraph_1": "Soy licenciada en Filología e Idiomas - inglés de la Universidad Nacional de Colombia. Mi formación en esta carrera me capacitó para ejecutar talleres y cursos, y contribuyó al perfeccionamiento de mis habilidades comunicativas, las cuales fueron esenciales para mi desarrollo profesional en años posteriores. Actualmente me especializo en desarrollar proyectos y crear alianzas duraderas entre compañías e instituciones a nivel nacional e internacional. Tengo experiencia en internacionalización de la educación superior, traducción e interpretación, y Business Product Outsourcing (BPO).",
@@ -288,7 +288,7 @@
         },
         {
           "id": "3",
-          "member_card_img": "/webp/ana.webp",
+          "member_card_img": "/ana.webp",
           "name": "Ana Gabriela Pérez",
           "job_title": "Administradora de Contenido",
           "paragraph_1": "Soy una apasionada de las letras y creo firmemente en su poder de construcción. Es por eso estudié Filología e Idiomas – inglés en la Universidad Nacional de Colombia y decidí expandir mis conocimientos en otros idiomas, específicamente alemán, francés y español, mi lengua materna. Las habilidades que desarrollé durante mi vida académica en la universidad me han permitido trabajar en diferentes áreas, específicamente en traducción, edición y corrección de estilo.",
@@ -341,7 +341,7 @@
     "hero_title_3": "",
     "hero_text": "Contamos con un equipo de desarrolladores expertos que evaluarán tus necesidades de producto para brindarte soluciones personalizadas.",
     "hero_button_label": "Veamos los perfiles",
-    "hero_button_link": "#",
+    "hero_button_link": "/services#staffing_section",
     "intro_text_1": "En ",
     "intro_text_2": "Pidgin",
     "intro_text_3": " nuestra prioridad es cubrir las brechas de personal de nuestros clientes con modelos flexibles y confiables de contratación de desarrolladores, y proveer soluciones de desarrollo rápidas y de calidad para proyectos sobre la marcha que requieran de una intervención oportuna.",

@@ -7,8 +7,8 @@
     >
       <div class="member__card__header">
         <div class="member__card__avatar">
-          <img
-            :src="require(`~/assets/images${card.member_card_img}`)"
+          <nuxt-img
+            :src="`/images${card.member_card_img}`"
             :alt="$t(card.member_card_alt)"
           />
         </div>
