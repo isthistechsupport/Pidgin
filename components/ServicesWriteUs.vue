@@ -16,7 +16,7 @@
         />
       </div>
       <div class="services-cta__img">
-        <nuxt-img
+        <img
           src="/images/flying-pidgin.webp"
           :alt="$t('contact_section').contact_section_img_alt"
         />

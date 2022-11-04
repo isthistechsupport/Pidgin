@@ -2,8 +2,8 @@
   <section class="first-step">
     <div class="first-step__content">
       <div class="first-step__img">
-        <nuxt-img
-          src="/images/developer.webp"
+        <img
+          src="/developer.webp"
           :alt="$t('first_step').first_step_image_alt"
         />
       </div>

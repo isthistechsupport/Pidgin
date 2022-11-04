@@ -33,7 +33,7 @@
           />
         </div>
         <div class="service__img">
-          <nuxt-img
+          <img
             src="/images/projects.webp"
             alt="person planning on a white board"
           />
@@ -61,7 +61,7 @@
           />
         </div>
         <div class="service__img">
-          <nuxt-img
+          <img
             src="/images/headhunting.webp"
             alt="person writting on a sheet"
           />

@@ -18,7 +18,7 @@
         />
       </div>
       <div class="about-contact__img">
-        <nuxt-img
+        <img
           src="/images/write-us-2.webp"
           :alt="$t('about').about_contact.img_alt"
         />

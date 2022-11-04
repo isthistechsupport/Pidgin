@@ -7,7 +7,7 @@
     >
       <div class="member__card__header">
         <div class="member__card__avatar">
-          <nuxt-img
+          <img
             :src="`/images${card.member_card_img}`"
             :alt="$t(card.member_card_alt)"
           />

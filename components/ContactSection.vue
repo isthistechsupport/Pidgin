@@ -18,7 +18,7 @@
         />
       </div>
       <div class="contact-section__img">
-        <nuxt-img
+        <img
           src="/images/leave-a-message.webp"
           :alt="$t('contact_section').contact_section_img_alt"
         />

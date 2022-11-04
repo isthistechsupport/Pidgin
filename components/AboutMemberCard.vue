@@ -1,7 +1,7 @@
 <template>
   <div class="member-card">
     <div class="member-card__img">
-      <nuxt-img :src="imgPath" :alt="alt" />
+      <img :src="imgPath" :alt="alt" />
     </div>
 
     <div
