@@ -75,16 +75,12 @@ export default {
         vueI18n: i18n,
       },
     ],
-    "@nuxt/image",
+    // "@nuxt/image",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["@nuxtjs/robots"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
-  image: {
-    // dir: 'assets/images'
-  },
 };

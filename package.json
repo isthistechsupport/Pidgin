@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/robots": "^2.5.0",
     "@splidejs/splide": "^4.0.7",
     "@splidejs/splide-extension-auto-scroll": "^0.4.2",
     "@splidejs/vue-splide": "^0.6.7",
