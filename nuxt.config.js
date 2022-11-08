@@ -31,13 +31,7 @@ export default {
           "Pidgin, Pidgin Contact Solutions, Pidgin Colombia, BPO, Desarrolladores, Developers, Desarrollo, Desarrolladores, Programación, Programadores, On demand",
       },
     ],
-    link: [
-      { rel: "icon", type: "image/png", href: "/favicon.png" },
-      // {
-      //   rel: "stylesheet",
-      //   href: "https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@300;400;600;700&display=swap",
-      // },
-    ],
+    link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -79,7 +73,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["@nuxtjs/robots"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
