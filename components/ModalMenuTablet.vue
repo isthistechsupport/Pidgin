@@ -11,9 +11,12 @@
           </NuxtLink>
         </div>
         <div class="menu-tablet__actions">
-          <LanguageInput />
+          <LanguageInputTablet />
           <div class="close-btn" @click="$emit('close-modal')">
-            <img src="~/assets/images/svg/icon-close-menu.svg" alt="close menu button" />
+            <img
+              src="~/assets/images/svg/icon-close-menu.svg"
+              alt="close menu button"
+            />
           </div>
         </div>
       </div>
@@ -87,11 +90,11 @@ export default {};
       transform: translate(-50%, 0);
 
       &__button,
-      #dropdown-right__BV_toggle_ {
+      #dropdown-right-tablet__BV_toggle_ {
         background-color: transparent;
       }
 
-      #dropdown-right > ul {
+      #dropdown-right-tablet > ul {
         transform: translate(-25%, -130px) !important;
       }
     }

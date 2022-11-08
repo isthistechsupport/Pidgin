@@ -33,15 +33,15 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/png", href: "/favicon.png" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@300;400;600;700&display=swap",
-      },
+      // {
+      //   rel: "stylesheet",
+      //   href: "https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@300;400;600;700&display=swap",
+      // },
     ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["~assets/scss/_variables.scss"],
+  css: ["~assets/scss/_variables.scss", "~assets/css/fonts.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -75,12 +75,21 @@ export default {
         vueI18n: i18n,
       },
     ],
-    // "@nuxt/image",
+    "@nuxtjs/google-fonts",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/robots"],
+  modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  googleFonts: {
+    families: {
+      Montserrat: {
+        wght: [300, 400, 500, 600, 700],
+        ital: [300, 400, 500, 600, 700],
+      },
+    },
+  },
 };

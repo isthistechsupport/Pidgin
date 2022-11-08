@@ -359,15 +359,16 @@ hr {
       flex-direction: column;
       justify-content: center;
       row-gap: 10px;
-      padding: 50px 0;
+      padding: 0.5rem 0;
       max-width: 400px;
     }
 
     &__link {
       font-size: 0.75rem;
+      max-width: 100%;
+      padding: 1rem 0;
       text-align: left;
       width: fit-content;
-      max-width: 100%;
     }
   }
 }
