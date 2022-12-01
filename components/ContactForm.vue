@@ -44,10 +44,13 @@
         </textarea>
       </div>
       <div class="recaptcha"></div>
-      <button class="primary-button" :disabled="formSubmitted">
+      <button class="submmit-form" :disabled="formSubmitted">
         {{ $t("contact_page").submit_button_label }}
       </button>
     </form>
+    <span class="contactSentConfirmation">
+      {{ $t("contact_page").contact_submitted }}
+    </span>
   </div>
 </template>
 
@@ -69,10 +72,41 @@ export default {
         message: false,
       },
       formSubmitted: false,
+      pidginContactEmail: "info@pidgin.com.co",
     };
   },
 
   methods: {
+    sendEmail(
+      customerName,
+      customerEmail,
+      customerPhone,
+      emailSubject,
+      emailBody
+    ) {
+      Email.send({
+        SecureToken: "87fab385-70c5-48b2-bb90-eaca69a44bbc",
+        To: this.pidginContactEmail,
+        From: this.pidginContactEmail,
+        FromName: "Pidgin",
+        ReplyAddress: customerEmail,
+        Cc: customerEmail,
+        Subject: emailSubject,
+        Body:
+          this.$i18n.locale == "es"
+            ? `Nombre: ${customerName}<br>
+          Email: ${customerEmail}<br> 
+          ${customerPhone ? "Número de teléfono: " : ""}${customerPhone}<br>
+          <br>
+          ${emailBody}`
+            : `Name: ${customerName}<br>
+          Email: ${customerEmail}<br> 
+          ${customerPhone ? "Phone number: " : ""}${customerPhone}<br>
+          <br>
+          ${emailBody}`,
+      }).then(() => this.triggerSentAnimation());
+    },
+
     submitForm() {
       if (!this.form.name) {
         this.errors.name = true;
@@ -109,11 +143,20 @@ export default {
         !this.errors.message;
 
       if (formIsValid) {
-        console.log("Correcto", this.form);
-        this.$refs.contactForm.reset();
+        // console.log("Correcto", this.form);
+        this.sendEmail(
+          this.form.name,
+          this.form.email,
+          this.form.phone,
+          this.form.subject,
+          this.form.message
+        );
         this.formSubmitted = true;
+        setTimeout(() => {
+          this.$refs.contactForm.reset();
+        }, 100);
       } else {
-        console.log("Revisar");
+        // console.log("Revisar");
       }
     },
 
@@ -122,6 +165,22 @@ export default {
         /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       return re.test(email);
     },
+
+    triggerSentAnimation() {
+      let emaiLSentLabel = document.querySelector(".contactSentConfirmation");
+      emaiLSentLabel.classList.add("formSent");
+
+      setTimeout(() => {
+        emaiLSentLabel.classList.remove("formSent");
+      }, 3000);
+
+      let contactFormBox = document.querySelector(".contact__form");
+      contactFormBox.classList.add("expand");
+
+      setTimeout(() => {
+        contactFormBox.classList.remove("expand");
+      }, 3000);
+    },
   },
 };
 </script>
@@ -129,15 +188,21 @@ export default {
 <style lang="scss" scoped>
 @import "~assets/scss/variables";
 
+.expand {
+  padding-bottom: 48px !important;
+}
+
 .contact {
   &__form {
     @include effect-cards-shadow;
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: $white;
     border-radius: 20px;
     padding: 30px;
     width: 50%;
+    transition: padding 0.3s ease-out;
 
     .mandatory-fields {
       color: $black;
@@ -191,6 +256,24 @@ export default {
       }
     }
   }
+}
+
+.contactSentConfirmation {
+  position: absolute;
+  bottom: 16px;
+  font-size: 0.75rem;
+  font-weight: 300;
+  left: 50%;
+  opacity: 0;
+  text-align: center;
+  transform: translate(-50%, 100%);
+  transition: all 0.3s ease-out;
+  width: 100%;
+}
+
+.formSent {
+  opacity: 1;
+  transform: translateX(-50%);
 }
 
 @media (max-width: 820px) {

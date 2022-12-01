@@ -333,7 +333,8 @@
     "phone_label": "Celular",
     "subject_label": "Asunto*",
     "message_label": "Escribe tu mensaje...*",
-    "submit_button_label": "Enviar mensaje"
+    "submit_button_label": "Enviar mensaje",
+    "contact_submitted": "Tu mensaje ha sido enviado correctamente"
   },
   "services_page": {
     "hero_title_1": "Tenemos al desarrollador ",
@@ -490,6 +491,7 @@
     "newsletter_title": "Escribe tu correo electrónico",
     "newsletter_send_button_label": "Enviar",
     "newsletter_consent": "Doy mi consentimiento para que Pidgin almacene la información enviada.",
+    "newsletter_sent": "Gracias por unirte a nuestro Newsletter",
     "social_subtitle": "Encuéntranos en",
     "social_media": [
       {

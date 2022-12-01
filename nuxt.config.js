@@ -32,6 +32,12 @@ export default {
       },
     ],
     link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+    script: [
+      {
+        src: "https://smtpjs.com/v3/smtp.js",
+        body: true,
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

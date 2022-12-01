@@ -26,11 +26,14 @@
           id="newsletterConfirm"
           v-model="form.terms"
         />
-        <label for="newsletterConfirm"
-          >{{ $t("footer").newsletter_consent }}
+        <label for="newsletterConfirm">
+          {{ $t("footer").newsletter_consent }}
         </label>
       </div>
     </form>
+    <span class="newsletterSentConfirmation">
+      {{ $t("footer").newsletter_sent }}
+    </span>
   </div>
 </template>
 
@@ -47,10 +50,29 @@ export default {
         terms: false,
       },
       formSubmitted: false,
+      pidginContactEmail: "info@pidgin.com.co",
     };
   },
 
   methods: {
+    sendEmail(customerEmail) {
+      Email.send({
+        SecureToken: "87fab385-70c5-48b2-bb90-eaca69a44bbc",
+        To: this.pidginContactEmail,
+        From: this.pidginContactEmail,
+        FromName: "Pidgin",
+        ReplyAddress: customerEmail,
+        Cc: customerEmail,
+        Subject: "Newsletter",
+        Body:
+          this.$i18n.locale == "es"
+            ? `${customerEmail}<br>
+          Gracias por unirte a nuestro Newsletter, a través de este medio te estaremos compartiendo nuestras novedades.`
+            : `${customerEmail}<br>
+            Thanks for joining our Newsletter, we will be sharing our news with you.`,
+      }).then(() => this.triggerSentAnimation());
+    },
+
     submitForm() {
       if (!this.form.email) {
         this.errors.email = true;
@@ -71,12 +93,26 @@ export default {
       const formIsValid = !this.errors.email && !this.errors.terms;
 
       if (formIsValid) {
-        console.log("Correcto", this.form);
-        this.$refs.newsletter.reset();
+        // console.log("Correcto", this.form);
+        this.sendEmail(this.form.email);
         this.formSubmitted = true;
+        setTimeout(() => {
+          this.$refs.newsletter.reset();
+        }, 100);
       } else {
-        console.log("Revisar");
+        // console.log("Revisar");
       }
+    },
+
+    triggerSentAnimation() {
+      let newsletterSentLabel = document.querySelector(
+        ".newsletterSentConfirmation"
+      );
+      newsletterSentLabel.classList.add("formSent");
+
+      setTimeout(() => {
+        newsletterSentLabel.classList.remove("formSent");
+      }, 3000);
     },
 
     validEmail(email) {
@@ -92,6 +128,8 @@ export default {
 @import "~assets/scss/variables";
 
 .newsletter {
+  position: relative;
+
   p {
     color: $white;
     font-size: 1rem;
@@ -167,6 +205,21 @@ export default {
       background: $gray-1;
     }
   }
+}
+
+.newsletterSentConfirmation {
+  position: absolute;
+  bottom: -24px;
+  color: $white;
+  font-weight: 300;
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 100%;
+}
+
+.formSent {
+  opacity: 1;
 }
 
 @media (max-width: $tablet) {

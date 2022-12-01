@@ -333,7 +333,8 @@
     "phone_label": "Phone",
     "subject_label": "Subject*",
     "message_label": "Type your message...*",
-    "submit_button_label": "Send message"
+    "submit_button_label": "Send message",
+    "contact_submitted": "Your message has been submitted"
   },
   "services_page": {
     "hero_title_1": "The ",
@@ -490,6 +491,7 @@
     "newsletter_title": "Enter your e-mail",
     "newsletter_send_button_label": "Send",
     "newsletter_consent": "I give Pidgin my consent to store the submitted information.",
+    "newsletter_sent": "Thanks for joining our Newsletter",
     "social_subtitle": "Find us on",
     "social_media": [
       {
