@@ -44,7 +44,7 @@
         </textarea>
       </div>
       <div class="recaptcha"></div>
-      <button class="submmit-form" :disabled="formSubmitted">
+      <button class="submit-form" :disabled="formSubmitted">
         {{ $t("contact_page").submit_button_label }}
       </button>
     </form>
@@ -218,6 +218,39 @@ export default {
       align-items: center;
       row-gap: 30px;
       width: 100%;
+    }
+
+    .submit-form {
+      @include transition-ease-02;
+      display: inline-block;
+      background: linear-gradient($blue-primary, $blue-primary);
+      border-radius: 10px;
+      border: 1px solid $blue-primary;
+      color: $white;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.125;
+      padding: 10px 20px;
+      text-decoration: none;
+      white-space: nowrap;
+      width: fit-content;
+
+      &:hover {
+        @include effect-gradient-1;
+        @include effect-cards-shadow;
+      }
+
+      &:active {
+        background: linear-gradient($blue-dark-4, $blue-dark-4);
+        box-shadow: none;
+      }
+
+      &:focus-visible {
+        background: linear-gradient($blue-primary, $blue-primary);
+        outline: 0;
+        box-shadow: $blue-light-4 0px 0px 0px 4px;
+      }
     }
   }
 
