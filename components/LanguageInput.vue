@@ -28,6 +28,7 @@ export default {
   methods: {
     switchLocale(lang) {
       this.$i18n.locale = lang.code;
+      this.$cookies.set("user_language", lang.code);
       this.$root.$emit("force-re-render");
     },
   },

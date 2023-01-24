@@ -72,6 +72,11 @@ export default {
             name: "Español",
           },
         ],
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieKey: "user_language",
+          redirectOn: "root",
+        },
         vueI18n: i18n,
       },
     ],

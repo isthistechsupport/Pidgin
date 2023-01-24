@@ -29,7 +29,7 @@
           </div>
           <TempButtonPrimary
             v-bind:buttonLabel="$t('first_step').first_step_button.label"
-            buttonLink="mailto:contacto@pidgin.com.co?subject=Agendemos una cita"
+            v-bind:buttonLink="$t('first_step').first_step_button.link"
           />
         </div>
         <div class="service__img">
@@ -57,7 +57,7 @@
           </div>
           <TempButtonPrimary
             v-bind:buttonLabel="$t('first_step').first_step_button.label"
-            buttonLink="mailto:contacto@pidgin.com.co?subject=Agendemos una cita"
+            v-bind:buttonLink="$t('first_step').first_step_button.link"
           />
         </div>
         <div class="service__img">

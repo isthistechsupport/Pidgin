@@ -59,7 +59,6 @@ export default {};
     font-size: 3rem;
     line-height: 1;
     font-weight: 600;
-    max-width: 300px;
     margin: 0;
   }
 

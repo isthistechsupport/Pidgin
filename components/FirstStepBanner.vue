@@ -23,14 +23,9 @@
             >{{ $t("first_step").first_step_text_2_2 }}
           </p>
         </div>
-        <!-- <ButtonPrimary
-          class="first-step__button"
-          v-bind:buttonLabel="$t('first_step').first_step_button.label"
-          v-bind:buttonLink="$t('first_step').first_step_button.link"
-        /> -->
         <TempButtonPrimary
           v-bind:buttonLabel="$t('first_step').first_step_button.label"
-          buttonLink="mailto:contacto@pidgin.com.co?subject=Agendemos una cita"
+          v-bind:buttonLink="$t('first_step').first_step_button.link"
         />
       </div>
     </div>

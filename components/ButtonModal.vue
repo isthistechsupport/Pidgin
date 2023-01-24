@@ -10,7 +10,7 @@ export default {
 
   methods: {
     setCookie() {
-      this.$cookies.set("cookiesAccepted", "true");
+      this.$cookies.set("cookies_accepted", "true");
       this.$root.$emit("force-modal-re-render");
     },
   },

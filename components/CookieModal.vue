@@ -1,7 +1,7 @@
 <template>
   <div
     class="cookies-modal"
-    v-if="!this.$cookies.get('cookiesAccepted')"
+    v-if="!this.$cookies.get('cookies_accepted')"
     :key="modalKey"
   >
     <p class="modal-text">

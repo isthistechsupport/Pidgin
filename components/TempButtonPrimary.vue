@@ -1,5 +1,5 @@
 <template>
-  <a class="primary-button" :href="buttonLink">
+  <a class="primary-button" :href="buttonLink" target="_blank">
     {{ buttonLabel }}
   </a>
 </template>
